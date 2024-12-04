@@ -69,7 +69,7 @@
                                     <p class="p-md mt-25">Integer congue sagittis and velna augue egestas magna suscipit purus aliquam</p>
                                     <!-- Copyright -->
                                     <div class="register-page-copyright">
-                                        <p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+                                        <p class="p-sm">&copy; 2024 Martex. <span>All Rights Reserved</span></p>
                                     </div>
                                 </div>
                             </div>

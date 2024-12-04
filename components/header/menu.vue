@@ -72,7 +72,7 @@
                                     <ul class="col-md-12 col-lg-3 link-list">
                                         <li><NuxtLink to="/about">About Us</NuxtLink></li>
                                         <li><NuxtLink to="/team">Our Team</NuxtLink></li>
-                                        <li><NuxtLink to="/faqs">FAQs Page</NuxtLink></li>
+                                        <li><NuxtLink to="/integrations">Integrations</NuxtLink></li>
                                         <li>
                                             <NuxtLink to="/careers">Careers <span class="sm-info">4</span></NuxtLink>
                                         </li>

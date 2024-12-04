@@ -18,7 +18,7 @@
                                     <li class="meta-list-divider">
                                         <p><span class="flaticon-minus"></span></p>
                                     </li>
-                                    <li><p class="p-md">April 29, 2023</p></li>
+                                    <li><p class="p-md">April 29, 2024</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -73,13 +73,7 @@
                             <div class="post-inner-img">
                                 <div class="video-preview">
                                     <!-- Play Icon -->
-                                    <ElementsVideoModal :link="'https://www.youtube.com/embed/GcMiYI1gWD4'">
-                                        <template v-slot:button>
-                                            <div class="video-btn video-btn-xl bg--pink-400 ico-90">
-                                                <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                            </div>
-                                        </template>
-                                    </ElementsVideoModal>
+                                    <ElementsCustomModalVideo />
                                     <!-- Preview Image -->
                                     <img class="img-fluid r-16" src="/assets/images/blog/post-13-img.jpg" alt="video-preview" />
                                 </div>

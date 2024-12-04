@@ -19,13 +19,7 @@
                         <div class="col">
                             <div class="bc-5-img bc-5-tablet img-block-hidden video-preview wow fadeInUp">
                                 <!-- Play Icon -->
-                                <ElementsVideoModal :link="'https://www.youtube.com/embed/GcMiYI1gWD4'">
-                                    <template v-slot:button>
-                                        <div class="video-btn video-btn-xl bg--theme">
-                                            <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                        </div>
-                                    </template>
-                                </ElementsVideoModal>
+                                <ElementsCustomModalVideo />
                                 <!-- Preview Image -->
                                 <img class="img-fluid" src="/assets/images/tablet-04.png" alt="content-image" />
                             </div>

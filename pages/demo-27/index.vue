@@ -22,11 +22,10 @@
         <SectionsDemo27Section20 />
     </div>
 </template>
-
 <script setup>
     useHead({
         bodyAttrs: {
-            class: "navbar-dark scheme-magenta"
+            class: "navbar-dark navbar-dark-2 scheme-magenta"
         },
     })
 </script>

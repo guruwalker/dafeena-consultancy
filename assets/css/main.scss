@@ -3588,11 +3588,9 @@ span.sm-info {
 .navbar-dark .tra-menu.black-scroll .scroll .wsmenu > .wsmenu-list > li > a.h-link:hover {
     color: #ccc !important;
 }
-
 /*------------------------------------------*/
 /*  WHITE SCROLL BUTTONS
 /*------------------------------------------*/
-
 .white-scroll .scroll .btn--tra-white {
     color: #353f4f !important;
     border-color: #353f4f !important;
@@ -3668,7 +3666,6 @@ span.sm-info {
         }
     }
 }
-
 .navbar-light.theme--dark {
     .dark-light-toggle {
         img {
@@ -3729,7 +3726,6 @@ span.sm-info {
         }
     }
 }
-
 .navbar-dark.theme--dark {
     #header.scroll {
         .dark-light-toggle {
@@ -3750,7 +3746,6 @@ span.sm-info {
         }
     }
 }
-
 /*------------------------------------------*/
 /*  LOGO IMAGE
 /*------------------------------------------*/
@@ -3767,6 +3762,12 @@ span.sm-info {
 .navbar-light .tra-menu .scroll .logo-black,
 .navbar-dark .tra-menu.black-scroll .scroll .logo-white {
     display: block;
+}
+.navbar-dark.navbar-dark-2.theme--dark .logo-white {
+    display: block !important;
+}
+.navbar-dark.navbar-dark-2.theme--dark .logo-black {
+    display: none !important;
 }
 /* ==========================================================================
   05. HERO
@@ -7807,7 +7808,6 @@ span.release-date span {
     display: inline-block;
     margin: 0 auto 60px;
 }
-
 .faqs-section .tab-content.current {
     display: inherit;
 }
@@ -10528,7 +10528,6 @@ body.theme--dark {
     background-color: #363f54;
     border: 1px solid #363f54;
 }
-
 .brands-carousel-5 {
     img.theme-dark {
         display: none;
@@ -10560,7 +10559,6 @@ body.theme--dark {
     cursor: pointer;
     transition-duration: 0.2s;
 }
-
 .tab-list {
   margin-bottom: 40px;
     .tab-link {
@@ -10584,4 +10582,16 @@ body.theme--dark {
             box-shadow: 0px 15px 20px 0px #05050533;
         }
     }
+}
+.navbar-dark.navbar-dark-2.theme--dark {
+	.wsmenu-list {
+		>li {
+			>a.h-link {
+				color: #c1c6d9 !important;
+				&:hover {
+					color: #ffffff !important;
+				}
+			}
+		}
+	}
 }

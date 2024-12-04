@@ -18,11 +18,10 @@
         <SectionsDemo19Section16 />
     </div>
 </template>
-
 <script setup>
     useHead({
         bodyAttrs: {
-            class: "navbar-dark scheme-crocus theme--dark"
+            class: "navbar-dark navbar-dark-2 scheme-crocus theme--dark"
         },
     })
 </script>

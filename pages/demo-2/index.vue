@@ -9,7 +9,7 @@
         <SectionsDemo2Section7 />
         <SectionsDemo2Section8 />
         <SectionsDemo2Section9 />
-        <SectionsDemo2Section10 />
+        <!-- <SectionsDemo2Section10 /> -->
         <SectionsDemo2Section11 />
         <SectionsDemo2Section12 />
         <SectionsDemo2Section13 />

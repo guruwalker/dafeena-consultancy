@@ -18,13 +18,7 @@
                     <div class="col">
                         <div class="img-block video-preview wow fadeInUp">
                             <!-- Play Icon -->
-                            <ElementsVideoModal :link="'https://www.youtube.com/embed/Pf03RTjeISE'">
-                                <template v-slot:button>
-                                    <div class="video-btn video-btn-xl bg--pink-400 ico-90">
-                                        <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                    </div>
-                                </template>
-                            </ElementsVideoModal>
+                            <ElementsCustomModalVideo />
                             <!-- Preview Image -->
                             <img class="img-fluid" src="/assets/images/dashboard-01.png" alt="video-preview" />
                         </div>

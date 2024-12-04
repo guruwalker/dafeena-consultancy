@@ -10,11 +10,7 @@
                         <!-- Text -->
                         <p class="p-xl">Mauris donec ociis diam magnis sapien sagittis sapien tempor volute gravida and aliquet tortor undo aliquet quaerat in magna egestas sapien quaerat</p>
                         <!-- Button -->
-                        <ElementsVideoModal :link="'https://www.youtube.com/embed/Pf03RTjeISE'">
-                            <template v-slot:button>
-                                <span class="video-popup2 btn r-04 btn--theme hover--tra-black ico-20 ico-right">See how it works</span>
-                            </template>
-                        </ElementsVideoModal>
+                        <ElementsCustomModalVideo />
                         <p class="p-sm btn-txt ico-15"><span class="flaticon-check"></span> No credit card needed, free 14-day trial</p>
                     </div>
                 </div>

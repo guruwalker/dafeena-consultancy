@@ -16,10 +16,10 @@
                                         <p class="p-lg"><span>Category:</span> Development</p>
                                     </div>
                                     <div class="col">
-                                        <p class="p-lg"><span>Start Date:</span> 2023-02-28</p>
+                                        <p class="p-lg"><span>Start Date:</span> 2024-02-28</p>
                                     </div>
                                     <div class="col">
-                                        <p class="p-lg"><span>Handover:</span> 2023-04-30</p>
+                                        <p class="p-lg"><span>Handover:</span> 2024-04-30</p>
                                     </div>
                                     <div class="col">
                                         <p class="p-lg"><span>Client:</span> DSAThemes</p>
@@ -137,13 +137,7 @@
                             <!-- VIDEO PREVIEW -->
                             <div class="project-image project-inner-img video-preview mt-50">
                                 <!-- Play Icon -->
-                                <ElementsVideoModal :link="'https://www.youtube.com/embed/GcMiYI1gWD4'">
-                                    <template v-slot:button>
-                                        <div class="video-btn video-btn-xl bg--pink-400 ico-90">
-                                            <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                        </div>
-                                    </template>
-                                </ElementsVideoModal>
+                                <ElementsCustomModalVideo />
                                 <!-- Preview Image -->
                                 <img class="img-fluid r-10" src="/assets/images/projects/project-09.jpg" alt="video-preview" />
                             </div>

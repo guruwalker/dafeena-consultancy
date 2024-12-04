@@ -11,7 +11,7 @@
                             <!-- Version Data -->
                             <div class="rel">
                                 <span class="version-data">4.13.019</span>
-                                <span class="release-date">2023-05-31 <span>68.91 MB</span></span>
+                                <span class="release-date">2024-05-31 <span>68.91 MB</span></span>
                                 <a href="download/example.zip" download="example.zip" class="btn btn--theme hover--tra-grey ico-20 ico-left release-download"> <span class="flaticon-down-arrow-1"></span> Download 4.13.019 </a>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                             <!-- Version Data -->
                             <div class="rel">
                                 <span class="version-data">4.11.020</span>
-                                <span class="release-date">2023-05-18 <span>62.46 MB</span></span>
+                                <span class="release-date">2024-05-18 <span>62.46 MB</span></span>
                                 <a href="download/example.zip" download="example.zip" class="btn btn--tra-grey hover--theme ico-20 ico-left release-download"> <span class="flaticon-down-arrow-1"></span> Download 4.11.020 </a>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                             <!-- Version Data -->
                             <div class="rel">
                                 <span class="version-data">4.08.106</span>
-                                <span class="release-date">2023-04-12 <span>58.83 MB</span></span>
+                                <span class="release-date">2024-04-12 <span>58.83 MB</span></span>
                                 <a href="download/example.zip" download="example.zip" class="btn btn--tra-grey hover--theme ico-20 ico-left release-download"> <span class="flaticon-down-arrow-1"></span> Download 4.08.106 </a>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <!-- Version Data -->
                             <div class="rel">
                                 <span class="version-data">4.0.018</span>
-                                <span class="release-date">2023-02-26 <span>64.95 MB</span></span>
+                                <span class="release-date">2024-02-26 <span>64.95 MB</span></span>
                                 <a href="download/example.zip" download="example.zip" class="btn btn--tra-grey hover--theme ico-20 ico-left release-download"> <span class="flaticon-down-arrow-1"></span> Download 4.0.018 </a>
                             </div>
                         </div>

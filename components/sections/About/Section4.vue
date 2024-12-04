@@ -18,13 +18,7 @@
                 <div class="col-md-6 order-first order-md-2">
                     <div class="img-block j-img video-preview right-column wow fadeInLeft">
                         <!-- Play Icon -->
-                        <ElementsVideoModal :link="'https://www.youtube.com/embed/GcMiYI1gWD4'">
-                            <template v-slot:button>
-                                <div class="video-btn video-btn-xl bg--theme">
-                                    <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                </div>
-                            </template>
-                        </ElementsVideoModal>
+                        <ElementsCustomModalVideo />
                         <!-- Preview Image -->
                         <img class="img-fluid r-20" src="/assets/images/img-17.jpg" alt="video-preview" />
                     </div>

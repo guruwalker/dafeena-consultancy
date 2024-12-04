@@ -28,7 +28,7 @@
                                     <li class="meta-list-divider">
                                         <p><span class="flaticon-minus"></span></p>
                                     </li>
-                                    <li><p>Apr 28, 2023</p></li>
+                                    <li><p>Apr 28, 2024</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Apr 23, 2023</p></li>
+                                        <li><p class="p-sm">Apr 23, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Apr 09, 2023</p></li>
+                                        <li><p class="p-sm">Apr 09, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Apr 01, 2023</p></li>
+                                        <li><p class="p-sm">Apr 01, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Mar 20, 2023</p></li>
+                                        <li><p class="p-sm">Mar 20, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Mar 13, 2023</p></li>
+                                        <li><p class="p-sm">Mar 13, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Feb 23, 2023</p></li>
+                                        <li><p class="p-sm">Feb 23, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@
                                                 <li class="meta-list-divider">
                                                     <p><span class="flaticon-minus"></span></p>
                                                 </li>
-                                                <li><p>Feb 12, 2023</p></li>
+                                                <li><p>Feb 12, 2024</p></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -285,13 +285,7 @@
                                 <div class="col-md-6 order-first order-md-2">
                                     <div class="blog-post-img video-preview">
                                         <!-- Play Icon -->
-                                        <ElementsVideoModal :link="'https://www.youtube.com/embed/GcMiYI1gWD4'">
-                                            <template v-slot:button>
-                                                <div class="video-btn video-btn-xl bg--pink-400 ico-90">
-                                                    <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                                                </div>
-                                            </template>
-                                        </ElementsVideoModal>
+                                        <ElementsCustomModalVideo />
                                         <!-- Preview Image -->
                                         <img class="img-fluid" src="/assets/images/blog/post-10-img.jpg" alt="video-preview" />
                                     </div>
@@ -340,7 +334,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Feb 02, 2023</p></li>
+                                        <li><p class="p-sm">Feb 02, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -372,7 +366,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Jan 26, 2023</p></li>
+                                        <li><p class="p-sm">Jan 26, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -404,7 +398,7 @@
                                         <li class="meta-list-divider">
                                             <p><span class="flaticon-minus"></span></p>
                                         </li>
-                                        <li><p class="p-sm">Jan 12, 2023</p></li>
+                                        <li><p class="p-sm">Jan 12, 2024</p></li>
                                     </ul>
                                 </div>
                             </div>

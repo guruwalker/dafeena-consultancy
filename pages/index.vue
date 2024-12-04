@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div>     
         <SectionsDemo1Section1 />
         <SectionsDemo1Section2 />
         <SectionsDemo1Section3 />
@@ -9,6 +9,7 @@
         <SectionsDemo1Section7 />
         <SectionsDemo1Section8 />
         <SectionsDemo1Section9 />
+        <SectionsDemo1Section10 />
         <SectionsDemo1Section10 />
         <SectionsDemo1Section11 />
         <SectionsDemo1Section12 />

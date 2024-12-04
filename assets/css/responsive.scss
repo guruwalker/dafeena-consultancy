@@ -933,6 +933,14 @@
   .navbar-light .wsmenu > .wsmenu-list > li > a.h-link {
     color: #353f4f;
   }
+  .navbar-light .dark-light-toggle {
+    img.img-dark { display: none !important; }
+    img.img-dark-black { display: block !important; }
+  }
+  .navbar-light .logo-black { display: block !important; }
+  .navbar-light .logo-white { display: none !important; }
+  .navbar-light.theme--dark .logo-black { display: none !important; }
+  .navbar-light.theme--dark .logo-white { display: block !important; }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   /*------------------------------------------*/
@@ -2835,7 +2843,6 @@
   /* Header Logo */
   .wsmobileheader .smllogo { display: block; margin-top: 23px; padding-left: 18px; }
   .smllogo img { width: auto; max-width: inherit; max-height: 34px; }
-
   .overlapblackbg { width: calc(100% - 345px); }
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 18px 0 0; }
   /* Nav Link Info */

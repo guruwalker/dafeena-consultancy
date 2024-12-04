@@ -109,7 +109,7 @@
                     <!-- FOOTER COPYRIGHT -->
                     <div class="col">
                         <div class="footer-copyright">
-                            <p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+                            <p class="p-sm">&copy; 2024 Martex. <span>All Rights Reserved</span></p>
                         </div>
                     </div>
                     <!-- FOOTER SOCIALS -->

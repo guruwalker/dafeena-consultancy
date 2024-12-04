@@ -13,11 +13,7 @@
                             <!-- Buttons -->
                             <div class="btns-group d-flex justify-content-center">
                                 <a href="#banner-3" class="btn r-04 btn--theme hover--theme">Get started for free</a>
-                                <ElementsVideoModal :link="'https://www.youtube.com/embed/Pf03RTjeISE'">
-                                    <template v-slot:button>
-                                        <span class="video-popup2 btn r-04 btn--theme hover--tra-black ico-20 ico-right">See how it works</span>
-                                    </template>
-                                </ElementsVideoModal>
+                                <ElementsCustomModalVideo />
                             </div>
                             <!-- Advantages List -->
                             <ul class="advantages ico-15 mt-25 clearfix">

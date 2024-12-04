@@ -37,7 +37,7 @@
                                     <li class="meta-list-divider">
                                         <p><span class="flaticon-minus"></span></p>
                                     </li>
-                                    <li><p class="p-sm">Apr 28, 2023</p></li>
+                                    <li><p class="p-sm">Apr 28, 2024</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                                     <li class="meta-list-divider">
                                         <p><span class="flaticon-minus"></span></p>
                                     </li>
-                                    <li><p class="p-sm">Apr 14, 2023</p></li>
+                                    <li><p class="p-sm">Apr 14, 2024</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                                     <li class="meta-list-divider">
                                         <p><span class="flaticon-minus"></span></p>
                                     </li>
-                                    <li><p class="p-sm">Mar 27, 2023</p></li>
+                                    <li><p class="p-sm">Mar 27, 2024</p></li>
                                 </ul>
                             </div>
                         </div>
