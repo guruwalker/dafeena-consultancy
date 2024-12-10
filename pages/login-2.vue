@@ -6,6 +6,6 @@
 
 <script setup>
     definePageMeta({
-        layout: "no-header-footer",
+        layout: "blank",
     })
 </script>
