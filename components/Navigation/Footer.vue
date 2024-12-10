@@ -1,16 +1,16 @@
 <template>
-    <footer id="footer-3" class="pt-100 footer">
+    <footer id="footer-3" class="pt-100 footer ft-3-ntr">
         <div class="container">
             <!-- FOOTER CONTENT -->
             <div class="row">
                 <!-- FOOTER LOGO -->
                 <div class="col-xl-3">
                     <div class="footer-info">
-                        <img class="footer-logo" src="/assets/images/logo-purple.png" alt="footer-logo" />
+                        <img class="footer-logo" src="/assets/images/logo-pink.png" alt="footer-logo" />
                     </div>
                 </div>
                 <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-md-3 col-xl-2">
+                <div class="col-sm-4 col-lg-3 col-xl-2">
                     <div class="footer-links fl-1">
                         <!-- Title -->
                         <h6 class="s-17 w-700">Company</h6>
@@ -20,20 +20,20 @@
                                 <p><NuxtLink to="/about">About Us</NuxtLink></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/careers">Careers</NuxtLink></p>
-                            </li>
-                            <li>
                                 <p><NuxtLink to="/blog-listing">About Us</NuxtLink></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/contacts">Contact Us</NuxtLink></p>
+                                <p><NuxtLink to="/reviews">Customers</NuxtLink></p>
+                            </li>
+                            <li>
+                                <p><a href="#">Community</a></p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <!-- END FOOTER LINKS -->
                 <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-md-3 col-xl-2">
+                <div class="col-sm-4 col-lg-2">
                     <div class="footer-links fl-2">
                         <!-- Title -->
                         <h6 class="s-17 w-700">Product</h6>
@@ -43,7 +43,7 @@
                                 <p><NuxtLink to="/features">Integration</NuxtLink></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/reviews">Customers</NuxtLink></p>
+                                <p><NuxtLink to="/download">What's New</NuxtLink></p>
                             </li>
                             <li>
                                 <p><NuxtLink to="/pricing-1">Pricing</NuxtLink></p>
@@ -56,7 +56,7 @@
                 </div>
                 <!-- END FOOTER LINKS -->
                 <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-md-3 col-xl-2">
+                <div class="col-sm-4 col-lg-3 col-xl-2">
                     <div class="footer-links fl-3">
                         <!-- Title -->
                         <h6 class="s-17 w-700">Legal</h6>
@@ -78,17 +78,27 @@
                     </div>
                 </div>
                 <!-- END FOOTER LINKS -->
-                <!-- FOOTER LINKS -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="footer-links fl-4">
+                <!-- FOOTER NEWSLETTER FORM -->
+                <div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
+                    <div class="footer-form">
                         <!-- Title -->
-                        <h6 class="s-17 w-700">Connect With Us</h6>
-                        <!-- Mail Link -->
-                        <p class="footer-mail-link ico-25">
-                            <a href="mailto:yourdomain@mail.com">hello@yourdomain.com</a>
-                        </p>
-                        <!-- Social Links -->
-                        <ul class="footer-socials ico-25 text-center clearfix">
+                        <h6 class="s-17 w-700">Follow the Best</h6>
+
+                        <!-- Newsletter Form Input -->
+                        <form class="newsletter-form">
+                            <div class="input-group r-06">
+                                <input type="email" class="form-control" placeholder="Email Address" required id="s-email" />
+                                <span class="input-group-btn ico-15">
+                                    <button type="submit" class="btn color--theme">
+                                        <span class="flaticon-right-arrow-1"></span>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- Newsletter Form Notification -->
+                            <label for="s-email" class="form-notification"></label>
+                        </form>
+
+                         <ul class="footer-socials ico-25 text-center clearfix">
                             <li>
                                 <a href="#"><span class="flaticon-facebook"></span></a>
                             </li>
@@ -104,7 +114,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- END FOOTER LINKS -->
+                <!-- END FOOTER NEWSLETTER FORM -->
             </div>
             <!-- END FOOTER CONTENT -->
             <hr />
@@ -118,19 +128,29 @@
                             <p class="p-sm">&copy; 2024 Martex. <span>All Rights Reserved</span></p>
                         </div>
                     </div>
-                    <!-- FOOTER SECONDARY LINK -->
+                    <!-- FOOTER SOCIALS -->
                     <div class="col">
-                        <div class="bottom-secondary-link ico-15 text-end">
-                            <p class="p-sm">
-                                <a href="https://themeforest.net/user/dsathemes/portfolio">Made with <span class="flaticon-heart color--pink-400"></span> by @AliThemes</a>
-                            </p>
-                        </div>
+                        <ul class="bottom-footer-socials ico-20 text-end">
+                            <li>
+                                <a href="#"><span class="flaticon-facebook"></span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="flaticon-twitter"></span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="flaticon-instagram"></span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="flaticon-youtube"></span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <!-- End row -->
             </div>
             <!-- END BOTTOM FOOTER -->
         </div>
+        <!-- End container -->
+        <NavigationGoToTop />
     </footer>
-    <FooterGoToTop />
 </template>

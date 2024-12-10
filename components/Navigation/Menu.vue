@@ -12,53 +12,6 @@
             <!-- MAIN MENU -->
             <nav class="wsmenu clearfix">
                 <ul class="wsmenu-list nav-theme">
-                    <!-- DROPDOWN SUB MENU -->
-                    <li aria-haspopup="true" class="mg_link" :class="{ open: isOpen[0] }">
-                        <span class="wsmenu-click 123" @click="toggle(0)"><i class="wsmenu-arrow"></i></span>
-                        <NuxtLink to="#" class="h-link">Home <span class="wsarrow"></span></NuxtLink>
-                        <div class="wsmegamenu w-75 clearfix">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- MEGAMENU LINKS -->
-                                    <ul class="col-md-12 col-lg-3 link-list">
-                                        <li><NuxtLink to="/demo-1">Demo 01</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-2">Demo 02</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-3">Demo 03</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-4">Demo 04</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-5">Demo 05</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-6">Demo 06</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-7">Demo 07</NuxtLink></li>
-                                    </ul>
-                                    <ul class="col-md-12 col-lg-3 link-list">
-                                        <li><NuxtLink to="/demo-8">Demo 08</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-9">Demo 09</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-10">Demo 10</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-11">Demo 11</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-12">Demo 12</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-13">Demo 13</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-14">Demo 14</NuxtLink></li>
-                                    </ul>
-                                    <ul class="col-md-12 col-lg-3 link-list">
-                                        <li><NuxtLink to="/demo-15">Demo 15</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-16">Demo 16</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-17">Demo 17</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-18">Demo 18</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-19">Demo 19</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-20">Demo 20</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-21">Demo 21</NuxtLink></li>
-                                    </ul>
-                                    <ul class="col-md-12 col-lg-3 link-list">
-                                        <li><NuxtLink to="/demo-22">Demo 22</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-23">Demo 23</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-24">Demo 24</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-25">Demo 25</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-26">Demo 26</NuxtLink></li>
-                                        <li><NuxtLink to="/demo-27">Demo 27</NuxtLink></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
                     <!-- SIMPLE NAVIGATION LINK -->
                     <li class="nl-simple" aria-haspopup="true"><NuxtLink to="/about" class="h-link">About Us</NuxtLink></li>
                     <!-- MEGAMENU -->
@@ -119,14 +72,6 @@
                     <!-- SIMPLE NAVIGATION LINK -->
                     <li class="nl-simple" aria-haspopup="true"><NuxtLink to="/faqs" class="h-link">FAQs</NuxtLink></li>
                     <li class="nl-simple" aria-haspopup="true"><NuxtLink to="/contacts" class="h-link">Contact</NuxtLink></li>
-                    <!-- SIGN IN LINK -->
-                    <li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-                        <NuxtLink to="/login-2" class="h-link">Sign in</NuxtLink>
-                    </li>
-                    <!-- SIGN UP BUTTON -->
-                    <li class="nl-simple" aria-haspopup="true">
-                        <NuxtLink to="/signup-2" class="btn r-04 btn--theme hover--tra-white last-link">Sign up</NuxtLink>
-                    </li>
                 </ul>
             </nav>
             <!-- END MAIN MENU -->

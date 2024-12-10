@@ -22,10 +22,6 @@
 </template>
 
 <script setup>
-    definePageMeta({
-        layout: "footer-2",
-    })
-
     useHead({
         bodyAttrs: {
             class: "navbar-dark scheme-crocus"
