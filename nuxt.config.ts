@@ -4,6 +4,8 @@ export default defineNuxtConfig({
       "@": resolve(__dirname, "/")
   },
 
+  target: 'static',
+
   app: {
       head: {
           meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],

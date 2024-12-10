@@ -1,34 +1,31 @@
 <template>
-    <div>     
-        <SectionsDemo1Section1 />
-        <SectionsDemo1Section2 />
-        <SectionsDemo1Section3 />
-        <SectionsDemo1Section4 />
-        <SectionsDemo1Section5 />
-        <SectionsDemo1Section6 />
-        <SectionsDemo1Section7 />
-        <SectionsDemo1Section8 />
-        <SectionsDemo1Section9 />
-        <SectionsDemo1Section10 />
-        <SectionsDemo1Section10 />
-        <SectionsDemo1Section11 />
-        <SectionsDemo1Section12 />
-        <SectionsDemo1Section13 />
-        <SectionsDemo1Section14 />
-        <SectionsDemo1Section15 />
-        <SectionsDemo1Section16 />
-        <SectionsDemo1Section17 />
-        <SectionsDemo1Section18 />
-        <SectionsDemo1Section19 />
-        <SectionsDemo1Section20 />
-        <SectionsDemo1Section21 />
+    <div>
+        <SectionsDemo2Section1 />
+        <SectionsDemo2Section2 />
+        <SectionsDemo2Section3 />
+        <SectionsDemo2Section4 />
+        <SectionsDemo2Section5 />
+        <SectionsDemo2Section6 />
+        <SectionsDemo2Section7 />
+        <SectionsDemo2Section8 />
+        <SectionsDemo2Section9 />
+        <SectionsDemo2Section10 />
+        <SectionsDemo2Section11 />
+        <SectionsDemo2Section12 />
+        <SectionsDemo2Section13 />
+        <SectionsDemo2Section14 />
+        <SectionsDemo2Section15 />
+        <SectionsDemo2Section16 />
+        <SectionsDemo2Section17 />
+        <SectionsDemo2Section18 />
+        <SectionsDemo2Section19 />
     </div>
 </template>
 
 <script setup>
     useHead({
         bodyAttrs: {
-            class: "navbar-light"
+            class: "navbar-dark"
         },
     })
 </script>
