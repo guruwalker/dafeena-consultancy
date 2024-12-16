@@ -50,12 +50,12 @@
                   <!-- Digit -->
                   <div class="block-digit">
                     <h2 class="s-46 statistic-number color--black">
-                      63<span>%</span>
+                      4<span>+</span>
                     </h2>
                   </div>
                   <!-- Text -->
                   <div class="block-txt">
-                    <p class="p-sm">career growth success rate</p>
+                    <p class="p-sm">countries</p>
                   </div>
                 </div>
               </div>

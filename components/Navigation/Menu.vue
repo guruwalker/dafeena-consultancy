@@ -30,7 +30,7 @@
           </li>
           <!-- SIMPLE NAVIGATION LINK -->
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/pricing-1" class="h-link">Pricing</NuxtLink>
+            <NuxtLink to="/pricing" class="h-link">Pricing</NuxtLink>
           </li>
           <!-- SIMPLE NAVIGATION LINK -->
           <li class="nl-simple" aria-haspopup="true">
