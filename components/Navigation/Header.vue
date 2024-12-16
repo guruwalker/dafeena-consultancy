@@ -3,7 +3,6 @@
         <div class="header-wrapper">
             <NavigationLogo />
             <NavigationMenu />
-            <NavigationDarkLightToggle />
         </div>
     </header>
 </template>
