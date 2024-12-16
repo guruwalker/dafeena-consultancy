@@ -102,7 +102,7 @@
                         <!-- Text -->
                         <p>Integer congue sagittis augue egestas velna purus purus magna nec suscipit and egestas magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque fusce cursus neque diam augue fusce sapien</p>
                         <!-- Text -->
-                        <p>If you have any questions or suggestions about this Terms of Service, do not hesitate to contact us at <a href="mailto:yourdomain@mail.com" class="color--theme">hello@yourdomain.com</a></p>
+                        <p>If you have any questions or suggestions about this Terms of Service, do not hesitate to contact us at <a href="mailto:hello@dafeenaconsultancy.com" class="color--theme">hello@yourdomain.com</a></p>
                     </div>
                     <!-- END TEXT BLOCK -->
                 </div>

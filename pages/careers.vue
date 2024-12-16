@@ -1,19 +1,28 @@
+<script setup lang="ts">
+useHead({
+  bodyAttrs: {
+    class: "navbar-light",
+  },
+});
+
+
+</script>
+
+
 <template>
-    <div>
-        <SectionsCareersSection1 />
-        <SectionsCareersSection2 />
-        <SectionsCareersSection3 />
-        <SectionsCareersSection4 />
-        <SectionsCareersSection5 />
-        <SectionsCareersSection6 />
-        <SectionsCareersSection7 />
-    </div>
+  <div>
+    <!-- Hero -->
+    <SectionsCareersSection1 />
+    <!-- Benefits -->
+    <SectionsCareersSection4 />
+    <!-- Images -->
+    <SectionsCareersSection3 />
+    <!-- Images -->
+    <SectionsCareersSection2 />
+    <!-- Open Roles -->
+    <SectionsCareersSection6 />
+    <!-- Banner -->
+    <SectionsCareersSection7 />
+  </div>
 </template>
 
-<script setup>
-    useHead({
-        bodyAttrs: {
-            class: "navbar-light"
-        },
-    })
-</script>

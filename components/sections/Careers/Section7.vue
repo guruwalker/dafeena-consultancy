@@ -13,7 +13,7 @@
                                 <!-- Text -->
                                 <p class="p-lg">We're constantly looking for talented people to join our team. Don't hesitate to get in touch with us</p>
                                 <!-- Button -->
-                                <a href="mailto:yourdomain@mail.com" class="btn r-04 btn--theme hover--tra-white">yourdomain@mail.com</a>
+                                <a href="mailto:hello@dafeenaconsultancy.com" class="btn r-04 btn--theme hover--tra-white">hello@dafeenaconsultancy.com</a>
                             </div>
                         </div>
                         <!-- END BANNER-12 TEXT -->
