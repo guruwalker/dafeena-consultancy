@@ -157,7 +157,7 @@
                         <!-- Text -->
                         <p>Sagittis augue congue egestas integer velna purus purus magna nec suscipit and egestas magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque fusce cursus neque aliquam fusce blandit</p>
                         <!-- Button -->
-                        <NuxtLink to="/contacts" class="btn r-04 btn--theme hover--theme">Apply to this job!</NuxtLink>
+                        <NuxtLink to="/contact-us" class="btn r-04 btn--theme hover--theme">Apply to this job!</NuxtLink>
                     </div>
                     <!-- END TEXT BLOCK -->
                 </div>

@@ -37,7 +37,7 @@
             <NuxtLink to="/faqs" class="h-link">FAQs</NuxtLink>
           </li>
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/contacts" class="h-link">Contact</NuxtLink>
+            <NuxtLink to="/contact-us" class="h-link">Contact</NuxtLink>
           </li>
         </ul>
       </nav>

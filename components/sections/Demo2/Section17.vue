@@ -89,7 +89,7 @@
                         <div class="more-questions-txt bg--white-400 r-100">
                             <p class="p-lg">
                                 Have any questions?
-                                <NuxtLink to="/contacts" class="color--theme">Get in Touch</NuxtLink>
+                                <NuxtLink to="/contact-us" class="color--theme">Get in Touch</NuxtLink>
                             </p>
                         </div>
                     </div>
