@@ -1,3 +1,11 @@
+<script setup lang="ts">
+    useHead({
+        bodyAttrs: {
+            class: "navbar-dark"
+        },
+    })
+</script>
+
 <template>
     <div>
         <SectionsDemo2Section1 />
@@ -22,10 +30,4 @@
     </div>
 </template>
 
-<script setup>
-    useHead({
-        bodyAttrs: {
-            class: "navbar-dark"
-        },
-    })
-</script>
+
