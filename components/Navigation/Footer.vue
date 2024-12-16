@@ -71,7 +71,7 @@
         <div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
           <div class="footer-form">
             <!-- Title -->
-            <h6 class="s-17 w-700">Follow the Best</h6>
+            <h6 class="s-17 w-700">Stay up to date with our news, ideas and updates</h6>
 
             <!-- Newsletter Form Input -->
             <form class="newsletter-form">
