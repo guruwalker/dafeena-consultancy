@@ -1,4 +1,12 @@
 <script setup lang="ts">
+
+useSeoMeta({
+  title: 'Terms & Conditions',
+  ogTitle: 'Terms & Conditions',
+  description: 'Review the terms and conditions of working with Dafeena Consultancy.',
+  ogDescription: 'Review the terms and conditions of working with Dafeena Consultancy.',
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-dark",

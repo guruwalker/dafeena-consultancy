@@ -1,4 +1,12 @@
 <script setup lang="ts">
+
+useSeoMeta({
+  title: 'Frequently Asked Questions',
+  ogTitle: 'Frequently Asked Questions',
+  description: 'Find answers to common questions about career coaching and personal branding services.',
+  ogDescription: 'Find answers to common questions about career coaching and personal branding services.',
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
@@ -242,7 +250,6 @@ const faqs = ref([
     ],
   },
 ]);
-
 </script>
 
 <template>

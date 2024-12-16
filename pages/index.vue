@@ -1,15 +1,13 @@
 <script setup lang="ts">
-useSeoKit();
+
+useSeoMeta({
+  title: "Take Your Career to the Next Level",
+  ogTitle: "Take Your Career to the Next Level",
+  description: "Unlock your career potential with expert coaching and personal branding strategies.",
+  ogDescription: "Unlock your career potential with expert coaching and personal branding strategies.",
+})
 
 useHead({
-  title: "Home - Dafeena Consultancy",
-  meta: [
-    {
-      name: "description",
-      content: "Enrol, Prepare, Get Hired!",
-    },
-  ],
-
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
   },

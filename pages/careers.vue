@@ -1,4 +1,11 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'Launch Your Career with Dafeena Consultancy',
+  ogTitle: 'Launch Your Career with Dafeena Consultancy',
+  description: 'Join Dafeena Consultancy and accelerate your career growth.',
+  ogDescription: 'Join Dafeena Consultancy and accelerate your career growth.',
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-light",

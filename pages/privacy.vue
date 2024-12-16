@@ -1,4 +1,12 @@
 <script setup lang="ts">
+
+useSeoMeta({
+  title: 'Privacy Policy',
+  ogTitle: 'Privacy Policy',
+  description: 'Read about how we protect your personal information at Dafeena Consultancy.',
+  ogDescription: 'Read about how we protect your personal information at Dafeena Consultancy.',
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
