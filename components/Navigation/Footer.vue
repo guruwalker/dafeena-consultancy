@@ -27,10 +27,10 @@
                 <p><NuxtLink to="/blog-listing">FAQs</NuxtLink></p>
               </li>
               <li>
-                <p><NuxtLink to="/reviews">Testimonials</NuxtLink></p>
+                <p><NuxtLink to="/testimonials">Testimonials</NuxtLink></p>
               </li>
               <li>
-                <p><NuxtLink to="/reviews">Pricing</NuxtLink></p>
+                <p><NuxtLink to="/testimonials">Pricing</NuxtLink></p>
               </li>
             </ul>
           </div>

@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col">
                     <div class="more-btn text-center mt-60 wow fadeInUp">
-                        <NuxtLink to="/reviews" class="btn btn--tra-black hover--theme">Read all reviews</NuxtLink>
+                        <NuxtLink to="/testimonials" class="btn btn--tra-black hover--theme">Read all reviews</NuxtLink>
                     </div>
                 </div>
             </div>

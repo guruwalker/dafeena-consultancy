@@ -1,13 +1,17 @@
 <script setup lang="ts">
-
 useSeoMeta({
   title: "Take Your Career to the Next Level",
   ogTitle: "Take Your Career to the Next Level",
-  description: "Unlock your career potential with expert coaching and personal branding strategies.",
-  ogDescription: "Unlock your career potential with expert coaching and personal branding strategies.",
-})
+  description:
+    "Unlock your career potential with expert coaching and personal branding strategies.",
+  ogDescription:
+    "Unlock your career potential with expert coaching and personal branding strategies.",
+});
 
 useHead({
+  link: [
+    { rel: "canonical", href: "https://dafeenaconsultancy.com/" },
+  ],
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
   },
