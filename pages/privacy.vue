@@ -1,10 +1,11 @@
 <script setup lang="ts">
-
 useSeoMeta({
-  title: 'Privacy Policy',
-  ogTitle: 'Privacy Policy',
-  description: 'Read about how we protect your personal information at Dafeena Consultancy.',
-  ogDescription: 'Read about how we protect your personal information at Dafeena Consultancy.',
+  title: "Privacy Policy",
+  ogTitle: "Privacy Policy",
+  description:
+    "Read about how we protect your personal information at Dafeena Consultancy.",
+  ogDescription:
+    "Read about how we protect your personal information at Dafeena Consultancy.",
 });
 
 useHead({
@@ -77,10 +78,6 @@ const sections = ref([
       "To communicate with you regarding updates, offers, or support.",
       "To ensure security and fraud prevention on our platform.",
       "To comply with legal obligations and enforce our policies.",
-    ],
-
-    text: [
-      "We do not sell or share your personal information with third parties unless required by law or with your explicit consent.",
     ],
   },
   {
