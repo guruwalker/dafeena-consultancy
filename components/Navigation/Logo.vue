@@ -1,13 +1,13 @@
 <template>
   <div class="wsmobileheader clearfix">
-    <!-- <NuxtLink to="/"><span class="smllogo"><img src="/assets/images/DafeenaLogo.png" alt="mobile-logo" /></span></NuxtLink> -->
+    <!-- <NuxtLink to="/"><span class="smllogo"><img src="/assets/images/DCLogo.png" alt="mobile-logo" /></span></NuxtLink> -->
     <NuxtLink to="/" class="logo-black"
       ><span class="smllogo"
-        ><img src="/assets/images/DafeenaLogo.png" alt="mobile-logo" /></span
+        ><img src="/assets/images/DCLogo.png" alt="mobile-logo" /></span
     ></NuxtLink>
     <NuxtLink to="/" class="logo-white"
       ><span class="smllogo"
-        ><img src="/assets/images/DafeenaLogo.png" alt="logo" /></span
+        ><img src="/assets/images/DCLogo.png" alt="logo" /></span
     ></NuxtLink>
     <a id="wsnavtoggle" class="wsanimated-arrow" @click="toggleMobileMenu">
       <span></span>

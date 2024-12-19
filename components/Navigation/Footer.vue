@@ -7,8 +7,9 @@
         <div class="col-xl-3">
           <div class="footer-info">
             <img
+              style="min-height: 125px; width: 150px"
               class="footer-logo"
-              src="/assets/images/DafeenaLogo.png"
+              src="/assets/images/DCLogo.png"
               alt="footer-logo"
             />
           </div>
@@ -21,16 +22,10 @@
             <!-- Links -->
             <ul class="foo-links clearfix">
               <li>
-                <p><NuxtLink to="/about">Careers</NuxtLink></p>
-              </li>
-              <li>
-                <p><NuxtLink to="/blog-listing">FAQs</NuxtLink></p>
+                <p><NuxtLink to="/careers">Careers</NuxtLink></p>
               </li>
               <li>
                 <p><NuxtLink to="/testimonials">Testimonials</NuxtLink></p>
-              </li>
-              <li>
-                <p><NuxtLink to="/testimonials">Pricing</NuxtLink></p>
               </li>
             </ul>
           </div>
@@ -44,7 +39,10 @@
             <!-- Links -->
             <ul class="foo-links clearfix">
               <li>
-                <p><NuxtLink to="/features">Blog</NuxtLink></p>
+                <p><NuxtLink to="/about-us">About us</NuxtLink></p>
+              </li>
+              <li>
+                <p><NuxtLink to="/blog">Blog</NuxtLink></p>
               </li>
             </ul>
           </div>
@@ -63,6 +61,9 @@
               <li>
                 <p><NuxtLink to="/privacy">Privacy Policy</NuxtLink></p>
               </li>
+              <li>
+                <p><NuxtLink to="/cookies">Cookies</NuxtLink></p>
+              </li>
             </ul>
           </div>
         </div>
@@ -71,7 +72,9 @@
         <div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
           <div class="footer-form">
             <!-- Title -->
-            <h6 class="s-17 w-700">Stay up to date with our news, ideas and updates</h6>
+            <h6 class="s-17 w-700">
+              Stay up to date with our news, ideas and updates
+            </h6>
 
             <!-- Newsletter Form Input -->
             <form class="newsletter-form">
@@ -95,16 +98,25 @@
 
             <ul class="footer-socials ico-25 text-center clearfix">
               <li>
-                <a href="#"><span class="flaticon-facebook"></span></a>
+                <a
+                  href="https://www.linkedin.com/company/dafeena-consultancy/"
+                  target="_blank"
+                  ><span class="flaticon-linkedin-logo"></span
+                ></a>
               </li>
               <li>
-                <a href="#"><span class="flaticon-twitter"></span></a>
+                <a
+                  href="https://web.facebook.com/profile.php?id=61569356854369"
+                  target="_blank"
+                  ><span class="flaticon-facebook"></span
+                ></a>
               </li>
               <li>
-                <a href="#"><span class="flaticon-github"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="flaticon-dribbble"></span></a>
+                <a
+                  href="https://www.instagram.com/dafeenaconsultancy/"
+                  target="_blank"
+                  ><span class="flaticon-instagram"></span
+                ></a>
               </li>
             </ul>
           </div>
@@ -115,32 +127,13 @@
       <hr />
       <!-- FOOTER DIVIDER LINE -->
       <!-- BOTTOM FOOTER -->
-      <div class="bottom-footer">
-        <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-          <!-- FOOTER COPYRIGHT -->
-          <div class="col">
-            <div class="footer-copyright">
-              <p class="p-sm">
-                &copy; 2024 Martex. <span>All Rights Reserved</span>
-              </p>
-            </div>
-          </div>
-          <!-- FOOTER SOCIALS -->
-          <div class="col">
-            <ul class="bottom-footer-socials ico-20 text-end">
-              <li>
-                <a href="#"><span class="flaticon-facebook"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="flaticon-twitter"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="flaticon-instagram"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="flaticon-youtube"></span></a>
-              </li>
-            </ul>
+      <div class="bottom-footer text-center">
+        <!-- FOOTER COPYRIGHT -->
+        <div class="col">
+          <div class="footer-copyright">
+            <p class="p-sm">
+              &copy; 2024 Dafeena Consultancy. <span>All Rights Reserved</span>
+            </p>
           </div>
         </div>
         <!-- End row -->

@@ -4,13 +4,13 @@
       <!-- HEADER BLACK LOGO -->
       <div class="desktoplogo">
         <NuxtLink to="/" class="logo-black"
-          ><img src="/assets/images/DafeenaLogo.png" alt="logo"
+          ><img style="min-height: 100px; width: 150px;" src="/assets/images/DCLogo.png" alt="logo"
         /></NuxtLink>
       </div>
       <!-- HEADER WHITE LOGO -->
       <div class="desktoplogo">
         <NuxtLink to="/" class="logo-white"
-          ><img src="/assets/images/DafeenaLogo.png" alt="logo"
+          ><img style="min-height: 61px; width: 85px;" src="/assets/images/DCLogo.png" alt="logo"
         /></NuxtLink>
       </div>
       <!-- MAIN MENU -->
@@ -24,20 +24,14 @@
         "
       >
         <ul class="wsmenu-list nav-theme">
-          <!-- SIMPLE NAVIGATION LINK -->
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/about" class="h-link">About Us</NuxtLink>
+            <NuxtLink to="/our-services" class="h-link">Our Services</NuxtLink>
           </li>
-          <!-- SIMPLE NAVIGATION LINK -->
-          <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/pricing" class="h-link">Pricing</NuxtLink>
-          </li>
-          <!-- SIMPLE NAVIGATION LINK -->
           <li class="nl-simple" aria-haspopup="true">
             <NuxtLink to="/faqs" class="h-link">FAQs</NuxtLink>
           </li>
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/contact-us" class="h-link">Contact</NuxtLink>
+            <NuxtLink to="/contact-us" class="h-link">Contact Us</NuxtLink>
           </li>
         </ul>
       </nav>

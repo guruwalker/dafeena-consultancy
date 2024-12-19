@@ -1,7 +1,4 @@
 <script setup lang="ts">
-definePageMeta({
-  layout: "pre-launch",
-});
 useSeoMeta({
   title: "Cookies",
   ogTitle: "Cookies",
@@ -24,7 +21,7 @@ const sections = ref([
     title: "What is a Cookie?",
     paragraphs: [
       "A cookie is a small text file stored on your device (computer, tablet, or smartphone) when you visit a website. It allows the website to recognize your device and remember your preferences, login details, or previous activity to provide a more personalized experience.",
-      "At EScript, we use cookies to enhance functionality, improve user experience, and analyze how our platform is used to deliver better services.",
+      "At Dafeena Consultancy, we use cookies to enhance the functionality of our website, improve user experience, and analyze how our platform is used to deliver better career coaching and personal branding services.",
     ],
   },
   {
@@ -33,7 +30,7 @@ const sections = ref([
       {
         title: "Essential Cookies",
         paragraphs: [
-          "These cookies are necessary for the core functionality of the EScript platform. They enable you to navigate the site, log in securely, and access protected features such as prescriptions, records, and dashboard settings.",
+          "These cookies are necessary for the core functionality of the Dafeena Consultancy platform. They enable you to navigate the site, log in securely, and access protected features like career coaching services, resources, and client portals.",
         ],
         listItems: [
           "Authentication: To verify your identity and maintain a secure session.",
@@ -44,30 +41,30 @@ const sections = ref([
       {
         title: "Performance Cookies",
         paragraphs: [
-          "Performance cookies collect information about how users interact with EScript. This helps us analyze usage patterns and improve the platform's functionality, speed, and reliability.",
-          "We may use analytics tools such as Google Analytics to measure page performance, identify errors, and enhance user experience.",
+          "Performance cookies collect information about how users interact with Dafeena Consultancy. This helps us analyze usage patterns and improve the platform's functionality, speed, and reliability.",
+          "We may use analytics tools such as Google Analytics to measure page performance, identify errors, and enhance user experience for visitors exploring career opportunities and coaching resources.",
         ],
         listItems: [
           "Monitor site traffic and usage trends.",
           "Identify technical issues and improve system performance.",
-          "Optimize user workflows for doctors, pharmacists, and patients.",
+          "Optimize user workflows for career coaches, clients, and website visitors.",
         ],
       },
       {
         title: "Functionality Cookies",
         paragraphs: [
-          "These cookies allow EScript to remember your preferences and settings to provide a customized experience. While not essential, they enhance usability and convenience for returning users.",
+          "These cookies allow Dafeena Consultancy to remember your preferences and settings to provide a customized experience. While not essential, they enhance usability and convenience for returning users seeking career advice or branding services.",
         ],
         listItems: [
           "Remember language and region preferences.",
-          "Save login credentials to streamline access.",
-          "Enable personalized features, such as saved workflows for medical prescriptions.",
+          "Save login credentials to streamline access to your personal coaching space.",
+          "Enable personalized features, such as saved career goals and branding suggestions.",
         ],
       },
       {
         title: "Targeting/Advertising Cookies",
         paragraphs: [
-          "Targeting cookies are used to deliver relevant content or advertisements based on your browsing activity. While EScript does not currently display third-party advertisements, we may use these cookies to offer tailored information about platform features and updates.",
+          "Targeting cookies are used to deliver relevant content or advertisements based on your browsing activity. While Dafeena Consultancy does not currently display third-party advertisements, we may use these cookies to offer tailored information about career resources, coaching services, and new updates.",
         ],
       },
     ],
@@ -75,7 +72,7 @@ const sections = ref([
   {
     title: "Third-Party Cookies on Our Site",
     paragraphs: [
-      "EScript may integrate third-party tools and services that use cookies to enhance platform capabilities. These include analytics providers (e.g., Google Analytics), secure payment gateways, and authentication services.",
+      "Dafeena Consultancy may integrate third-party tools and services that use cookies to enhance platform capabilities. These include analytics providers (e.g., Google Analytics), secure payment gateways, and authentication services.",
       "We do not control third-party cookies, and their use is governed by the respective third-party privacy policies. You can manage or disable third-party cookies through your browser settings.",
     ],
   },
