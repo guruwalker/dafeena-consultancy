@@ -1,4 +1,15 @@
 <script setup lang="ts">
+useSeoMeta({
+  title:
+    "Dafeena Blog | Building a Brand That Lasts: Key Steps for Strong Professional Branding",
+  ogTitle:
+    "Dafeena Blog | Building a Brand That Lasts: Key Steps for Strong Professional Branding",
+  description:
+    "Discover the key steps to building a lasting professional brand. Learn how to define your message, stay consistent, and adapt to create a brand that resonates with your audience.",
+  ogDescription:
+    "Explore expert advice on building a strong personal brand that stands the test of time. From clarity to consistency, learn how to create a professional brand that lasts and thrives.",
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",

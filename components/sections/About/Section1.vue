@@ -7,15 +7,17 @@
           <div class="about-2-title mb-60">
             <!-- Title -->
             <h2 class="s-52 w-700 mb-30">
-              We provide solutions for your creative ideas
+              We empower your career growth with creative solutions and expert
+              guidance
             </h2>
             <!-- Text -->
             <p class="mb-0">
-              An enim nullam tempor sapien gravida donec pretium ipsum porta
-              justo integer and purus velna vitae auctor integer undo congue
-              diam purus pretium and ligula tempor primis libero at tempus,
-              blandit and cursus varius magnis at sapien egestas purus vitae
-              purus an ipsum
+              At the intersection of creativity and technology, we transform
+              your ideas into impactful solutions. With a forward-thinking
+              approach, we believe in shaping the future by providing the tools
+              and expertise to turn your vision into reality. Together, we break
+              barriers, ignite progress, and create a lasting impact in a world
+              that’s constantly evolving.
             </p>
           </div>
         </div>
@@ -69,14 +71,12 @@
                 </div>
                 <!-- Text -->
                 <p>
-                  Nullam tempor pretium a gravida donec congue ipsum porta justo
-                  integer dolor odio auctor a neque suscipit an ipsum integer
-                  congue purus at pretium turpis egestas and volute laoreet
-                  quaerat
+                  I started Dafeena with the vision of empowering individuals to
+                  reach their full potential and transform careers.
                 </p>
                 <!-- Author -->
                 <p class="a2-txt-author">
-                  Charlie Cheever <span>CEO & CO-FOUNDER</span>
+                  Virginia Michaels <span>CEO & FOUNDER</span>
                 </p>
               </div>
             </div>

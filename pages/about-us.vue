@@ -32,6 +32,6 @@ useHead({
     <!-- Testimonials -->
     <SectionsAboutSection10 />
     <!-- Blogs -->
-    <SectionsAboutSection13 />
+    <!-- <SectionsAboutSection13 /> -->
   </div>
 </template>

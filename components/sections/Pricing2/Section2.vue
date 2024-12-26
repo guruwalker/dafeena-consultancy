@@ -1,40 +1,51 @@
 <script setup lang="ts">
-const plans = ref([
+const bundledServices = ref([
   {
     feature: "Modern CV",
     silver: true,
     gold: true,
     platinum: true,
+    buttonLink: "/request-service?service=modern_cv",
   },
   {
     feature: "ATS CV",
     silver: true,
     gold: true,
     platinum: true,
+    buttonLink: "/request-service?service=ats_cv",
   },
   {
     feature: "Cover Letter",
     silver: false,
     gold: true,
     platinum: true,
+    buttonLink: "/request-service?service=cover_letter_revamp",
   },
   {
     feature: "Consultation with associate",
     silver: false,
     gold: true,
     platinum: true,
+    buttonLink: "/request-service?service=consultation_with_associate",
   },
   {
     feature: "LinkedIn",
     silver: false,
     gold: false,
     platinum: true,
+    buttonLink: "/request-service?service=linkedin_profile_revamp",
   },
   {
     feature: "Price",
     silver: "KSH 8,000",
     gold: "KSH 12,000",
     platinum: "KSH 18,000",
+  },
+  {
+    feature: "",
+    silver: "/silver",
+    gold: "/gold",
+    platinum: "/platinum",
   },
 ]);
 </script>
@@ -71,11 +82,9 @@ const plans = ref([
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(plan, index) in plans" :key="index">
-                    <!-- Feature Name -->
+                  <tr v-for="(plan, index) in bundledServices" :key="index">
                     <th scope="row" class="text-start">{{ plan.feature }}</th>
 
-                    <!-- Silver, Gold, Platinum Packages -->
                     <td
                       v-for="(value, key) in {
                         silver: plan.silver,
@@ -84,23 +93,59 @@ const plans = ref([
                       }"
                       :key="key"
                     >
-                      <template v-if="typeof value !== 'boolean'">
+                      <template v-if="value === '/silver'">
+                        <a
+                          href="/request-service?service=silver_package"
+                          class="btn btn--theme hover--theme"
+                        >
+                          Get Silver Package</a
+                        >
+                      </template>
+
+                      <template v-else-if="value === '/gold'">
+                        <a
+                          href="/request-service?service=gold_package"
+                          class="btn btn--theme hover--theme"
+                        >
+                          Get Gold <br />
+                          Package</a
+                        >
+                      </template>
+
+                      <template v-else-if="value === '/platinum'">
+                        <a
+                          href="/request-service?service=platinum_package"
+                          class="btn btn--theme hover--theme"
+                        >
+                          Get Platinum Package</a
+                        >
+                      </template>
+
+                      <template v-else-if="typeof value === 'string'">
                         {{ value }}
                       </template>
-                      <template v-else>
-                        <span
-                          :class="
-                            value
-                              ? 'ico-20 color--theme'
-                              : 'ico-15 disabled-option'
-                          "
-                        >
-                          <span
-                            :class="
-                              value ? 'flaticon-check' : 'flaticon-cancel'
-                            "
-                          ></span>
+
+                      <template v-else-if="value">
+                        <span class="ico-20 color--theme">
+                          <span class="flaticon-check"></span>
                         </span>
+                      </template>
+
+                      <template
+                        v-else-if="
+                          !value && index !== bundledServices.length - 1
+                        "
+                      >
+                        <span class="ico-15 disabled-option">
+                          <span class="flaticon-cancel"></span>
+                        </span>
+                      </template>
+
+                      <template
+                        v-else-if="
+                          !value && index === bundledServices.length - 1
+                        "
+                      >
                       </template>
                     </td>
                   </tr>
@@ -134,34 +179,7 @@ const plans = ref([
                     alt="payment-icon"
                   />
                 </li>
-                <li>
-                  <img
-                    src="/assets/images/png_icons/paypal.png"
-                    alt="payment-icon"
-                  />
-                </li>
               </ul>
-            </div>
-          </div>
-          <!-- Payment Guarantee -->
-          <div class="col col-lg-4">
-            <div id="pbox-2" class="pbox mb-40 wow fadeInUp">
-              <!-- Title -->
-              <h6 class="s-18 w-700">Money Back Guarantee</h6>
-              <!-- Text -->
-              <p>
-                Explore Martex platinum for 14 days. If it’s not a perfect fit,
-                receive a full refund.
-              </p>
-            </div>
-          </div>
-          <!-- Payment Encrypted -->
-          <div class="col col-lg-3">
-            <div id="pbox-3" class="pbox mb-40 wow fadeInUp">
-              <!-- Title -->
-              <h6 class="s-18 w-700">SSL Encrypted Payment</h6>
-              <!-- Text -->
-              <p>Your information is protected by 256-bit SSL encryption.</p>
             </div>
           </div>
         </div>

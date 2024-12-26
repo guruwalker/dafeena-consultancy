@@ -174,7 +174,7 @@ const testimonials = ref([
                 Real Stories From Real Customers
               </h2>
               <!-- Text -->
-              <p class="s-21 color--grey">Read what customers think about us</p>
+              <p class="s-21 color--grey">Our clients love us, and we love them</p>
             </div>
           </div>
         </div>

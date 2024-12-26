@@ -14,7 +14,7 @@
                     <span class="count-element d-flex">
                       <ElementsCounterUp
                         :start="0"
-                        :end="93"
+                        :end="120"
                         :duration="2000"
                       />
                       +
@@ -25,8 +25,8 @@
                 <div class="statistic-txt">
                   <h5 class="s-19 w-700">Happy Customers</h5>
                   <p>
-                    Porta justo integer and velna vitae auctor and magna quaerat
-                    ligula
+                    We've helped over 93 satisfied clients achieve their career
+                    goals with tailored solutions.
                   </p>
                 </div>
               </div>
@@ -43,18 +43,18 @@
                     <span class="count-element d-flex">
                       <ElementsCounterUp
                         :start="0"
-                        :end="13"
+                        :end="95"
                         :duration="2000"
-                      />K
+                      />%
                     </span>
                   </h2>
                 </div>
                 <!-- Text -->
                 <div class="statistic-txt">
-                  <h5 class="s-19 w-700">Positive Ratings</h5>
+                  <h5 class="s-19 w-700">Success rate</h5>
                   <p>
-                    Porta justo integer and velna vitae auctor and magna quaerat
-                    ligula
+                    Our approach consistently drives measurable success, with a
+                    notable improvement in client outcomes.
                   </p>
                 </div>
               </div>
@@ -69,17 +69,20 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp :start="0" :end="4" :duration="2000" />
-                      /5
+                      <ElementsCounterUp
+                        :start="0"
+                        :end="200"
+                        :duration="2000"
+                      />+
                     </span>
                   </h2>
                 </div>
                 <!-- Text -->
                 <div class="statistic-txt">
-                  <h5 class="s-19 w-700">Rating</h5>
+                  <h5 class="s-19 w-700">CVs Revamped</h5>
                   <p>
-                    Porta justo integer and velna vitae auctor and magna quaerat
-                    ligula
+                    We take pride in empowering our clients with expertly
+                    crafted resumes.
                   </p>
                 </div>
               </div>

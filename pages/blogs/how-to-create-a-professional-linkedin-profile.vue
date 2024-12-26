@@ -1,4 +1,15 @@
 <script setup lang="ts">
+useSeoMeta({
+  title:
+    "Dafeena Blog | How to Create a Professional LinkedIn Profile That Attracts Clients",
+  ogTitle:
+    "Dafeena Blog | How to Create a Professional LinkedIn Profile That Attracts Clients",
+  description:
+    "Learn how to optimize your LinkedIn profile to attract the right clients. Discover tips on crafting a compelling headline, summary, and experience that makes you stand out.",
+  ogDescription:
+    "Explore expert strategies for creating a LinkedIn profile that not only gets noticed but also attracts clients. Maximize your profile's potential with these actionable tips.",
+});
+
 useHead({
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",

@@ -14,7 +14,7 @@ useHead({
   },
 });
 
-const { contactUsFormState, submitContactUsForm } = useContactForm();
+const { contactUsFormState, submitContactUsForm } = useForms();
 </script>
 
 <template>

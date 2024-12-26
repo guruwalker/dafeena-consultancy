@@ -11,3 +11,11 @@ declare interface ISendContactUsRequest {
   email: string | null;
   description: string | null;
 }
+
+declare interface IRequestService {
+  phone_number: string | null | number;
+  name: string | null;
+  email: string | null;
+  date: string | null | date;
+  description: string | null;
+}

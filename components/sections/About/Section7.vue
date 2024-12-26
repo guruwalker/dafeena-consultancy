@@ -6,14 +6,14 @@ const teamMembers = [
     photo: "/assets/images/team/virginia.png",
   },
   {
-    name: "Jaime Fletcher",
-    role: "Software Engineer",
-    photo: "/assets/images/team-2.jpg",
+    name: "James Ndung'u",
+    role: "Branding Expert",
+    photo: "/assets/images/team-13.jpg",
   },
   {
     name: "Wahome Maina",
     role: "Software Engineer",
-    photo: "/assets/images/team-3.jpg",
+    photo: "/assets/images/team-13.jpg",
   },
   {
     name: "Grow with Us!",
@@ -31,12 +31,10 @@ const teamMembers = [
         <div class="col-md-10 col-lg-9">
           <div class="section-title mb-80">
             <!-- Title -->
-            <h2 class="s-50 w-700">
-              All we do is dream and craft amazing products
-            </h2>
+            <h2 class="s-50 w-700">Turning Dreams Into Reality</h2>
             <!-- Text -->
             <p class="s-21 color--grey">
-              Ligula risus auctor tempus magna feugiat lacinia.
+              Meet the team behind the incredible success
             </p>
           </div>
         </div>
@@ -47,7 +45,7 @@ const teamMembers = [
           <div class="col" v-for="(member, index) in teamMembers" :key="index">
             <div class="team-member mb-50 wow fadeInUp">
               <!-- Team Member Photo -->
-              <div class="team-member-photo r-14">
+              <div class="team-member-photo r-14" style="height: 250px">
                 <div class="hover-overlay">
                   <img
                     class="img-fluid"

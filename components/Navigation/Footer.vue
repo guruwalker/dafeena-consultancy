@@ -42,7 +42,13 @@
                 <p><NuxtLink to="/about-us">About us</NuxtLink></p>
               </li>
               <li>
-                <p><NuxtLink to="/blog">Blog</NuxtLink></p>
+                <p>
+                  <NuxtLink
+                    target="_blank"
+                    href="https://blogs.dafeenaconsultancy.com/"
+                    >Blog</NuxtLink
+                  >
+                </p>
               </li>
             </ul>
           </div>
