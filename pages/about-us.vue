@@ -15,19 +15,23 @@ useHead({
 
 <template>
   <div>
+    <!-- Title and Images -->
     <SectionsAboutSection1 />
+    <!-- Mission and Impact -->
     <SectionsAboutSection2 />
+    <!-- Stats -->
     <SectionsAboutSection3 />
+    <!-- Founder Statement -->
     <SectionsAboutSection4 />
-    <SectionsAboutSection5 />
+    <!-- Clients have worked here -->
     <SectionsAboutSection6 />
+    <!-- The Team -->
     <SectionsAboutSection7 />
+    <!-- Why choose us -->
     <SectionsAboutSection8 />
-    <SectionsAboutSection9 />
+    <!-- Testimonials -->
     <SectionsAboutSection10 />
-    <SectionsAboutSection11 />
-    <SectionsAboutSection12 />
+    <!-- Blogs -->
     <SectionsAboutSection13 />
-    <SectionsAboutSection14 />
   </div>
 </template>

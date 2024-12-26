@@ -99,7 +99,7 @@ const sections = ref([
             <div class="inner-page-title">
               <h2 class="s-52 w-700">Terms and Conditions</h2>
               <p class="p-lg">
-                These terms are effective as of 17th November 2024
+                These terms are effective as of 17th January 2024
               </p>
             </div>
 

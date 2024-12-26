@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Career Insights & Tips",
-  ogTitle: "Career Insights & Tips",
+  title: "Dafeena Blog | Career Advice & Growth",
+  ogTitle: "Dafeena Blog | Career Advice & Growth",
   description:
-    "Explore insightful blogs to help you succeed in your career journey.",
+    "Discover expert tips, career insights, and resources to guide you in achieving your professional goals.",
   ogDescription:
-    "Explore insightful blogs to help you succeed in your career journey.",
+    "Explore Dafeena's blog for valuable career advice, tips for personal growth, and resources to help you thrive in your career.",
 });
 
 useHead({
@@ -23,5 +23,3 @@ useHead({
     <SectionsProjectsSection5 />
   </div>
 </template>
-
-

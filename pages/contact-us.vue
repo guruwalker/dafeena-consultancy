@@ -1,9 +1,11 @@
 <script setup>
 useSeoMeta({
-  title: 'Contact Dafeena Consultancy | Start Your Career Journey',
-  ogTitle: 'Contact Dafeena Consultancy | Start Your Career Journey',
-  description: 'Get in touch with us for career coaching, personal branding, and more.',
-  ogDescription: 'Get in touch with us for career coaching, personal branding, and more.',
+  title: "Contact Dafeena Consultancy | Start Your Career Journey",
+  ogTitle: "Contact Dafeena Consultancy | Start Your Career Journey",
+  description:
+    "Get in touch with us for career coaching, personal branding, and more.",
+  ogDescription:
+    "Get in touch with us for career coaching, personal branding, and more.",
 });
 
 useHead({
@@ -11,6 +13,8 @@ useHead({
     class: "navbar-dark navbar-dark-2",
   },
 });
+
+const { contactUsFormState, submitContactUsForm } = useContactForm();
 </script>
 
 <template>
@@ -28,9 +32,9 @@ useHead({
               <h2 class="s-52 w-700">Questions? Let's Talk</h2>
               <!-- Text -->
               <p class="p-lg">
-                Want to learn more about Martex, get a quote, or speak with an
-                expert? Let us know what you are looking for and we’ll get back
-                to you right away
+                Want to learn more about our services, get a quote, or speak
+                with an expert? Let us know what you are looking for and we’ll
+                get back to you right away
               </p>
             </div>
           </div>
@@ -39,81 +43,91 @@ useHead({
         <div class="row justify-content-center">
           <div class="col-md-11 col-lg-10 col-xl-8">
             <div class="form-holder">
-              <form name="contactform" class="row contact-form">
+              <form @submit.prevent="submitContactUsForm" name="contactform" class="row contact-form">
                 <!-- Form Select -->
                 <div class="col-md-12 input-subject">
-                  <p class="p-lg">This question is about:</p>
-                  <span
-                    >Choose a topic, so we know who to send your request to:
-                  </span>
+                  <p class="p-lg">What is your inquiry about?</p>
+                  <span>Select a topic, so we can best assist you:</span>
                   <select
                     class="form-select subject"
                     aria-label="Default select example"
+                    v-model="contactUsFormState.topic"
                   >
-                    <option selected>This question is about...</option>
-                    <option>Registering/Authorising</option>
-                    <option>Using Application</option>
-                    <option>Troubleshooting</option>
-                    <option>Backup/Restore</option>
-                    <option>Other</option>
+                    <option selected>Choose a topic...</option>
+                    <option value="Virtual Assistance Services">
+                      Virtual Assistance Services
+                    </option>
+                    <option value="Career Packaging (Resumes, Cover Letters)">
+                      Career Packaging (Resumes, Cover Letters)
+                    </option>
+                    <option value="Career Coaching">Career Coaching</option>
+                    <option value="Branding Consultation">
+                      Branding Consultation
+                    </option>
+                    <option value="General Inquiry">General Inquiry</option>
                   </select>
                 </div>
+
                 <!-- Contact Form Input -->
                 <div class="col-md-12">
                   <p class="p-lg">Your Name:</p>
-                  <span>Please enter your real name: </span>
+                  <span>Please enter your full name:</span>
                   <input
                     type="text"
                     name="name"
                     class="form-control name"
-                    placeholder="Your Name*"
+                    placeholder="Enter your full name*"
+                    v-model="contactUsFormState.name"
                   />
                 </div>
+
                 <div class="col-md-12">
                   <p class="p-lg">Your Email Address:</p>
-                  <span
-                    >Please carefully check your email address for
-                    accuracy</span
-                  >
+                  <span>Provide your email for us to respond:</span>
                   <input
-                    type="text"
+                    type="email"
                     name="email"
                     class="form-control email"
-                    placeholder="Email Address*"
+                    placeholder="Enter your email address*"
+                    v-model="contactUsFormState.email"
                   />
                 </div>
+
                 <div class="col-md-12">
-                  <p class="p-lg">Explain your question in details:</p>
-                  <span
-                    >Your OS version, Martex version & build, steps you did. Be
-                    VERY precise!</span
-                  >
+                  <p class="p-lg">Tell us more about your needs:</p>
+                  <span>
+                    Provide details about your request so we can assist you
+                    effectively:
+                  </span>
                   <textarea
                     class="form-control message"
                     name="message"
                     rows="6"
-                    placeholder="I have a problem with..."
+                    placeholder="Describe your inquiry or request in detail*"
+                    v-model="contactUsFormState.description"
                   ></textarea>
                 </div>
+
                 <!-- Contact Form Button -->
                 <div class="col-md-12 mt-15 form-btn text-right">
                   <button
                     type="submit"
                     class="btn btn--theme hover--theme submit"
                   >
-                    Submit Request
+                    Submit Inquiry
                   </button>
                 </div>
+
                 <div class="contact-form-notice">
                   <p class="p-sm">
-                    We are committed to your privacy. Martex uses the
-                    information you provide us to contact you about our relevant
-                    content, products, and services. You may unsubscribe from
-                    these communications at any time. For more information,
-                    check out our
+                    We value your privacy. Dafeena Consultancy uses the
+                    information you provide to contact you about our services
+                    and offerings. You can opt out at any time. Learn more in
+                    our
                     <NuxtLink to="/privacy">Privacy Policy</NuxtLink>.
                   </p>
                 </div>
+
                 <!-- Contact Form Message -->
                 <div class="col-lg-12 contact-form-msg">
                   <span class="loading"></span>
@@ -125,50 +139,6 @@ useHead({
         <!-- END CONTACT FORM -->
       </div>
       <!-- End container -->
-    </section>
-    <hr class="divider" />
-
-    <section id="newsletter-1" class="newsletter-section">
-      <div class="newsletter-overlay">
-        <div class="container">
-          <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-            <!-- NEWSLETTER TEXT -->
-            <div class="col">
-              <div class="newsletter-txt">
-                <h4 class="s-34 w-700">
-                  Stay up to date with our news, ideas and updates
-                </h4>
-              </div>
-            </div>
-            <!-- NEWSLETTER FORM -->
-            <div class="col">
-              <form class="newsletter-form">
-                <div class="input-group">
-                  <input
-                    type="email"
-                    autocomplete="off"
-                    class="form-control"
-                    placeholder="Your email address"
-                    required
-                    id="s-email"
-                  />
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn--theme hover--theme">
-                      Subscribe Now
-                    </button>
-                  </span>
-                </div>
-                <!-- Newsletter Form Notification -->
-                <label for="s-email" class="form-notification"></label>
-              </form>
-            </div>
-            <!-- END NEWSLETTER FORM -->
-          </div>
-          <!-- End row -->
-        </div>
-        <!-- End container -->
-      </div>
-      <!-- End newsletter-overlay -->
     </section>
     <hr class="divider" />
   </div>

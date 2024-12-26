@@ -30,6 +30,12 @@ const plans = ref([
     gold: false,
     platinum: true,
   },
+  {
+    feature: "Price",
+    silver: "KSH 8,000",
+    gold: "KSH 12,000",
+    platinum: "KSH 18,000",
+  },
 ]);
 </script>
 
@@ -69,34 +75,33 @@ const plans = ref([
                     <!-- Feature Name -->
                     <th scope="row" class="text-start">{{ plan.feature }}</th>
 
-                    <!-- Silver Package -->
-                    <td>
-                      <span v-if="plan.silver" class="ico-20 color--theme">
-                        <span class="flaticon-check"></span>
-                      </span>
-                      <span v-else class="ico-15 disabled-option">
-                        <span class="flaticon-cancel"></span>
-                      </span>
-                    </td>
-
-                    <!-- Gold Package -->
-                    <td>
-                      <span v-if="plan.gold" class="ico-20 color--theme">
-                        <span class="flaticon-check"></span>
-                      </span>
-                      <span v-else class="ico-15 disabled-option">
-                        <span class="flaticon-cancel"></span>
-                      </span>
-                    </td>
-
-                    <!-- Platinum Package -->
-                    <td>
-                      <span v-if="plan.platinum" class="ico-20 color--theme">
-                        <span class="flaticon-check"></span>
-                      </span>
-                      <span v-else class="ico-15 disabled-option">
-                        <span class="flaticon-cancel"></span>
-                      </span>
+                    <!-- Silver, Gold, Platinum Packages -->
+                    <td
+                      v-for="(value, key) in {
+                        silver: plan.silver,
+                        gold: plan.gold,
+                        platinum: plan.platinum,
+                      }"
+                      :key="key"
+                    >
+                      <template v-if="typeof value !== 'boolean'">
+                        {{ value }}
+                      </template>
+                      <template v-else>
+                        <span
+                          :class="
+                            value
+                              ? 'ico-20 color--theme'
+                              : 'ico-15 disabled-option'
+                          "
+                        >
+                          <span
+                            :class="
+                              value ? 'flaticon-check' : 'flaticon-cancel'
+                            "
+                          ></span>
+                        </span>
+                      </template>
                     </td>
                   </tr>
                 </tbody>
@@ -125,8 +130,8 @@ const plans = ref([
                 </li>
                 <li>
                   <img
-                  src="/assets/images/m-pesa-logo.jpeg"
-                  alt="payment-icon"
+                    src="/assets/images/m-pesa-logo.jpeg"
+                    alt="payment-icon"
                   />
                 </li>
                 <li>

@@ -122,7 +122,7 @@ const sections = ref([
             <div class="inner-page-title">
               <h2 class="s-52 w-700">Privacy Policy</h2>
               <p class="p-lg">
-                This policy is effective as of 17th November 2024
+                This policy is effective as of 17th January 2024
               </p>
             </div>
 

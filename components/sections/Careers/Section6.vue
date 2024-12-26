@@ -5,21 +5,14 @@ const openRoles = ref([
     department: "Marketing",
     title: "Product Marketing Manager",
     location: "Kenya / Remote",
-    link: "/careers/career-role",
+    link: "/careers/product-marketing-manager",
   },
   {
     id: 2,
     department: "Customer Success",
-    title: "Customer Success Manager",
-    location: "Nairobi, Kenya / Full time",
-    link: "/careers/career-role",
-  },
-  {
-    id: 3,
-    department: "Customer Success",
     title: "Customer Success Associate",
     location: "Kenya / Remote",
-    link: "/careers/career-role",
+    link: "/careers/customer-success-associate",
   },
 ]);
 </script>

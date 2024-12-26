@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const featureBoxes = ref([
+const benefitsBoxes = ref([
   {
     id: 2,
     title: "Flexible Schedules",
@@ -27,15 +27,6 @@ const featureBoxes = ref([
     description:
       "Personalized coaching and mentorship to guide you through career challenges and opportunities.",
   },
-  {
-    id: 6,
-    title: "Competitive Salary",
-    icon: "flaticon-money-2",
-    svgPath:
-      "M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z",
-    description:
-      "Porta semper lacus cursus feugiat primis ultrice ligula risus ociis auctor and tempus feugiat impedit felis cursus auctor augue mauris blandit ipsum",
-  },
 ]);
 </script>
 
@@ -59,7 +50,7 @@ const featureBoxes = ref([
       <div class="fbox-wrapper">
         <div class="row row-cols-1 row-cols-md-2 rows-3">
           <div
-            v-for="(feature, index) in featureBoxes"
+            v-for="(feature, index) in benefitsBoxes"
             :key="feature.id"
             class="col"
           >

@@ -245,7 +245,7 @@ const faqs = ref([
         id: 4,
         title: "How can I contact you for more questions?",
         answer: `
-        <p>If you have any questions, feel free to <a href="https://dafeenaconsultancy.com/contact">Get In Touch</a>. Our team is always here to help!</p>
+        <p>If you have any questions, feel free to <a href="/contact-us">Get In Touch</a>. Our team is always here to help!</p>
         `,
       },
     ],

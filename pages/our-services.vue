@@ -17,7 +17,7 @@ useHead({
 
 <template>
   <div>
-    <!-- Normal pricing -->
+    <!-- Pricing cards -->
     <SectionsPricing2Section1 />
     <!-- Bundled pricing / Accepted payments -->
     <SectionsPricing2Section2 />
@@ -25,6 +25,5 @@ useHead({
     <SectionsPricing2Section3 />
     <!-- Q/A -->
     <SectionsPricing2Section4 />
-    <SectionsPricing2Section5 />
   </div>
 </template>

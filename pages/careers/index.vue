@@ -22,9 +22,9 @@ useHead({
     <SectionsCareersSection1 />
     <!-- Benefits -->
     <SectionsCareersSection4 />
-    <!-- Images -->
+    <!-- Images / Founder Statement -->
     <SectionsCareersSection3 />
-    <!-- Images -->
+    <!-- Mission and Impact -->
     <SectionsCareersSection2 />
     <!-- Open Roles -->
     <SectionsCareersSection6 />
