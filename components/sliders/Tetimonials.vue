@@ -1,218 +1,161 @@
+<script setup lang="ts">
+const testimonials = ref([
+  {
+    id: 1,
+    text: "Thanks to this platform, I landed my dream role as a Frontend Developer within weeks. I couldn't be happier!",
+    author: "John Kimani",
+    role: "Frontend Developer",
+    avatar: "/assets/images/color-scheme/blue.jpg",
+  },
+  {
+    id: 2,
+    text: "Finding a position as an Accountant was so smooth! The process was clear, and I got several offers quickly.",
+    author: "Faith Nyambura",
+    role: "Accountant",
+    avatar: "/assets/images/color-scheme/crocus.jpg",
+  },
+  {
+    id: 3,
+    text: "As a recent graduate, I was struggling to find work. Virginia and the teamhelped me secure my first internship!",
+    author: "Brian Mwangi",
+    role: "IT Intern",
+    avatar: "/assets/images/color-scheme/green.jpg",
+  },
+  {
+    id: 4,
+    text: "I never thought it would be this easy to connect with companies in my field. Highly recommend it.",
+    author: "Ann Wanjiku",
+    role: "Data Analyst",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
+  },
+  {
+    id: 5,
+    text: "I am so grateful for the opportunities here. I transitioned from customer service to project management seamlessly.",
+    author: "David Otieno",
+    role: "Project Manager",
+    avatar: "/assets/images/color-scheme/pink.jpg",
+  },
+  {
+    id: 6,
+    text: "From uploading my CV to getting hired as a Marketing Executive, this was a life-changing experience!",
+    author: "Esther Chege",
+    role: "Marketing Executive",
+    avatar: "/assets/images/color-scheme/purple.jpg",
+  },
+  {
+    id: 7,
+    text: "I'm now working as a Backend Engineer at a leading tech firm. Virginia and the teamtruly delivers!",
+    author: "Sam Kibet",
+    role: "Backend Engineer",
+    avatar: "/assets/images/color-scheme/red.jpg",
+  },
+  {
+    id: 8,
+    text: "After struggling for months, I finally got a role as an HR Coordinator. Thank you so much!",
+    author: "Mercy Achieng",
+    role: "HR Coordinator",
+    avatar: "/assets/images/color-scheme/skyblue.jpg",
+  },
+  {
+    id: 9,
+    text: "I was able to land a remote job as a Graphic Designer through this site. Couldn't recommend it more!",
+    author: "Pauline Njeri",
+    role: "Graphic Designer",
+    avatar: "/assets/images/color-scheme/violet.jpg",
+  },
+  {
+    id: 10,
+    text: "The platform was easy to use, and I got hired as an Electrical Engineer within a month. Very satisfied!",
+    author: "Martin Kioko",
+    role: "Electrical Engineer",
+    avatar: "/assets/images/color-scheme/blue.jpg",
+  },
+  {
+    id: 11,
+    text: "As a Software Tester, I needed the right fit. Virginia and the teamprovided exactly that. Amazing results!",
+    author: "Nancy Wairimu",
+    role: "Software Tester",
+    avatar: "/assets/images/color-scheme/crocus.jpg",
+  },
+  {
+    id: 12,
+    text: "I’m finally working as an Administrative Assistant. The support here is unmatched. Highly recommended!",
+    author: "Clara Ochieng",
+    role: "Admin Assistant",
+    avatar: "/assets/images/color-scheme/green.jpg",
+  },
+  {
+    id: 13,
+    text: "Switching careers felt overwhelming, but I found a great opportunity as a Business Consultant.",
+    author: "Kevin Ndungu",
+    role: "Business Consultant",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
+  },
+  {
+    id: 14,
+    text: "Virginia and the teammade my job hunt stress-free. I’m now a Content Writer for a fast-growing company.",
+    author: "Joan Maina",
+    role: "Content Writer",
+    avatar: "/assets/images/color-scheme/pink.jpg",
+  },
+  {
+    id: 15,
+    text: "I appreciate how seamless everything was. I'm now a UX Designer at my dream startup!",
+    author: "Elias Mutua",
+    role: "UX Designer",
+    avatar: "/assets/images/color-scheme/purple.jpg",
+  },
+  {
+    id: 16,
+    text: "Finding my first junior developer role felt effortless. Thank you for opening so many doors!",
+    author: "Peter Njoroge",
+    role: "Junior Developer",
+    avatar: "/assets/images/color-scheme/red.jpg",
+  },
+  {
+    id: 17,
+    text: "I secured a full-time role as an Operations Manager in just weeks. Virginia and the teamworks!",
+    author: "Judith Karanja",
+    role: "Operations Manager",
+    avatar: "/assets/images/color-scheme/skyblue.jpg",
+  },
+]);
+</script>
+
 <template>
-    <div class="reviews-1-wrapper">
-        <Swiper
-            :modules="[SwiperAutoplay, SwiperEffectCreative]"
-            :slides-per-view="1"
-            :loop="true"
-            :autoplay="{
-                delay: 8000,
-                disableOnInteraction: true
-            }"
-            :breakpoints="{
-                600:{ slidesPerView:2 },
-                920:{ slidesPerView:3 },
-            }"
-        >
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>Etiam sapien sagittis congue augue a massa varius egestas ultrice varius magna a tempus aliquet undo cursus suscipit</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-1.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Scott Boxer</h6>
-                                <p class="p-sm">@scott_boxer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>At sagittis congue augue diam egestas magna an ipsum vitae purus ipsum primis and cubilia laoreet augue egestas a luctus donec ltrice ligula porta augue magna suscipit lectus gestas</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-2.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Joel Peterson</h6>
-                                <p class="p-sm">Internet Surfer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>Mauris gestas magnis a sapien etiam sapien congue an augue egestas and ultrice vitae purus diam an integer congue magna ligula egestas magna suscipit</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-3.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Marisol19</h6>
-                                <p class="p-sm">@marisol19</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>Mauris donec a magnis sapien etiam pretium a congue augue volutpat lectus aenean magna and undo mauris lectus laoreet tempor egestas rutrum</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-4.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Leslie D.</h6>
-                                <p class="p-sm">Web Developer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>An augue cubilia undo laoreet magna suscipit egestas ipsum lectus purus ipsum and primis augue an ultrice ligula egestas suscipit a lectus gestas auctor tempus feugiat impedit</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-5.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Jennifer Harper</h6>
-                                <p class="p-sm">App Developer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-6.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Jonathan Barnes</h6>
-                                <p class="p-sm">jQuery Programmer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>Augue egestas porta tempus volutpat egestas augue cubilia laoreet a magna suscipit luctus dolor blandit vitae purus neque tempus an aliquet porta gestas rutrum blandit vitae</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-7.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Mike Harris</h6>
-                                <p class="p-sm">Graphic Designer</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div class="review-1 bg--white-100 block-shadow r-08">
-                    <!-- Quote Icon -->
-                    <div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-                    <!-- Text -->
-                    <div class="review-txt">
-                        <!-- Text -->
-                        <p>Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet magna suscipit luctus dolor blandit at purus tempus feugiat impedit</p>
-                        <!-- Author -->
-                        <div class="author-data clearfix">
-                            <!-- Avatar -->
-                            <div class="review-avatar">
-                                <img src="/assets/images/review-author-8.jpg" alt="review-avatar" />
-                            </div>
-                            <!-- Data -->
-                            <div class="review-author">
-                                <h6 class="s-18 w-700">Evelyn Martinez</h6>
-                                <p class="p-sm">WordPress Consultant</p>
-                            </div>
-                        </div>
-                        <!-- End Author -->
-                    </div>
-                    <!-- End Text -->
-                </div>
-            </SwiperSlide>
-        </Swiper>
-    </div>
+  <div class="reviews-1-wrapper">
+    <Swiper
+      :modules="[SwiperAutoplay, SwiperEffectCreative]"
+      :slides-per-view="1"
+      :loop="true"
+      :autoplay="{
+        delay: 8000,
+        disableOnInteraction: true,
+      }"
+      :breakpoints="{
+        600: { slidesPerView: 2 },
+        920: { slidesPerView: 3 },
+      }"
+    >
+      <SwiperSlide v-for="testimonial in testimonials" :key="testimonial.id">
+        <div class="review-1 bg--white-100 block-shadow r-08">
+          <div class="review-ico ico-65">
+            <span class="flaticon-quote"></span>
+          </div>
+          <div class="review-txt">
+            <p>{{ testimonial.text }}</p>
+            <div class="author-data clearfix">
+              <div class="review-avatar">
+                <img :src="testimonial.avatar" alt="review-avatar" />
+              </div>
+              <div class="review-author">
+                <h6 class="s-18 w-700">{{ testimonial.author }}</h6>
+                <p class="p-sm">{{ testimonial.role }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
+    </Swiper>
+  </div>
 </template>

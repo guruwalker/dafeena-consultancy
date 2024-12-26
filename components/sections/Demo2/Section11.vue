@@ -1,71 +1,99 @@
 <template>
-    <div id="statistic-1" class="py-100 statistic-section division">
-        <div class="container">
-            <!-- STATISTIC-1 WRAPPER -->
-            <div class="statistic-1-wrapper">
-                <div class="row justify-content-md-center row-cols-1 row-cols-md-3">
-                    <!-- STATISTIC BLOCK #1 -->
-                    <div class="col">
-                        <div id="sb-1-1" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-block-digit text-center">
-                                    <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="56" :duration="2000" />k</span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-block-txt color--grey">
-                                    <p class="p-md">Porta justo integer and velna vitae auctor</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #1 -->
-                    <!-- STATISTIC BLOCK #2 -->
-                    <div class="col">
-                        <div id="sb-1-2" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-block-digit text-center">
-                                    <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="76" :duration="2000" /> %</span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-block-txt color--grey">
-                                    <p class="p-md">Ligula magna suscipit vitae and rutrum</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #2 -->
-                    <!-- STATISTIC BLOCK #3 -->
-                    <div class="col">
-                        <div id="sb-1-3" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-block-digit text-center">
-                                    <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="45" :duration="2000" /> k</span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-block-txt color--grey">
-                                    <p class="p-md">Sagittis congue augue egestas an egestas</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #3 -->
+  <div id="statistic-5" class="py-100 statistic-section division">
+    <div class="container">
+      <!-- STATISTIC-1 WRAPPER -->
+      <div class="statistic-5-wrapper">
+        <div class="row row-cols-1 row-cols-md-3">
+          <!-- STATISTIC BLOCK #1 -->
+          <div class="col">
+            <div id="sb-5-1" class="wow fadeInUp">
+              <div class="statistic-block">
+                <!-- Digit -->
+                <div class="statistic-digit">
+                  <h2 class="s-44 w-700">
+                    <span class="count-element d-flex">
+                      <ElementsCounterUp
+                        :start="0"
+                        :end="120"
+                        :duration="2000"
+                      />
+                      +
+                    </span>
+                  </h2>
                 </div>
-                <!-- End row -->
+                <!-- Text -->
+                <div class="statistic-txt">
+                  <h5 class="s-19 w-700">Happy Customers</h5>
+                  <p>
+                    We've helped over 93 satisfied clients achieve their career
+                    goals with tailored solutions.
+                  </p>
+                </div>
+              </div>
             </div>
-            <!-- END STATISTIC-1 WRAPPER -->
+          </div>
+          <!-- END STATISTIC BLOCK #1 -->
+          <!-- STATISTIC BLOCK #2 -->
+          <div class="col">
+            <div id="sb-5-2" class="wow fadeInUp">
+              <div class="statistic-block">
+                <!-- Digit -->
+                <div class="statistic-digit">
+                  <h2 class="s-44 w-700">
+                    <span class="count-element d-flex">
+                      <ElementsCounterUp
+                        :start="0"
+                        :end="95"
+                        :duration="2000"
+                      />%
+                    </span>
+                  </h2>
+                </div>
+                <!-- Text -->
+                <div class="statistic-txt">
+                  <h5 class="s-19 w-700">Success rate</h5>
+                  <p>
+                    Our approach consistently drives measurable success, with a
+                    notable improvement in client outcomes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END STATISTIC BLOCK #2 -->
+          <!-- STATISTIC BLOCK #3 -->
+          <div class="col">
+            <div id="sb-5-3" class="wow fadeInUp">
+              <div class="statistic-block">
+                <!-- Digit -->
+                <div class="statistic-digit">
+                  <h2 class="s-44 w-700">
+                    <span class="count-element d-flex">
+                      <ElementsCounterUp
+                        :start="0"
+                        :end="200"
+                        :duration="2000"
+                      />+
+                    </span>
+                  </h2>
+                </div>
+                <!-- Text -->
+                <div class="statistic-txt">
+                  <h5 class="s-19 w-700">CVs Revamped</h5>
+                  <p>
+                    We take pride in empowering our clients with expertly
+                    crafted resumes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END STATISTIC BLOCK #3 -->
         </div>
-        <!-- End container -->
+        <!-- End row -->
+      </div>
+      <!-- END STATISTIC-5 WRAPPER -->
     </div>
-    <!-- END STATISTIC-1 -->
-    <!-- DIVIDER LINE -->
-    <hr class="divider" />
+    <!-- End container -->
+  </div>
 </template>

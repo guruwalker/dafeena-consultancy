@@ -9,7 +9,7 @@
             <h2 class="s-52 w-700">Questions & Answers</h2>
             <!-- Text -->
             <p class="s-21 color--grey">
-              Ligula risus auctor tempus magna feugiat lacinia.
+
             </p>
           </div>
         </div>

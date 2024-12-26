@@ -53,7 +53,6 @@ const { contactUsFormState, submitContactUsForm } = useForms();
                     aria-label="Default select example"
                     v-model="contactUsFormState.topic"
                   >
-                    <option selected>Choose a topic...</option>
                     <option value="Virtual Assistance Services">
                       Virtual Assistance Services
                     </option>

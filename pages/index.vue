@@ -9,9 +9,7 @@ useSeoMeta({
 });
 
 useHead({
-  link: [
-    { rel: "canonical", href: "https://dafeenaconsultancy.com/" },
-  ],
+  link: [{ rel: "canonical", href: "https://dafeenaconsultancy.com/" }],
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
   },
@@ -20,24 +18,35 @@ useHead({
 
 <template>
   <div>
-    <SectionsDemo2Section1 />
-    <SectionsDemo2Section2 />
-    <SectionsDemo2Section3 />
-    <SectionsDemo2Section4 />
-    <SectionsDemo2Section5 />
-    <SectionsDemo2Section6 />
-    <SectionsDemo2Section7 />
-    <SectionsDemo2Section8 />
-    <SectionsDemo2Section9 />
-    <SectionsDemo2Section10 />
+    <!-- Hero -->
+    <SectionsDemo2Hero />
+    <!-- Stats -->
     <SectionsDemo2Section11 />
-    <SectionsDemo2Section12 />
-    <SectionsDemo2Section13 />
-    <SectionsDemo2Section14 />
-    <SectionsDemo2Section15 />
+    <!-- Grow with you -->
+    <SectionsDemo2Section6 />
+    <!-- One stop solution -->
+    <SectionsDemo2Section5 />
+    <!-- 3 advantage -->
+    <SectionsDemo2Section7 />
+
+    <!-- Testimonials sliders -->
     <SectionsDemo2Section16 />
-    <SectionsDemo2Section17 />
+
+    <!-- Questions -->
+    <div class="row">
+      <div class="col">
+        <div class="more-questions mt-40">
+          <div class="more-questions-txt bg--white-400 r-100">
+            <p class="p-lg">
+              Have any questions?
+              <NuxtLink to="/faqs" class="color--theme">View our FAQs</NuxtLink>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View services banner -->
     <SectionsDemo2Section18 />
-    <SectionsDemo2Section19 />
   </div>
 </template>
