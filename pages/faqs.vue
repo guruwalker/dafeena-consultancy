@@ -92,20 +92,15 @@ const faqs = ref([
           </ul>
         `,
       },
-    ],
-  },
-  {
-    category: "Manage your account",
-    questions: [
       {
-        id: 1,
+        id: 5,
         title: "How do I sign up for your services?",
         answer: `
           <p>You can sign up directly on our website or contact us via email: hello@dafeenaconsultancy.com. Once signed up, we’ll schedule your consultation and begin the process.</p>
         `,
       },
       {
-        id: 2,
+        id: 6,
         title: "Can I update my details after signing up?",
         answer: `
             <p>Yes. If you need to provide additional information, such as job preferences, skills, or experiences, simply email us, and we’ll update your file accordingly.</p>       `,
@@ -113,7 +108,7 @@ const faqs = ref([
     ],
   },
   {
-    category: "Purchase and License",
+    category: "Services and Payments",
     questions: [
       {
         id: 1,
