@@ -3,7 +3,10 @@
     <!-- <NuxtLink to="/"><span class="smllogo"><img src="/assets/images/DCLogo.png" alt="mobile-logo" /></span></NuxtLink> -->
     <NuxtLink to="/" class="logo-black"
       ><span class="smllogo"
-        ><img src="/assets/images/DCLogo.png" alt="mobile-logo" /></span
+        ><img
+          style="min-height: 60px; width: 87px;"
+          src="/assets/images/DafeenaLogo.png"
+          alt="mobile-logo" /></span
     ></NuxtLink>
     <NuxtLink to="/" class="logo-white"
       ><span class="smllogo"

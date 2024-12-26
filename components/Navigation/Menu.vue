@@ -4,13 +4,19 @@
       <!-- HEADER BLACK LOGO -->
       <div class="desktoplogo">
         <NuxtLink to="/" class="logo-black"
-          ><img style="min-height: 100px; width: 150px;" src="/assets/images/DCLogo.png" alt="logo"
+          ><img
+            style="min-height: 110px; width: 160px; padding: 5px;"
+            src="/assets/images/DCLogo.png"
+            alt="logo"
         /></NuxtLink>
       </div>
       <!-- HEADER WHITE LOGO -->
       <div class="desktoplogo">
         <NuxtLink to="/" class="logo-white"
-          ><img style="min-height: 61px; width: 85px;" src="/assets/images/DCLogo.png" alt="logo"
+          ><img
+            style="min-height: 61px; width: 85px"
+            src="/assets/images/DCLogo.png"
+            alt="logo"
         /></NuxtLink>
       </div>
       <!-- MAIN MENU -->

@@ -17,7 +17,7 @@
                 <!-- OPEN ROLE #1 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Sales</span>
                             <h6 class="s-20 w-700">Senior Account Executive</h6>
                             <p>New York, NY / Full time</p>
@@ -28,7 +28,7 @@
                 <!-- OPEN ROLE #2 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Engineering</span>
                             <h6 class="s-20 w-700">Software Engineer, Security</h6>
                             <p>Vancouver, British Columbia, Canada / Remote</p>
@@ -39,7 +39,7 @@
                 <!-- OPEN ROLE #3 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Engineering</span>
                             <h6 class="s-20 w-700">Senior Backend Engineer</h6>
                             <p>New York, NY / Full time</p>
@@ -50,7 +50,7 @@
                 <!-- OPEN ROLE #4 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Engineering</span>
                             <h6 class="s-20 w-700">Engineering Tech Lead</h6>
                             <p>Vancouver, British Columbia, Canada / Remote</p>
@@ -61,7 +61,7 @@
                 <!-- OPEN ROLE #5 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Sales</span>
                             <h6 class="s-20 w-700">Mid-Market Account Executive</h6>
                             <p>New York, NY / Full time</p>
@@ -72,7 +72,7 @@
                 <!-- OPEN ROLE #6 -->
                 <div class="col">
                     <div class="role-box bg--white-300 r-10">
-                        <NuxtLink to="/careers/career-role">
+                        <NuxtLink to="/careers">
                             <span>Marketing</span>
                             <h6 class="s-20 w-700">Product Marketing Manager</h6>
                             <p>Vancouver, British Columbia, Canada / Remote</p>
