@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/"),
   },
 
-  target: "static",
+  ssr: false,
 
   app: {
     head: {

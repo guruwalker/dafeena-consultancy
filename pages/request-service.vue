@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
-  title: "Contact Dafeena Consultancy | Start Your Career Journey",
-  ogTitle: "Contact Dafeena Consultancy | Start Your Career Journey",
+  title: "Request Service | Dafeena Consultancy",
+  ogTitle: "Request Service | Dafeena Consultancy",
   description:
     "Get in touch with us for career coaching, personal branding, and more.",
   ogDescription:
@@ -295,11 +295,13 @@ const getServiceDetails = () => {
   }
 };
 
-onMounted(() => {
-  getServiceDetails();
-});
-
 const { requestServiceFormState, submitRequestServicesForm } = useForms();
+
+onMounted(async () => {
+  await getServiceDetails();
+
+  requestServiceFormState.value.service = serviceChosen.value.title;
+});
 </script>
 
 <template>

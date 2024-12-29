@@ -1,4 +1,6 @@
 export function useForms() {
+  const toast = useToast();
+
   /**
    * ---------------------------------------------------
    * Contact Us Form FormState
@@ -44,6 +46,7 @@ export function useForms() {
       email: null,
       date: null,
       description: null,
+      service: null,
     })
   );
 
@@ -60,6 +63,7 @@ export function useForms() {
       email: null,
       date: null,
       description: null,
+      service: null,
     };
   };
 
@@ -71,15 +75,48 @@ export function useForms() {
    */
   const submitContactUsForm = async () => {
     try {
-      // const response = await useApi("/cases", {
-      //   method: "GET",
-      // });
+      const response = await $fetch("/api/contact-request", {
+        method: "POST",
+        body: contactUsFormState.value,
+      });
 
-      // cases.value = response?.data;
-      // return response?.data;
-      console.log("submitContactUsForm called");
+      if (response.success) {
+        toast.add({
+          id: "submitted_contact_form",
+          title: "Success",
+          description: "We will get back to you soon!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+        });
+      } else {
+        toast.add({
+          id: "failed_contact_form",
+          title: "Failed",
+          description: "Please try again!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+        });
+      }
+
+      // Show Notification
+      toast.add({
+        id: "submitted_contact_form",
+        title: "Success",
+        description: "We will get back to you soon!",
+        icon: "i-heroicons-check-badge",
+        timeout: 6000,
+      });
+
       await resetContactUsFormState();
     } catch (error) {
+      toast.add({
+        id: "failed_contact_form",
+        title: "Failed",
+        description: "Please try again!",
+        icon: "i-heroicons-check-badge",
+        timeout: 6000,
+      });
+
       console.error("Error on submitContactUsForm ", error);
     }
   };
@@ -92,15 +129,29 @@ export function useForms() {
    */
   const submitRequestServicesForm = async () => {
     try {
-      // const response = await useApi("/cases", {
-      //   method: "GET",
-      // });
+      const response = await $fetch("/api/service-request", {
+        method: "POST",
+        body: requestServiceFormState.value,
+      });
 
-      // cases.value = response?.data;
-      // return response?.data;
-      console.log("submitRequestServicesForm called");
+      toast.add({
+        id: "submit_request_services",
+        title: "Success",
+        description: "We will get back to you soon!",
+        icon: "i-heroicons-check-badge",
+        timeout: 6000,
+      });
+
       await resetRequestServicesFormState();
     } catch (error) {
+      toast.add({
+        id: "failed_request_services",
+        title: "Failed",
+        description: "Please try again!",
+        icon: "i-heroicons-check-badge",
+        timeout: 6000,
+      });
+
       console.error("Error on submitContactUsForm ", error);
     }
   };

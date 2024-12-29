@@ -17,8 +17,16 @@ export default defineEventHandler(async (event) => {
     const mailOptions = {
       from: body.email,
       to: "dafeenaconsultancyy@gmail.com",
-      subject: `New Message from ${body.name}`,
-      text: `Name: ${body.name}\nEmail: ${body.email}\nMessage: ${body.message}`,
+      subject: `Inquiry from ${body.name} about ${body.topic}`,
+      text: `Dear Dafeena Consultancy Team,
+
+    ${body.name}, using the email address ${body.email}, has requested a callback to discuss "${body.topic}."
+
+    Additional details provided:
+    "${body.description}"
+
+    Kind regards,
+    ${body.name}`,
     };
 
     await transporter.sendMail(mailOptions);
@@ -28,7 +36,7 @@ export default defineEventHandler(async (event) => {
     console.error("Error sending email:", error);
     return {
       success: false,
-      message: error
-    }
+      message: error,
+    };
   }
 });

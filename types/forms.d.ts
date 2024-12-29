@@ -18,4 +18,5 @@ declare interface IRequestService {
   email: string | null;
   date: string | null | date;
   description: string | null;
+  service: string | null;
 }

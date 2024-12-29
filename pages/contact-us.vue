@@ -43,7 +43,11 @@ const { contactUsFormState, submitContactUsForm } = useForms();
         <div class="row justify-content-center">
           <div class="col-md-11 col-lg-10 col-xl-8">
             <div class="form-holder">
-              <form @submit.prevent="submitContactUsForm" name="contactform" class="row contact-form">
+              <form
+                @submit.prevent="submitContactUsForm"
+                name="contactform"
+                class="row contact-form"
+              >
                 <!-- Form Select -->
                 <div class="col-md-12 input-subject">
                   <p class="p-lg">What is your inquiry about?</p>
@@ -52,6 +56,7 @@ const { contactUsFormState, submitContactUsForm } = useForms();
                     class="form-select subject"
                     aria-label="Default select example"
                     v-model="contactUsFormState.topic"
+                    placeholder="Please choose a topic"
                   >
                     <option value="Virtual Assistance Services">
                       Virtual Assistance Services
