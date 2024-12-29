@@ -83,10 +83,15 @@
             </h6>
 
             <!-- Newsletter Form Input -->
-            <form class="newsletter-form">
+            <form
+              action="https://formspree.io/f/xnnnvyag"
+              method="POST"
+              class="newsletter-form"
+            >
               <div class="input-group r-06">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   placeholder="Email Address"
                   required
