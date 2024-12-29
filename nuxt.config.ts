@@ -115,7 +115,13 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
+    "@nuxt/ui",
   ],
+
+  colorMode: {
+    classSuffix: "",
+    preference: "light",
+  },
 
   compatibilityDate: "2024-12-04",
 });
