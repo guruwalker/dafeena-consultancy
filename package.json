@@ -23,6 +23,7 @@
     "@nuxtjs/sitemap": "^7.0.0",
     "animate.css": "^4.1.1",
     "i": "^0.3.7",
+    "nodemailer": "^6.9.16",
     "npm": "^9.9.3",
     "nuxt-swiper": "^1.2.2",
     "sass": "^1.77.8",
