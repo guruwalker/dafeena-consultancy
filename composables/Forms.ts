@@ -87,6 +87,7 @@ export function useForms() {
           description: "We will get back to you soon!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
+          color: 'primary'
         });
       } else {
         toast.add({
@@ -95,17 +96,9 @@ export function useForms() {
           description: "Please try again!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
+          color: 'red'
         });
       }
-
-      // Show Notification
-      toast.add({
-        id: "submitted_contact_form",
-        title: "Success",
-        description: "We will get back to you soon!",
-        icon: "i-heroicons-check-badge",
-        timeout: 6000,
-      });
 
       await resetContactUsFormState();
     } catch (error) {
@@ -115,6 +108,7 @@ export function useForms() {
         description: "Please try again!",
         icon: "i-heroicons-check-badge",
         timeout: 6000,
+        color: 'primary'
       });
 
       console.error("Error on submitContactUsForm ", error);
@@ -134,13 +128,25 @@ export function useForms() {
         body: requestServiceFormState.value,
       });
 
-      toast.add({
-        id: "submit_request_services",
-        title: "Success",
-        description: "We will get back to you soon!",
-        icon: "i-heroicons-check-badge",
-        timeout: 6000,
-      });
+      if (response.success) {
+        toast.add({
+          id: "submit_request_services",
+          title: "Success",
+          description: "We will get back to you soon!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+          color: 'primary'
+        });
+      } else {
+        toast.add({
+          id: "failed_request_services",
+          title: "Failed",
+          description: "Please try again!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+          color: 'red'
+        });
+      }
 
       await resetRequestServicesFormState();
     } catch (error) {
@@ -150,6 +156,7 @@ export function useForms() {
         description: "Please try again!",
         icon: "i-heroicons-check-badge",
         timeout: 6000,
+        color: 'red'
       });
 
       console.error("Error on submitContactUsForm ", error);

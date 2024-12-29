@@ -4,8 +4,6 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/"),
   },
 
-  ssr: false,
-
   app: {
     head: {
       meta: [
