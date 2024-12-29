@@ -1,0 +1,1 @@
+/* empty css        */import{_ as t}from"./D7ksKH5h.js";import{M as o,R as a,G as r}from"./6uC0lmjy.js";const s={},n={id:"page",class:"page font--jakarta"};function c(e,_){return r(),o("div",n,[a(e.$slots,"default")])}const i=t(s,[["render",c]]);export{i as default};

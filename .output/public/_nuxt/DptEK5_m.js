@@ -1,0 +1,1 @@
+import{_ as n,a}from"./DxkPMT6A.js";import{u as c}from"./D7ksKH5h.js";import{M as r,$ as o,G as s}from"./6uC0lmjy.js";import"./CerxlvPd.js";const f={__name:"projects",setup(_){return c({bodyAttrs:{class:"navbar-dark navbar-dark-2 scheme-blue"}}),(m,p)=>{const e=n,t=a;return s(),r("div",null,[o(e),o(t)])}}};export{f as default};

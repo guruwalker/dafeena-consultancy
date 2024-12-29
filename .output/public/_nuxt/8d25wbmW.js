@@ -1,0 +1,1 @@
+import{_ as t,a}from"./DxkPMT6A.js";import{u as c}from"./D7ksKH5h.js";import{M as _,$ as o,G as r}from"./6uC0lmjy.js";import"./CerxlvPd.js";const f={__name:"download",setup(s){return c({bodyAttrs:{class:"navbar-dark navbar-dark-2 scheme-blue"}}),(m,p)=>{const n=t,e=a;return r(),_("div",null,[o(n),o(e)])}}};export{f as default};
