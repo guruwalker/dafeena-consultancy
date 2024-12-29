@@ -1,3 +1,5 @@
+import emailjs from "emailjs-com";
+
 export function useForms() {
   const toast = useToast();
 
@@ -75,19 +77,21 @@ export function useForms() {
    */
   const submitContactUsForm = async () => {
     try {
-      const response = await $fetch("/api/contact-request", {
-        method: "POST",
-        body: contactUsFormState.value,
-      });
+      const response = await emailjs.send(
+        "service_lbhggjg",       // Your EmailJS service ID
+        "template_ti5a0d4",      // Your EmailJS template ID
+        contactUsFormState.value, // The form data (must match the input names in your template)
+        "fdseijwGc7NUjDdCB"        // Your EmailJS public key
+      );
 
-      if (response.success) {
+      if (response.status === 200) {
         toast.add({
           id: "submitted_contact_form",
           title: "Success",
           description: "We will get back to you soon!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'primary'
+          color: 'primary',
         });
       } else {
         toast.add({
@@ -96,7 +100,7 @@ export function useForms() {
           description: "Please try again!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'red'
+          color: 'red',
         });
       }
 
@@ -108,7 +112,7 @@ export function useForms() {
         description: "Please try again!",
         icon: "i-heroicons-check-badge",
         timeout: 6000,
-        color: 'primary'
+        color: 'primary',
       });
 
       console.error("Error on submitContactUsForm ", error);
@@ -123,12 +127,14 @@ export function useForms() {
    */
   const submitRequestServicesForm = async () => {
     try {
-      const response = await $fetch("/api/service-request", {
-        method: "POST",
-        body: requestServiceFormState.value,
-      });
+      const response = await emailjs.send(
+        "service_lbhggjg",       // Your EmailJS service ID
+        "template_ti5a0d4",      // Your EmailJS template ID
+        contactUsFormState.value, // The form data (must match the input names in your template)
+        "fdseijwGc7NUjDdCB"        // Your EmailJS public key
+      );
 
-      if (response.success) {
+      if (response.status === 200) {
         toast.add({
           id: "submit_request_services",
           title: "Success",
