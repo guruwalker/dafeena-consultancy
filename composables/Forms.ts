@@ -130,7 +130,7 @@ export function useForms() {
       const response = await emailjs.send(
         "service_lbhggjg",       // Your EmailJS service ID
         "template_ti5a0d4",      // Your EmailJS template ID
-        contactUsFormState.value, // The form data (must match the input names in your template)
+        requestServiceFormState.value, // The form data (must match the input names in your template)
         "fdseijwGc7NUjDdCB"        // Your EmailJS public key
       );
 
