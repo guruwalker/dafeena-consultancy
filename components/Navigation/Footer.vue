@@ -143,7 +143,7 @@
         <div class="col">
           <div class="footer-copyright">
             <p class="p-sm">
-              &copy; 2024 Dafeena Consultancy. <span>All Rights Reserved</span>
+              &copy; 2025 Dafeena Consultancy. <span>All Rights Reserved</span>
             </p>
           </div>
         </div>
