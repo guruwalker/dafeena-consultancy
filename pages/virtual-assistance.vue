@@ -18,12 +18,12 @@ useHead({
 <template>
   <div>
     <!-- Pricing cards -->
-    <SectionsPricing2Section1 />
+    <SectionsPricingMainPricing />
     <!-- Bundled pricing / Accepted payments -->
-    <SectionsPricing2Section2 />
+    <SectionsPricingBundledPricing />
     <!-- Employees have worked here... -->
-    <SectionsPricing2Section3 />
+    <SectionsPricingEmployeesWork />
     <!-- Q/A -->
-    <SectionsPricing2Section4 />
+    <SectionsPricingQA />
   </div>
 </template>

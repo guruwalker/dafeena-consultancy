@@ -231,7 +231,7 @@ const services = ref([
 <template>
   <section
     id="pricing-3"
-    class="gr--whitesmoke inner-page-hero pb-60 pricing-section"
+    class=" bg--fixed hero-section gr--whitesmoke inner-page-hero pb-60 pricing-section"
   >
     <div class="container">
       <!-- SECTION TITLE -->
