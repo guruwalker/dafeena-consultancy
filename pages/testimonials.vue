@@ -16,30 +16,30 @@ useHead({
 const testimonials = ref([
   {
     id: 1,
-    text: "Thanks to this platform, I landed my dream role as a Frontend Developer within weeks. I couldn't be happier!",
-    author: "John Kimani",
-    role: "Frontend Developer",
-    avatar: "/assets/images/color-scheme/blue.jpg",
+    text: "The Virtual Assistant I worked with helped streamline my email management and scheduling, freeing up so much of my time. Highly recommend this service!",
+    author: "James Anderson",
+    role: "Founder, Tech Solutions Ltd, UK",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
   },
   {
     id: 2,
-    text: "Finding a position as an Accountant was so smooth! The process was clear, and I got several offers quickly.",
-    author: "Faith Nyambura",
-    role: "Accountant",
-    avatar: "/assets/images/color-scheme/crocus.jpg",
+    text: "I needed help with social media management and content creation, and the Virtual Assistant I worked with delivered outstanding results. My business has grown since!",
+    author: "Charlotte Williams",
+    role: "CEO, Fashion Forward, UK",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
   },
   {
     id: 3,
-    text: "As a recent graduate, I was struggling to find work. Virginia and the teamhelped me secure my first internship!",
-    author: "Brian Mwangi",
-    role: "IT Intern",
-    avatar: "/assets/images/color-scheme/green.jpg",
+    text: "The Virtual Assistant team was instrumental in organizing my travel plans and managing my customer service. They made everything so much easier!",
+    author: "Oliver Smith",
+    role: "Owner, Digital Insights, UK",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
   },
   {
     id: 4,
-    text: "I never thought it would be this easy to connect with companies in my field. Highly recommend it.",
-    author: "Ann Wanjiku",
-    role: "Data Analyst",
+    text: "I was overwhelmed with administrative tasks, but thanks to my Virtual Assistant, I now have more time to focus on what I love doing. Fantastic service!",
+    author: "Isla Thompson",
+    role: "Founder, GreenTech Solutions, UK",
     avatar: "/assets/images/color-scheme/magenta.jpg",
   },
   {
@@ -103,7 +103,7 @@ const testimonials = ref([
     text: "Switching careers felt overwhelming, but I found a great opportunity as a Business Consultant.",
     author: "Kevin Ndungu",
     role: "Business Consultant",
-    avatar: "/assets/images/color-scheme/magenta.jpg",
+    avatar: "/assets/images/color-scheme/skyblue.jpg",
   },
   {
     id: 14,
@@ -133,27 +133,6 @@ const testimonials = ref([
     role: "Operations Manager",
     avatar: "/assets/images/color-scheme/skyblue.jpg",
   },
-  // {
-  //   id: 18,
-  //   text: "It’s rare to find tools this effective. I’m now working remotely as a Cybersecurity Analyst!",
-  //   author: "Dennis Mwema",
-  //   role: "Cybersecurity Analyst",
-  //   avatar: "/assets/images/color-scheme/blue8.jpg",
-  // },
-  // {
-  //   id: 19,
-  //   text: "The experience here was fantastic. I got hired as a Logistics Coordinator with ease.",
-  //   author: "Jane Nduta",
-  //   role: "Logistics Coordinator",
-  //   avatar: "/assets/images/color-scheme/blue1.jpg",
-  // },
-  // {
-  //   id: 20,
-  //   text: "Virginia and the teamhelped me showcase my skills. I’m now a Senior Product Manager at a tech company!",
-  //   author: "Francis Ouma",
-  //   role: "Product Manager",
-  //   avatar: "/assets/images/color-scheme/blue2.jpg",
-  // },
 ]);
 
 </script>
