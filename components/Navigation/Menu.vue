@@ -3,41 +3,34 @@
     <div class="wsmainwp clearfix">
       <!-- HEADER BLACK LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-black"
-          ><img
-            style="min-height: 110px; width: 160px; padding: 5px;"
-            src="/assets/images/DCLogo.png"
-            alt="logo"
-        /></NuxtLink>
+        <NuxtLink to="/" class="logo-black"><img style="min-height: 110px; width: 160px; padding: 5px;"
+            src="/assets/images/DCLogo.png" alt="logo" /></NuxtLink>
       </div>
       <!-- HEADER WHITE LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-white"
-          ><img
-            style="min-height: 61px; width: 85px"
-            src="/assets/images/DCLogo.png"
-            alt="logo"
-        /></NuxtLink>
+        <NuxtLink to="/" class="logo-white"><img style="min-height: 61px; width: 85px" src="/assets/images/DCLogo.png"
+            alt="logo" /></NuxtLink>
       </div>
       <!-- MAIN MENU -->
-      <nav
-        class="wsmenu clearfix"
-        style="
+      <nav class="wsmenu clearfix" style="
           display: flex;
           justify-content: center;
           align-content: center;
           align-items: center;
-        "
-      >
+        ">
         <ul class="wsmenu-list nav-theme">
+          <li class="nl-simple" aria-haspopup="true">
+            <NuxtLink to="/about-us" class="h-link">About Us</NuxtLink>
+          </li>
           <li class="nl-simple" aria-haspopup="true">
             <NuxtLink to="/our-services" class="h-link">Our Services</NuxtLink>
           </li>
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/faqs" class="h-link">FAQs</NuxtLink>
-          </li>
-          <li class="nl-simple" aria-haspopup="true">
             <NuxtLink to="/contact-us" class="h-link">Contact Us</NuxtLink>
+          </li>
+          <li class="nl-simple pr-5" aria-haspopup="true">
+            <NuxtLink to="/signup-2" class="btn r-04 btn--theme hover--tra-white last-link">Schedule a Consultation
+            </NuxtLink>
           </li>
         </ul>
       </nav>

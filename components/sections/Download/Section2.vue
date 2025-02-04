@@ -12,7 +12,7 @@
                             <!-- Text -->
                             <p class="p-lg">Don't hesitate to contact us about any question you might be interested in</p>
                             <!-- Button -->
-                            <NuxtLink to="/faqs" class="btn r-04 btn--theme hover--theme">Read the FAQs</NuxtLink>
+                            <NuxtLink to="/" class="btn r-04 btn--theme hover--theme">Read the FAQs</NuxtLink>
                         </div>
                     </div>
                     <!-- BANNER-9 IMAGE -->

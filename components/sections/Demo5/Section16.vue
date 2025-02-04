@@ -13,7 +13,7 @@
                                 <!-- Buttons -->
                                 <div class="btns-group">
                                     <NuxtLink to="/signup-1" class="btn r-04 btn--theme hover--theme">Get srarted - it's free </NuxtLink>
-                                    <NuxtLink to="/faqs" class="btn r-04 btn--tra-black hover--theme">Read the FAQs</NuxtLink>
+                                    <NuxtLink to="/" class="btn r-04 btn--tra-black hover--theme">Read the FAQs</NuxtLink>
                                 </div>
                                 <!-- Button Text -->
                                 <p class="btn-txt ico-15">Free for 14 days - no credit card required.</p>
