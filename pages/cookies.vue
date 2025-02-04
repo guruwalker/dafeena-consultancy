@@ -18,73 +18,84 @@ const sectionIndex = (mainIndex: number, subIndex: number) => {
 
 const sections = ref([
   {
+    id: 1,
     title: "What is a Cookie?",
-    paragraphs: [
-      "A cookie is a small text file stored on your device (computer, tablet, or smartphone) when you visit a website. It allows the website to recognize your device and remember your preferences, login details, or previous activity to provide a more personalized experience.",
-      "At Dafeena Consultancy, we use cookies to enhance the functionality of our website, improve user experience, and analyze how our platform is used to deliver better career coaching and personal branding services.",
+    text: [
+      "A cookie is a small text file stored on your device (computer, tablet, or smartphone) when you visit a website. It helps the website remember your preferences, login details, and browsing history to provide a more personalized experience.",
+      "Dafeena Consultancy uses cookies to enhance website functionality, improve user experience, and analyze platform usage to offer better career consulting and virtual assistance services.",
     ],
   },
   {
-    title: "What Types of Cookies Do We Use?",
-    subsections: [
+    id: 2,
+    title: "Types of Cookies We Use",
+    subSections: [
       {
+        id: "2.1",
         title: "Essential Cookies",
-        paragraphs: [
-          "These cookies are necessary for the core functionality of the Dafeena Consultancy platform. They enable you to navigate the site, log in securely, and access protected features like career coaching services, resources, and client portals.",
+        text: [
+          "These cookies are necessary for the core functionality of the Dafeena Consultancy platform. They enable secure navigation, service access, and fraud prevention.",
         ],
         listItems: [
-          "Authentication: To verify your identity and maintain a secure session.",
-          "Security: To ensure platform security, fraud prevention, and protect user data.",
-          "Preferences: To remember your settings and preferences for a seamless experience.",
+          "Authentication: Verifies your identity and maintains secure sessions.",
+          "Security: Protects against unauthorized access and fraudulent activity.",
+          "Preferences: Stores settings to enhance the browsing experience.",
         ],
       },
       {
+        id: "2.2",
         title: "Performance Cookies",
-        paragraphs: [
-          "Performance cookies collect information about how users interact with Dafeena Consultancy. This helps us analyze usage patterns and improve the platform's functionality, speed, and reliability.",
-          "We may use analytics tools such as Google Analytics to measure page performance, identify errors, and enhance user experience for visitors exploring career opportunities and coaching resources.",
+        text: [
+          "Performance cookies help us analyze how users interact with our platform to improve efficiency and usability.",
         ],
         listItems: [
-          "Monitor site traffic and usage trends.",
-          "Identify technical issues and improve system performance.",
-          "Optimize user workflows for career coaches, clients, and website visitors.",
+          "Monitor website traffic and usage trends.",
+          "Identify and fix performance issues.",
+          "Optimize workflows for a smoother user experience.",
         ],
       },
       {
+        id: "2.3",
         title: "Functionality Cookies",
-        paragraphs: [
-          "These cookies allow Dafeena Consultancy to remember your preferences and settings to provide a customized experience. While not essential, they enhance usability and convenience for returning users seeking career advice or branding services.",
+        text: [
+          "Functionality cookies allow us to remember user preferences and provide a customized browsing experience.",
         ],
         listItems: [
-          "Remember language and region preferences.",
-          "Save login credentials to streamline access to your personal coaching space.",
-          "Enable personalized features, such as saved career goals and branding suggestions.",
+          "Remember language and region settings.",
+          "Save login details for easier access.",
+          "Enable personalized features for a seamless experience.",
         ],
       },
       {
-        title: "Targeting/Advertising Cookies",
-        paragraphs: [
-          "Targeting cookies are used to deliver relevant content or advertisements based on your browsing activity. While Dafeena Consultancy does not currently display third-party advertisements, we may use these cookies to offer tailored information about career resources, coaching services, and new updates.",
+        id: "2.4",
+        title: "Targeting and Advertising Cookies",
+        text: [
+          "While Dafeena Consultancy does not display third-party ads, these cookies may be used to tailor content and updates based on your browsing activity.",
         ],
       },
     ],
   },
   {
-    title: "Third-Party Cookies on Our Site",
-    paragraphs: [
-      "Dafeena Consultancy may integrate third-party tools and services that use cookies to enhance platform capabilities. These include analytics providers (e.g., Google Analytics), secure payment gateways, and authentication services.",
-      "We do not control third-party cookies, and their use is governed by the respective third-party privacy policies. You can manage or disable third-party cookies through your browser settings.",
+    id: 3,
+    title: "Third-Party Cookies",
+    text: [
+      "Dafeena Consultancy may integrate third-party services such as analytics providers and secure payment gateways that use cookies.",
+      "We do not control third-party cookies, and their use is subject to their respective privacy policies. You can manage or disable these cookies through your browser settings.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Managing Cookies",
+    text: [
+      "You can control and disable cookies through your browser settings. Note that disabling essential cookies may impact the functionality of the website.",
     ],
   },
 ]);
+
 </script>
 
 <template>
   <div>
-    <section
-      id="cookies-page"
-      class="gr--whitesmoke pb-80 inner-page-hero division"
-    >
+    <section id="cookies-page" class="gr--whitesmoke pb-80 inner-page-hero division">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-10">
@@ -92,50 +103,45 @@ const sections = ref([
             <div class="inner-page-title">
               <h2 class="s-52 w-700">Cookies Policy</h2>
               <p class="p-lg">
-                These terms are effective as of 17th January 2024
+                These terms are effective as of 17th February 2024
               </p>
             </div>
 
             <!-- Policy Sections -->
-            <div
-              v-for="(section, index) in sections"
-              :key="index"
-              class="txt-block legal-info"
-            >
-              <h4 class="s-30 w-700">
-                <span>{{ index + 1 }}.</span> {{ section.title }}
-              </h4>
-
-              <!-- Render Paragraphs -->
-              <p
-                v-for="(paragraph, pIndex) in section.paragraphs"
-                :key="pIndex"
-              >
-                {{ paragraph }}
-              </p>
-
-              <!-- Render Subsections -->
-              <div v-if="section.subsections">
-                <div
-                  v-for="(sub, subIndex) in section.subsections"
-                  :key="subIndex"
-                >
-                  <h5 class="s-24 w-700">
-                    <span>{{ sectionIndex(index, subIndex) }}.</span>
-                    {{ sub.title }}
-                  </h5>
-                  <p v-for="(subP, spIndex) in sub.paragraphs" :key="spIndex">
-                    {{ subP }}
-                  </p>
-
-                  <!-- Render List -->
-                  <ul class="simple-list" v-if="sub.listItems">
-                    <li v-for="(item, lIndex) in sub.listItems" :key="lIndex">
-                      <p>{{ item }}</p>
-                    </li>
-                  </ul>
+            <div class="txt-block legal-info">
+              <div v-for="section in sections" :key="section.id">
+                <h4 class="s-30 w-700">
+                  <span>{{ section.id }}.</span> {{ section.title }}
+                </h4>
+                <p v-for="text in section.text" :key="text">{{ text }}</p>
+                <div v-if="section.subSections">
+                  <div v-for="subSection in section.subSections" :key="subSection.id">
+                    <h5 class="s-24 w-700">
+                      <span>{{ subSection.id }}.</span> {{ subSection.title }}
+                    </h5>
+                    <p v-for="text in subSection.text" :key="text">
+                      {{ text }}
+                    </p>
+                    <ul v-if="subSection.listItems" class="simple-list" style="padding-left: 30px">
+                      <li v-for="(item, index) in subSection.listItems" :key="index" class="list-item">
+                        <p>{{ item }}</p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <ul v-if="section.listItems" class="simple-list" style="padding-left: 30px">
+                  <li v-for="(item, index) in section.listItems" :key="index" class="list-item">
+                    <p>{{ item }}</p>
+                  </li>
+                </ul>
               </div>
+
+              <h4 class="s-30 w-700"><span>9.</span> How to Contact Us</h4>
+              <p>
+                If you have any questions or suggestions about this Terms of
+                Service, do not hesitate to contact us at
+                <a href="mailto:hello@dafeenaconsultancy.com" class="color--theme">hello@dafeenaconsultancy.com</a>
+              </p>
             </div>
             <!-- End Policy Sections -->
           </div>
