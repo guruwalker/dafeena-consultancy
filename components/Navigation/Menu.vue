@@ -23,7 +23,10 @@
             <NuxtLink to="/about-us" class="h-link">About Us</NuxtLink>
           </li>
           <li class="nl-simple" aria-haspopup="true">
-            <NuxtLink to="/our-services" class="h-link">Our Services</NuxtLink>
+            <NuxtLink to="/career-coaching" class="h-link">Career Coaching</NuxtLink>
+          </li>
+          <li class="nl-simple" aria-haspopup="true">
+            <NuxtLink to="/virtual-assistance" class="h-link">Virtual Assistance</NuxtLink>
           </li>
           <li class="nl-simple" aria-haspopup="true">
             <NuxtLink to="/contact-us" class="h-link">Contact Us</NuxtLink>

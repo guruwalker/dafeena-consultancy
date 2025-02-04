@@ -24,6 +24,11 @@
               </li>
               <li>
                 <p>
+                  <NuxtLink to="/our-team">Our Team</NuxtLink>
+                </p>
+              </li>
+              <li>
+                <p>
                   <NuxtLink to="/testimonials">Testimonials</NuxtLink>
                 </p>
               </li>
