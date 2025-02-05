@@ -2,8 +2,8 @@
 useSeoMeta({
   title: "About Dafeena Consultancy",
   ogTitle: "About Dafeena Consultancy",
-  description: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",,
-  ogDescription: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",,
+  description: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",
+  ogDescription: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",
 });
 
 useHead({
