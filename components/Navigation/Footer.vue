@@ -7,7 +7,7 @@
         <div class="col-xl-3">
           <div class="footer-info">
             <img style="min-height: 125px; width: 150px" class="footer-logo" src="/assets/images/DCLogo.png"
-              alt="footer-logo" />
+                 alt="footer-logo"/>
           </div>
         </div>
         <!-- FOOTER LINKS -->
@@ -105,7 +105,7 @@
             <form action="https://formspree.io/f/xnnnvyag" method="POST" class="newsletter-form">
               <div class="input-group r-06">
                 <input type="email" name="email" class="form-control" placeholder="Email Address" required
-                  id="s-email" />
+                       id="s-email"/>
                 <span class="input-group-btn ico-15">
                   <button type="submit" class="btn color--theme">
                     <span class="flaticon-right-arrow-1"></span>
@@ -135,7 +135,7 @@
         <!-- END FOOTER NEWSLETTER FORM -->
       </div>
       <!-- END FOOTER CONTENT -->
-      <hr />
+      <hr/>
       <!-- FOOTER DIVIDER LINE -->
       <!-- BOTTOM FOOTER -->
       <div class="bottom-footer text-center">
@@ -152,7 +152,6 @@
       <!-- END BOTTOM FOOTER -->
     </div>
     <!-- End container -->
-    <NavigationGoToTop />
   </footer>
+  <NavigationGoToTop/>
 </template>
-<script setup lang="ts"></script>

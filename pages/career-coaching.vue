@@ -18,21 +18,21 @@ useHead({
 <template>
   <div>
     <!-- Header-->
-    <SectionsPricingHeader />
+    <SectionsCareerPageHeader />
 
     <!-- Pricing cards -->
-    <SectionsPricingMainPricing />
+    <SectionsCareerPageMainPricing />
 
     <!-- Bundled pricing / Accepted payments -->
-    <SectionsPricingBundledPricing />
+    <SectionsCareerPageBundledPricing />
 
     <!-- Employees have worked here... -->
-    <SectionsPricingEmployeesWork />
+    <SectionsCareerPageEmployeesWork />
 
     <!-- Clients rating & Testimonials -->
-    <SectionsPricingTestimonialsCards />
+    <SectionsCareerPageTestimonialsCards />
 
     <!-- Q/A -->
-    <SectionsPricingQA />
+    <SectionsCareerPageQA />
   </div>
 </template>

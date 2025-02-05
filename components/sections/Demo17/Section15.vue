@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Testimonials from '~~/components/Data/TestimonialsSmall'
+import Testimonials from '~~/components/Data/TestimonialsCareers'
 const testimonials = ref(Testimonials);
 </script>
 

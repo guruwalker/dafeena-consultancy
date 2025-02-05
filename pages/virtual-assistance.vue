@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Affordable Career Coaching & Branding Pricing",
-  ogTitle: "Affordable Career Coaching & Branding Pricing",
+  title: "Reliable & Affordable Virtual Assistance Services",
+  ogTitle: "Reliable & Affordable Virtual Assistance Services",
   description:
-    "Learn more about our competitive pricing for career coaching and branding services.",
+    "Get expert virtual assistance for administrative, technical, and creative tasks. Scale your business with professional remote support.",
   ogDescription:
-    "Learn more about our competitive pricing for career coaching and branding services.",
+    "Get expert virtual assistance for administrative, technical, and creative tasks. Scale your business with professional remote support.",
 });
 
 useHead({
@@ -17,13 +17,22 @@ useHead({
 
 <template>
   <div>
+    <!-- Header-->
+    <SectionsVirtualAssistancePageHeader />
+
     <!-- Pricing cards -->
-    <SectionsPricingMainPricing />
+    <!-- <SectionsVirtualAssistancePageMainPricing /> -->
+
     <!-- Bundled pricing / Accepted payments -->
-    <SectionsPricingBundledPricing />
+    <SectionsVirtualAssistancePageBundledPricing />
+
     <!-- Employees have worked here... -->
-    <SectionsPricingEmployeesWork />
+    <SectionsVirtualAssistancePageClientCountries />
+
+    <!-- Clients rating & Testimonials -->
+    <SectionsVirtualAssistancePageTestimonialsCards />
+
     <!-- Q/A -->
-    <SectionsPricingQA />
+    <SectionsVirtualAssistancePageQA />
   </div>
 </template>
