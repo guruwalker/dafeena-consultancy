@@ -1,6 +1,10 @@
 <template>
     <div>
+        <!-- Header + form + dashboard -->
         <SectionsDemo9Section1 />
+
+
+        <!-- Main 4 services array -->
         <SectionsDemo9Section2 />
         <SectionsDemo9Section3 />
         <SectionsDemo9Section4 />
