@@ -7,17 +7,14 @@
           <div class="about-2-title mb-60">
             <!-- Title -->
             <h2 class="s-52 w-700 mb-30">
-              We empower your career growth with creative solutions and expert
-              guidance
+              Empowering Your Growth with Expertise and Innovation
             </h2>
             <!-- Text -->
             <p class="mb-0">
-              At the intersection of creativity and technology, we transform
-              your ideas into impactful solutions. With a forward-thinking
-              approach, we believe in shaping the future by providing the tools
-              and expertise to turn your vision into reality. Together, we break
-              barriers, ignite progress, and create a lasting impact in a world
-              that’s constantly evolving.
+              Whether you're an ambitious professional seeking career advancement or a business owner in need of expert
+              support, we provide tailored solutions to help you thrive. With a forward-thinking approach, we turn ideas
+              into action, break barriers, and create meaningful progress in an ever-evolving world. Let’s build your
+              success together.
             </p>
           </div>
         </div>
@@ -32,19 +29,11 @@
           <div class="text-end">
             <!-- IMAGE-1 -->
             <div class="about-2-img a-2-1 r-12">
-              <img
-                class="img-fluid"
-                src="/assets/images/a2-1.jpg"
-                alt="about-image"
-              />
+              <img class="img-fluid" src="/assets/images/a2-1.jpg" alt="about-image" />
             </div>
             <!-- IMAGE-2 -->
             <div class="about-2-img a-2-2 r-12">
-              <img
-                class="img-fluid"
-                src="/assets/images/a2-2.jpg"
-                alt="about-image"
-              />
+              <img class="img-fluid" src="/assets/images/a2-2.jpg" alt="about-image" />
             </div>
           </div>
         </div>
@@ -53,26 +42,20 @@
         <div class="col-md-7">
           <!-- IMAGE-3 -->
           <div class="about-2-img a-2-3 r-12">
-            <img
-              class="img-fluid"
-              src="/assets/images/a2-3.jpg"
-              alt="about-image"
-            />
+            <img class="img-fluid" src="/assets/images/a2-3.jpg" alt="about-image" />
           </div>
           <div class="row">
             <!-- TEXT -->
             <div class="col-md-7 col-lg-6">
-              <div
-                class="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12"
-              >
+              <div class="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
                 <!-- Icon -->
                 <div class="a2-txt-quote ico-40 o-20">
                   <span class="flaticon-quote"></span>
                 </div>
                 <!-- Text -->
                 <p>
-                  I started Dafeena with the vision of empowering individuals to
-                  reach their full potential and transform careers.
+                  I started Dafeena with the vision of empowering businesses and individuals to
+                  reach their full potential.
                 </p>
                 <!-- Author -->
                 <p class="a2-txt-author">
@@ -83,11 +66,7 @@
             <!-- IMAGE-4 -->
             <div class="col-md-5 col-lg-6">
               <div class="about-2-img a-2-4 r-12">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/a2-4.jpg"
-                  alt="about-image"
-                />
+                <img class="img-fluid" src="/assets/images/a2-4.jpg" alt="about-image" />
               </div>
             </div>
           </div>
