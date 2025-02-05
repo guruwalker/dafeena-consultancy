@@ -81,7 +81,38 @@ if (role.value === "product-marketing-manager") {
     roleDescription: `
       The Customer Success Associate role at Dafeena Consultancy is vital for ensuring our customers derive maximum value from our products. You will be at the forefront of customer engagement, acting as their advocate and champion. Your work will directly impact customer satisfaction, retention, and loyalty. This role is perfect for someone passionate about helping others succeed and making a tangible impact in a customer-facing role.`,
   };
+} else if (role.value === "virtual-assistant-intern") {
+  roleDetails.value = {
+    department: "Virtual Assistance",
+    location: "Remote",
+    title: "Virtual Assistant Intern",
+    whatYouWouldDo: `
+      As a Virtual Assistant Intern at Dafeena Consultancy, you will work closely with experienced virtual assistants and clients to provide support across various tasks. You will assist with administrative, technical, and creative work, gaining hands-on experience in delivering high-quality virtual assistance services. This internship is an excellent opportunity to learn about different aspects of business operations while developing your skills in the virtual assistance industry.`,
+    responsibilities: [
+      "Assist with email management, appointment scheduling, and calendar organization.",
+      "Support social media management and content creation.",
+      "Help with research, report generation, and data entry tasks.",
+      "Manage travel and accommodation bookings for clients.",
+      "Provide administrative support for virtual events and meetings.",
+      "Collaborate with team members to ensure smooth workflow and client satisfaction.",
+      "Help in managing customer service inquiries and communication.",
+      "Assist in personal errands or project-based tasks as required.",
+      "Learn and develop your virtual assistant skills under the guidance of experienced professionals.",
+    ],
+    whoWereLookingFor: [
+      "A motivated individual eager to learn and grow in the virtual assistance field.",
+      "Strong organizational and communication skills.",
+      "Attention to detail and the ability to manage multiple tasks.",
+      "A proactive and self-driven attitude.",
+      "Comfortable using digital tools and online platforms.",
+      "Ability to work independently and as part of a remote team.",
+      "Previous experience in customer service, administration, or related fields is a plus.",
+    ],
+    roleDescription: `
+      The Virtual Assistant Intern role at Dafeena Consultancy is an exciting opportunity for someone looking to start their career in virtual assistance. You will be involved in various tasks, gaining valuable experience and mentorship from seasoned professionals. This internship will help you develop the skills necessary to succeed as a Virtual Assistant and explore different industries, giving you the chance to grow within the field.`,
+  };
 }
+
 
 const hiringProcess = ref([
   "1. Application Review: Once you send in your application, our team carefully reviews it to understand your skills, experience, and passion for the role.",
@@ -152,10 +183,7 @@ const benefitsBoxes = ref([
               <!-- Title -->
               <h5 class="s-24 w-700">Responsibilities</h5>
               <!-- List -->
-              <ul
-                class="simple-list long-list"
-                v-for="item in roleDetails.responsibilities"
-              >
+              <ul class="simple-list long-list" v-for="item in roleDetails.responsibilities">
                 <li class="list-item">
                   <p>
                     {{ item }}
@@ -167,10 +195,7 @@ const benefitsBoxes = ref([
               <!-- ---------------------------------------------- -->
               <hr />
               <h5 class="s-24 w-700">Who we're looking for</h5>
-              <ul
-                class="simple-list long-list"
-                v-for="item in roleDetails.whoWereLookingFor"
-              >
+              <ul class="simple-list long-list" v-for="item in roleDetails.whoWereLookingFor">
                 <li class="list-item">
                   <p>
                     {{ item }}
@@ -231,12 +256,8 @@ const benefitsBoxes = ref([
                 letter, or references, if applicable. We look forward to
                 learning more about you and how you can contribute to Dafeena.
               </p>
-              <NuxtLink
-                href="mailto:hello@dafeenaconsultancy.com"
-                target="_blank"
-                class="btn r-04 btn--theme hover--theme"
-                >Apply to this job!</NuxtLink
-              >
+              <NuxtLink href="mailto:hello@dafeenaconsultancy.com" target="_blank"
+                class="btn r-04 btn--theme hover--theme">Apply to this job!</NuxtLink>
             </div>
             <!-- END TEXT BLOCK -->
           </div>

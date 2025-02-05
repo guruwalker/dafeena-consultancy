@@ -69,6 +69,41 @@ export function useForms() {
     };
   };
 
+    /**
+   * ---------------------------------------------------
+   * Schedule Consultation FormState
+   * ---------------------------------------------------
+   *
+   */
+    const scheduleConsultationFormState = useState<IScheduleConsultation>(
+      "schedule-consultation",
+      () => ({
+        phone_number: null,
+        name: null,
+        email: null,
+        date: null,
+        description: null,
+        service: null,
+      })
+    );
+
+    /**
+     * ---------------------------------------------------
+     * Reset Schedule Consultation FormState
+     * ---------------------------------------------------
+     *
+     */
+    const resetScheduleConsultationFormState = () => {
+      scheduleConsultationFormState.value = {
+        phone_number: null,
+        name: null,
+        email: null,
+        date: null,
+        description: null,
+        service: null,
+      };
+    };
+
   /**
    * ---------------------------------------------------
    * Submit Contact Us Form
@@ -169,12 +204,65 @@ export function useForms() {
     }
   };
 
+    /**
+   * ---------------------------------------------------
+   * Submit Schedule Consultation Form
+   * ---------------------------------------------------
+   *
+   */
+    const submitScheduleConsultationForm = async () => {
+      try {
+        const response = await emailjs.send(
+          "service_lbhggjg",       // Your EmailJS service ID
+          "template_ti5a0d4",      // Your EmailJS template ID
+          requestServiceFormState.value, // The form data (must match the input names in your template)
+          "fdseijwGc7NUjDdCB"        // Your EmailJS public key
+        );
+
+        if (response.status === 200) {
+          toast.add({
+            id: "submit_schedule_consultation",
+            title: "Success",
+            description: "We will get back to you soon!",
+            icon: "i-heroicons-check-badge",
+            timeout: 6000,
+            color: 'primary'
+          });
+        } else {
+          toast.add({
+            id: "failed_schedule_consultation",
+            title: "Failed",
+            description: "Please try again!",
+            icon: "i-heroicons-check-badge",
+            timeout: 6000,
+            color: 'red'
+          });
+        }
+
+        await resetScheduleConsultationFormState();
+      } catch (error) {
+        toast.add({
+          id: "failed_schedule_consultation",
+          title: "Failed",
+          description: "Please try again!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+          color: 'red'
+        });
+
+        console.error("Error on submitScheduleConsultation ", error);
+      }
+    };
+
   return {
     contactUsFormState,
     requestServiceFormState,
+    scheduleConsultationFormState,
+    resetScheduleConsultationFormState,
     submitContactUsForm,
     submitRequestServicesForm,
     resetContactUsFormState,
     resetRequestServicesFormState,
+    submitScheduleConsultationForm,
   };
 }

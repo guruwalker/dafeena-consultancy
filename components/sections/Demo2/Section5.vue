@@ -16,7 +16,7 @@
             <p>All the tools and guidance you need in one place.</p>
             <!-- Button -->
             <a
-              to="/contact-us"
+              href="/contact-us"
               class="btn btn-sm r-04 btn--tra-black hover--theme"
             >
               Have any questions?

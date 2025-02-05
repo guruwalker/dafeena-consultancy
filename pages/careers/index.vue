@@ -11,10 +11,7 @@ useHead({
     class: "navbar-light",
   },
 });
-
-
 </script>
-
 
 <template>
   <div>
@@ -32,4 +29,3 @@ useHead({
     <SectionsCareersSection7 />
   </div>
 </template>
-

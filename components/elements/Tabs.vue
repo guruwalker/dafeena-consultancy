@@ -1,5 +1,5 @@
 <script lang="ts">
-import { defineComponent, onMounted, onBeforeUnmount, ref, watch, toRefs, h, VNode, computed, onBeforeUpdate } from "vue";
+import { defineComponent, onMounted, onBeforeUnmount, ref, watch, toRefs, h, type VNode, computed, onBeforeUpdate } from "vue";
 interface IProps {
     defaultIndex: number;
     resetTabs: boolean;
@@ -27,7 +27,7 @@ export default defineComponent({
         },
         position: {
             type: String,
-            default: "left",
+            default: "center",
             validator(value: string) {
                 return ["left", "start", "end", "center"].includes(value);
             }
@@ -180,27 +180,33 @@ export default defineComponent({
 .tabs {
     display: grid;
     grid-template-columns: 1fr;
+
     .tab-list {
         list-style: none;
         display: flex;
         padding-left: 0;
+
         &.center {
             justify-content: center;
         }
+
         &.end {
             justify-content: flex-end;
         }
+
         &__item {
             cursor: pointer;
             user-select: none;
             transition: border 0.3s ease-in-out;
             position: relative;
             bottom: -1px;
+
             &:not(:first-child) {
                 margin-left: 10px;
             }
         }
     }
+
     &.horizontal {
         &.reverse {
             .tab-list {

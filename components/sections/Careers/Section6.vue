@@ -1,21 +1,5 @@
-<script setup lang="ts">
-const openRoles = ref([
-  {
-    id: 1,
-    department: "Marketing",
-    title: "Product Marketing Manager",
-    location: "Kenya / Remote",
-    link: "/careers/product-marketing-manager",
-  },
-  {
-    id: 2,
-    department: "Customer Success",
-    title: "Customer Success Associate",
-    location: "Kenya / Remote",
-    link: "/careers/customer-success-associate",
-  },
-]);
-</script>
+
+
 
 <template>
   <section id="careers-1" class="pt-100 pb-60 careers-section">

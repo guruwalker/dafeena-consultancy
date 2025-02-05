@@ -12,11 +12,7 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp
-                        :start="0"
-                        :end="120"
-                        :duration="2000"
-                      />
+                      <ElementsCounterUp :start="0" :end="120" :duration="2000" />
                       +
                     </span>
                   </h2>
@@ -25,8 +21,7 @@
                 <div class="statistic-txt">
                   <h5 class="s-19 w-700">Happy Customers</h5>
                   <p>
-                    We've helped over 93 satisfied clients achieve their career
-                    goals with tailored solutions.
+                    We've helped over 120 satisfied clients with their businesses and career growth.
                   </p>
                 </div>
               </div>
@@ -41,20 +36,15 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp
-                        :start="0"
-                        :end="95"
-                        :duration="2000"
-                      />%
+                      <ElementsCounterUp :start="0" :end="6" :duration="2000" />+
                     </span>
                   </h2>
                 </div>
                 <!-- Text -->
                 <div class="statistic-txt">
-                  <h5 class="s-19 w-700">Success rate</h5>
+                  <h5 class="s-19 w-700">Countries Served</h5>
                   <p>
-                    Our approach consistently drives measurable success, with a
-                    notable improvement in client outcomes.
+                    We've worked with clients from all over the world!
                   </p>
                 </div>
               </div>
@@ -69,11 +59,7 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp
-                        :start="0"
-                        :end="200"
-                        :duration="2000"
-                      />+
+                      <ElementsCounterUp :start="0" :end="200" :duration="2000" />+
                     </span>
                   </h2>
                 </div>

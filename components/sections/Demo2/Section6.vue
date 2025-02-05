@@ -1,16 +1,12 @@
 <template>
-  <section class="py-20 ct-02 content-section division">
+  <section class="py-20 mb-40 ct-02 content-section division">
     <div class="container">
       <!-- SECTION CONTENT (ROW) -->
       <div class="row d-flex align-items-center">
         <!-- IMAGE BLOCK -->
         <div class="col-md-6">
           <div class="img-block left-column wow fadeInRight">
-            <img
-              class="img-fluid"
-              src="/assets/images/img-13.png"
-              alt="content-image"
-            />
+            <img class="img-fluid" src="/assets/images/img-13.png" alt="content-image" />
           </div>
         </div>
         <!-- TEXT BLOCK -->
@@ -22,10 +18,9 @@
               <h5 class="s-24 w-700">Solution that grows with you</h5>
               <!-- Text -->
               <p>
-                Receive ongoing career advice and support from our team of
-                expert consultants. We're with you every step of the way,
-                providing personalized guidance and strategies to advance your
-                career.
+                Whether you're scaling your business or advancing your career, we provide top-tier support tailored to
+                your needs. Our virtual assistance services streamline your workflow, while our career coaching helps
+                you navigate professional growth with confidence.
               </p>
             </div>
             <!-- END TEXT BOX -->
@@ -35,27 +30,28 @@
               <h5 class="s-24 w-700">Why choose us?</h5>
               <!-- Text -->
               <p>
-                We tailor our strategies to your unique career goals and
-                aspirations.
+                We tailor our strategies to your business and unique career goals.
               </p>
               <!-- List -->
               <ul class="simple-list">
                 <li class="list-item">
                   <p class="mb-0">
-                    Our team of experts brings years of experience and industry
-                    knowledge to the table.
+                    <b>Unmatched Quality</b>: From business operations to career transitions, we deliver excellence with
+                    precision and professionalism.
                   </p>
                 </li>
                 <li class="list-item">
                   <p class="mb-0">
-                    We have a proven history of helping clients achieve their
-                    career goals.
+                    <b>Proven Expertise</b>: With years of experience in career coaching and business support, our team
+                    ensures
+                    you achieve your goals efficiently.
                   </p>
                 </li>
                 <li class="list-item">
                   <p class="mb-0">
-                    We are dedicated to your long-term success and are with you
-                    every step of the way.
+                    <b>Reliable Partnership</b>: Whether you need ongoing VA support or career guidance, we’re with you
+                    every
+                    step of the way, committed to your long-term success.
                   </p>
                 </li>
               </ul>

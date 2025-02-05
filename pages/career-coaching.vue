@@ -17,13 +17,22 @@ useHead({
 
 <template>
   <div>
+    <!-- Header-->
+    <SectionsCareerPageHeader />
+
     <!-- Pricing cards -->
-    <SectionsPricing2Section1 />
+    <SectionsCareerPageMainPricing />
+
     <!-- Bundled pricing / Accepted payments -->
-    <SectionsPricing2Section2 />
+    <SectionsCareerPageBundledPricing />
+
     <!-- Employees have worked here... -->
-    <SectionsPricing2Section3 />
+    <SectionsCareerPageEmployeesWork />
+
+    <!-- Clients rating & Testimonials -->
+    <SectionsCareerPageTestimonialsCards />
+
     <!-- Q/A -->
-    <SectionsPricing2Section4 />
+    <SectionsCareerPageQA />
   </div>
 </template>

@@ -11,7 +11,8 @@
                                 <!-- Title -->
                                 <h2 class="s-45 w-700">We are looking for talented individuals</h2>
                                 <!-- Text -->
-                                <p class="p-lg">We're constantly looking for talented people to join our team. Don't hesitate to get in touch with us</p>
+                                <p class="p-lg">We're constantly looking for talented people to join our team. Don't
+                                    hesitate to get in touch with us</p>
                                 <!-- Button -->
                                 <a href="#careers-1" class="btn r-04 btn--theme hover--tra-white">See open roles</a>
                             </div>

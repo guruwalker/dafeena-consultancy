@@ -22,11 +22,11 @@ useHead({
     <SectionsDemo2Hero />
     <!-- Stats -->
     <SectionsDemo2Section11 />
-    <!-- Grow with you -->
+    <!-- Top service - Happy clients -->
     <SectionsDemo2Section6 />
-    <!-- One stop solution -->
+    <!-- CAREER - One stop solution -->
     <SectionsDemo2Section5 />
-    <!-- 3 advantage -->
+    <!-- VA - Benefits -->
     <SectionsDemo2Section7 />
 
     <!-- Testimonials sliders -->
@@ -39,7 +39,7 @@ useHead({
           <div class="more-questions-txt bg--white-400 r-100">
             <p class="p-lg">
               Have any questions?
-              <NuxtLink to="/faqs" class="color--theme">View our FAQs</NuxtLink>
+              <NuxtLink to="/help-center" class="color--theme">View our Help Center</NuxtLink>
             </p>
           </div>
         </div>

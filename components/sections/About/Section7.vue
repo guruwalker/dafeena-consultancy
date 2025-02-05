@@ -1,26 +1,7 @@
 <script setup lang="ts">
-const teamMembers = [
-  {
-    name: "Virginia Michaels",
-    role: "Founder and CEO",
-    photo: "/assets/images/team/virginia.png",
-  },
-  {
-    name: "James Ndung'u",
-    role: "Branding Expert",
-    photo: "/assets/images/team-13.jpg",
-  },
-  {
-    name: "Wahome Maina",
-    role: "Software Engineer",
-    photo: "/assets/images/team-13.jpg",
-  },
-  {
-    name: "Grow with Us!",
-    role: '<a href="mailto:hello@dafeenaconsultancy.com">hello@dafeenaconsultancy.com</a>',
-    photo: "/assets/images/team-13.jpg",
-  },
-];
+import Team from "~~/components/Data/Team"
+
+const teamMembers = ref(Team)
 </script>
 
 <template>
@@ -47,11 +28,7 @@ const teamMembers = [
               <!-- Team Member Photo -->
               <div class="team-member-photo r-14" style="height: 250px">
                 <div class="hover-overlay">
-                  <img
-                    class="img-fluid"
-                    :src="member.photo"
-                    alt="team-member-foto"
-                  />
+                  <img class="img-fluid" :src="member.photo" alt="team-member-foto" />
                   <div class="item-overlay"></div>
                 </div>
               </div>
@@ -70,9 +47,7 @@ const teamMembers = [
       <div class="row">
         <div class="col">
           <div class="more-btn text-center mt-20 wow fadeInUp">
-            <NuxtLink to="/careers" class="btn btn--tra-black hover--theme"
-              >Join our team</NuxtLink
-            >
+            <NuxtLink to="/careers" class="btn btn--tra-black hover--theme">Join our team</NuxtLink>
           </div>
         </div>
       </div>

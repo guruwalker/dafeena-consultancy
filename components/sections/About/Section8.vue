@@ -10,20 +10,18 @@
                 <!-- Section ID -->
                 <span class="section-id">Why Choose Us</span>
                 <!-- Title -->
-                <h2 class="s-46 w-700">With knowledge, skills & hard work</h2>
+                <h2 class="s-46 w-700">Expertise That Drives Results</h2>
                 <!-- Text -->
                 <p>
-                  Our team is committed to providing innovative, efficient, and
-                  personalized services that help you thrive in today's
-                  fast-paced business environment.
+                  Our team combines industry knowledge, specialized skills, and dedication to deliver innovative and
+                  efficient solutions tailored to your needs.
                 </p>
                 <!-- Small Title -->
-                <h5 class="s-24 w-700 h5-title">Your road to success!</h5>
+                <h5 class="s-24 w-700 h5-title">Your Success, Our Priority </h5>
                 <!-- Text -->
                 <p class="mb-0">
-                  We work closely with you, providing tailored strategies and
-                  guidance to help you navigate your career or business journey
-                  with confidence.
+                  We provide personalized strategies and hands-on support, ensuring you have the right tools and
+                  guidance to advance your career or streamline your business operations with confidence.
                 </p>
               </div>
             </div>
@@ -31,11 +29,7 @@
             <!-- IMAGE BLOCK -->
             <div class="col-md-6 order-first order-md-2">
               <div class="img-block right-column wow fadeInLeft">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img-08.png"
-                  alt="content-image"
-                />
+                <img class="img-fluid" src="/assets/images/img-08.png" alt="content-image" />
               </div>
             </div>
           </div>
