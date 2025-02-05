@@ -20,3 +20,13 @@ declare interface IRequestService {
   description: string | null;
   service: string | null;
 }
+
+
+declare interface IScheduleConsultation {
+  phone_number: string | null | number;
+  name: string | null;
+  email: string | null;
+  date: string | null | date;
+  description: string | null;
+  service: string | null;
+}

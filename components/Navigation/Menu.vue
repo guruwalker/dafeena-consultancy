@@ -32,7 +32,7 @@
             <NuxtLink to="/contact-us" class="h-link">Contact Us</NuxtLink>
           </li>
           <li class="nl-simple pr-5" aria-haspopup="true">
-            <NuxtLink to="/signup-2" class="btn r-04 btn--theme hover--tra-white last-link">Schedule a Consultation
+            <NuxtLink to="/schedule-consultation" class="btn r-04 btn--theme hover--tra-white last-link">Schedule a Consultation
             </NuxtLink>
           </li>
         </ul>
