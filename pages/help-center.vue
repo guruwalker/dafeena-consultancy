@@ -1,4 +1,13 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: "Help Center",
+  ogTitle: "Help Center",
+  description:
+    "Find answers to common questions about career coaching and personal branding services.",
+  ogDescription:
+    "Find answers to common questions about career coaching and personal branding services.",
+});
+
 useHead({
     bodyAttrs: {
         class: "navbar-dark navbar-dark-2"
