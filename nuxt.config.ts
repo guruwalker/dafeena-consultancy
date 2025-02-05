@@ -10,31 +10,31 @@ export default defineNuxtConfig({
         {
           name: "Dafeena Consultancy",
           content:
-            "Career coaching, professional development, resume writing, job search support, career advice",
+            "Career coaching, virtual assistance, professional development, resume writing, job search support, business support, administrative services, career advice, branding solutions.",
         },
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "keywords",
           content:
-            "career coaching, resume writing, job search, career advice, professional development, career guidance, job interviews, career transition, job coaching, LinkedIn optimization, career coaching services, resume tips, career growth, interview preparation, career mentorship, job application tips, career path advice, job market trends",
+            "career coaching, virtual assistance, resume writing, job search, business support, administrative services, career advice, professional development, career guidance, job interviews, career transition, job coaching, LinkedIn optimization, career coaching services, career growth, interview preparation, business process outsourcing, productivity solutions, remote assistance, executive support, branding solutions, personal branding, content management.",
         },
         {
           name: "description",
           content:
-            "Dafeena Consultancy offers expert career coaching, resume writing, interview preparation, and job search support to help you achieve your professional goals.",
+            "Dafeena Consultancy provides expert career coaching, resume writing, and interview preparation, alongside virtual assistance services for businesses, entrepreneurs, and professionals looking for reliable support.",
         },
         { name: "robots", content: "index, follow" },
         { name: "x-robots", content: "index, follow" },
         {
           property: "og:title",
           content:
-            "Dafeena Consultancy - Career Coaching & Professional Development",
+            "Dafeena Consultancy - Career Coaching & Virtual Assistance Services",
         },
         {
           property: "og:description",
           content:
-            "Expert career coaching and resume writing services to help you advance your career. Get personalized job search support, interview coaching, and career advice.",
+            "Advance your career with expert coaching or streamline your business with our virtual assistance solutions. Dafeena Consultancy offers career coaching, resume writing, and business support services to help professionals and entrepreneurs succeed.",
         },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://www.dafeenaconsultancy.com" },
@@ -47,26 +47,28 @@ export default defineNuxtConfig({
         {
           name: "twitter:title",
           content:
-            "Dafeena Consultancy - Career Coaching & Professional Development",
+            "Dafeena Consultancy - Career Coaching & Virtual Assistance Services",
         },
         {
           name: "twitter:description",
           content:
-            "Dafeena Consultancy offers career coaching, resume writing, and interview preparation to help professionals thrive in their careers.",
+            "Dafeena Consultancy helps professionals advance their careers with expert coaching while providing businesses with virtual assistance solutions to enhance productivity.",
         },
         {
           name: "twitter:image",
           content: "https://www.dafeenaconsultancy.com/twitter-image.jpg",
         },
       ],
-      title: "Dafeena Consultancy - Career Coaching & Resume Writing Services",
+      title:
+        "Dafeena Consultancy - Career Coaching & Virtual Assistance Services",
       script: [],
     },
   },
 
   site: {
     name: "Dafeena Consultancy",
-    description: "We are career consultants",
+    description:
+      "We provide career coaching and virtual assistance services to help professionals and businesses thrive.",
     url: "https://dafeenaconsultancy.com",
     language: "en",
   },

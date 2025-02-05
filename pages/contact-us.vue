@@ -1,11 +1,11 @@
 <script setup>
 useSeoMeta({
-  title: "Contact Dafeena Consultancy | Start Your Career Journey",
-  ogTitle: "Contact Dafeena Consultancy | Start Your Career Journey",
+  title: "Contact Us",
+  ogTitle: "Contact Us",
   description:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get in touch with us",
   ogDescription:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get in touch with us",
 });
 
 useHead({

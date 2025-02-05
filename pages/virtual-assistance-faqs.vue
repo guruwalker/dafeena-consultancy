@@ -3,9 +3,9 @@ useSeoMeta({
   title: "Frequently Asked Questions",
   ogTitle: "Frequently Asked Questions",
   description:
-    "Find answers to common questions about career coaching and personal branding services.",
+    "Find answers to common questions about virtual assistance",
   ogDescription:
-    "Find answers to common questions about career coaching and personal branding services.",
+    "Find answers to common questions about virtual assistance",
 });
 
 useHead({

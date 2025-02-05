@@ -1,15 +1,14 @@
 <script setup lang="ts">
-// useSeoMeta({
-//   title: "Take Your Career to the Next Level",
-//   ogTitle: "Take Your Career to the Next Level",
-//   description:
-//     "Unlock your career potential with expert coaching and personal branding strategies.",
-//   ogDescription:
-//     "Unlock your career potential with expert coaching and personal branding strategies.",
-// });
+useSeoMeta({
+  title: "Advance Your Career & Streamline Your Business",
+  ogTitle: "Advance Your Career & Streamline Your Business",
+  description:
+    "Dafeena Consultancy offers expert career coaching and virtual assistance services to help professionals and entrepreneurs succeed in their careers and businesses.",
+  ogDescription:
+    "Unlock your career potential with tailored coaching and enhance your business efficiency with professional virtual assistance. Dafeena Consultancy supports your success at every step.",
+});
 
 useHead({
-  link: [{ rel: "canonical", href: "https://dafeenaconsultancy.com/" }],
   bodyAttrs: {
     class: "navbar-dark navbar-dark-2",
   },

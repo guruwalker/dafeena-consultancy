@@ -3,9 +3,9 @@ useSeoMeta({
   title: "Request Service | Dafeena Consultancy",
   ogTitle: "Request Service | Dafeena Consultancy",
   description:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get in touch with us",
   ogDescription:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get in touch with us",
 });
 
 useHead({
@@ -306,10 +306,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <section
-      id="contacts-1"
-      class="pb-50 inner-page-hero contacts-section division"
-    >
+    <section id="contacts-1" class="pb-50 inner-page-hero contacts-section division">
       <div class="container">
         <!-- SECTION TITLE -->
         <div class="row justify-content-center">
@@ -322,10 +319,8 @@ onMounted(async () => {
                 {{ serviceChosen?.description }}
               </p>
               <p class="p-sm color--theme">
-                <NuxtLink to="#"
-                  >Express total: KSH
-                  {{ serviceChosen?.price?.amount }}</NuxtLink
-                >.
+                <NuxtLink to="#">Express total: KSH
+                  {{ serviceChosen?.price?.amount }}</NuxtLink>.
               </p>
             </div>
           </div>
@@ -334,60 +329,36 @@ onMounted(async () => {
         <div class="row justify-content-center">
           <div class="col-md-11 col-lg-10 col-xl-8">
             <div class="form-holder">
-              <form
-                @submit.prevent="submitRequestServicesForm"
-                name="request_services_form"
-                class="row contact-form"
-              >
+              <form @submit.prevent="submitRequestServicesForm" name="request_services_form" class="row contact-form">
                 <!-- Contact Form Input -->
                 <div class="col-md-6">
                   <p class="p-lg">Your Name:</p>
                   <span>Please enter your full name:</span>
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control name"
-                    placeholder="Enter your full name*"
-                    v-model="requestServiceFormState.name"
-                  />
+                  <input type="text" name="name" class="form-control name" placeholder="Enter your full name*"
+                    v-model="requestServiceFormState.name" />
                 </div>
 
                 <div class="col-md-6">
                   <p class="p-lg">Your Email Address:</p>
                   <span>Provide your email for us to respond:</span>
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control email"
-                    placeholder="Enter your email address*"
-                    v-model="requestServiceFormState.email"
-                  />
+                  <input type="email" name="email" class="form-control email" placeholder="Enter your email address*"
+                    v-model="requestServiceFormState.email" />
                 </div>
 
                 <!-- Contact Form Input -->
                 <div class="col-md-6">
                   <p class="p-lg">Your Phone Number:</p>
                   <span>Please enter your phone number:</span>
-                  <input
-                    type="text"
-                    name="phone_number"
-                    class="form-control phone_number"
-                    placeholder="Enter your phone number*"
-                    v-model="requestServiceFormState.phone_number"
-                  />
+                  <input type="text" name="phone_number" class="form-control phone_number"
+                    placeholder="Enter your phone number*" v-model="requestServiceFormState.phone_number" />
                 </div>
 
                 <!-- Contact Form Input -->
                 <div class="col-md-6">
                   <p class="p-lg">When Can We Contact You:</p>
                   <span>Please select a date:</span>
-                  <input
-                    type="date"
-                    name="date"
-                    class="form-control date"
-                    placeholder="Enter a date*"
-                    v-model="requestServiceFormState.date"
-                  />
+                  <input type="date" name="date" class="form-control date" placeholder="Enter a date*"
+                    v-model="requestServiceFormState.date" />
                 </div>
 
                 <div class="col-md-12">
@@ -396,21 +367,14 @@ onMounted(async () => {
                     Provide details about your request so we can assist you
                     effectively:
                   </span>
-                  <textarea
-                    class="form-control message"
-                    name="message"
-                    rows="6"
+                  <textarea class="form-control message" name="message" rows="6"
                     placeholder="Describe your inquiry or request in detail*"
-                    v-model="requestServiceFormState.description"
-                  ></textarea>
+                    v-model="requestServiceFormState.description"></textarea>
                 </div>
 
                 <!-- Contact Form Button -->
                 <div class="col-md-12 mt-15 form-btn text-right">
-                  <button
-                    type="submit"
-                    class="btn btn--theme hover--theme submit"
-                  >
+                  <button type="submit" class="btn btn--theme hover--theme submit">
                     Request Service
                   </button>
                 </div>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Learn About Dafeena Consultancy | Empower Your Career",
-  ogTitle: "Learn About Dafeena Consultancy | Empower Your Career",
-  description: "Discover who we are and how we help you build your career.",
-  ogDescription: "Discover who we are and how we help you build your career.",
+  title: "About Dafeena Consultancy",
+  ogTitle: "About Dafeena Consultancy",
+  description: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",,
+  ogDescription: "Dafeena Consultancy provides top-notch career coaching and virtual assistance services, helping individuals and businesses achieve their goals with personalized strategies and professional support.",,
 });
 
 useHead({

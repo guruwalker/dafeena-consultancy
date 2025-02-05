@@ -2,10 +2,10 @@
 import Testimonials from '~~/components/Data/Testimonials'
 
 useSeoMeta({
-  title: 'What Our Clients Say | Dafeena Consultancy Testimonials',
-  ogTitle: 'What Our Clients Say | Dafeena Consultancy Testimonials',
-  description: 'See how Dafeena Consultancy has helped individuals enhance their careers.',
-  ogDescription: 'See how Dafeena Consultancy has helped individuals enhance their careers.',
+  title: 'What Our Clients Say',
+  ogTitle: 'What Our Clients Say',
+  description: 'See how Dafeena Consultancy has helped individuals and businesses',
+  ogDescription: 'See how Dafeena Consultancy has helped individuals and businesses',
 });
 
 useHead({

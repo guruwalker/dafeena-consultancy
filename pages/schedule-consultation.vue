@@ -1,11 +1,11 @@
 <script setup>
 useSeoMeta({
-  title: "Schedule Consultation | Dafeena Consultancy",
-  ogTitle: "Schedule Consultation | Dafeena Consultancy",
+  title: "Schedule Consultation",
+  ogTitle: "Schedule Consultation",
   description:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get a free consultation today!",
   ogDescription:
-    "Get in touch with us for career coaching, personal branding, and more.",
+    "Get a free consultation today!",
 });
 
 useHead({
