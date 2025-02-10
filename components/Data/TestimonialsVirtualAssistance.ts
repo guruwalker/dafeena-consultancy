@@ -5,6 +5,7 @@ export default [
     author: "David Thompson",
     role: "Founder, BrightTech Solutions, USA",
     avatar: "/assets/images/color-scheme/blue.jpg",
+    tag: "Virtual Assistance",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export default [
     author: "Emma Williams",
     role: "CEO, TrendyWear UK",
     avatar: "/assets/images/color-scheme/crocus.jpg",
+    tag: "Virtual Assistance",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export default [
     author: "James Anderson",
     role: "Managing Director, FinServe Canada",
     avatar: "/assets/images/color-scheme/green.jpg",
+    tag: "Virtual Assistance",
   },
   {
     id: 4,
@@ -26,5 +29,6 @@ export default [
     author: "Sophia Clarke",
     role: "Marketing Consultant, Australia",
     avatar: "/assets/images/color-scheme/magenta.jpg",
-  }
+    tag: "Virtual Assistance",
+  },
 ];

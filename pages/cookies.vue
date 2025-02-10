@@ -21,8 +21,8 @@ const sections = ref([
     id: 1,
     title: "What is a Cookie?",
     text: [
-      "A cookie is a small text file stored on your device (computer, tablet, or smartphone) when you visit a website. It helps the website remember your preferences, login details, and browsing history to provide a more personalized experience.",
-      "Dafeena Consultancy uses cookies to enhance website functionality, improve user experience, and analyze platform usage to offer better career consulting and virtual assistance services.",
+      "A cookie is a small text file stored on your device (computer, tablet, or smartphone) when you visit a website. It helps the website remember certain preferences and track usage for a better experience.",
+      "Dafeena Consultancy uses cookies solely for website functionality and performance analysis to improve our services. We do not collect personal data for advertising or user tracking beyond necessary website analytics.",
     ],
   },
   {
@@ -33,43 +33,34 @@ const sections = ref([
         id: "2.1",
         title: "Essential Cookies",
         text: [
-          "These cookies are necessary for the core functionality of the Dafeena Consultancy platform. They enable secure navigation, service access, and fraud prevention.",
+          "These cookies are necessary for the basic operation of the Dafeena Consultancy website, ensuring users can navigate and access content smoothly.",
         ],
         listItems: [
-          "Authentication: Verifies your identity and maintains secure sessions.",
-          "Security: Protects against unauthorized access and fraudulent activity.",
-          "Preferences: Stores settings to enhance the browsing experience.",
+          "Website Preferences: Stores settings like language and region selection.",
+          "Session Management: Helps keep your browsing session active.",
         ],
       },
       {
         id: "2.2",
         title: "Performance Cookies",
         text: [
-          "Performance cookies help us analyze how users interact with our platform to improve efficiency and usability.",
+          "Performance cookies help us analyze how users interact with our website to enhance its efficiency and usability.",
         ],
         listItems: [
-          "Monitor website traffic and usage trends.",
-          "Identify and fix performance issues.",
-          "Optimize workflows for a smoother user experience.",
+          "Track website traffic and usage patterns.",
+          "Identify areas that need improvement.",
+          "Optimize website speed and responsiveness.",
         ],
       },
       {
         id: "2.3",
         title: "Functionality Cookies",
         text: [
-          "Functionality cookies allow us to remember user preferences and provide a customized browsing experience.",
+          "These cookies allow the website to remember user preferences for a better browsing experience.",
         ],
         listItems: [
           "Remember language and region settings.",
-          "Save login details for easier access.",
-          "Enable personalized features for a seamless experience.",
-        ],
-      },
-      {
-        id: "2.4",
-        title: "Targeting and Advertising Cookies",
-        text: [
-          "While Dafeena Consultancy does not display third-party ads, these cookies may be used to tailor content and updates based on your browsing activity.",
+          "Save form inputs temporarily for convenience.",
         ],
       },
     ],
@@ -78,18 +69,19 @@ const sections = ref([
     id: 3,
     title: "Third-Party Cookies",
     text: [
-      "Dafeena Consultancy may integrate third-party services such as analytics providers and secure payment gateways that use cookies.",
-      "We do not control third-party cookies, and their use is subject to their respective privacy policies. You can manage or disable these cookies through your browser settings.",
+      "Dafeena Consultancy may use third-party analytics tools to monitor website performance and user engagement.",
+      "We do not use cookies for advertising purposes. You can manage or disable third-party cookies through your browser settings.",
     ],
   },
   {
     id: 4,
     title: "Managing Cookies",
     text: [
-      "You can control and disable cookies through your browser settings. Note that disabling essential cookies may impact the functionality of the website.",
+      "You can control and disable cookies through your browser settings. However, please note that disabling certain cookies may affect website functionality.",
     ],
   },
 ]);
+
 
 </script>
 

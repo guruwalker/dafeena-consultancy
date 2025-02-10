@@ -56,8 +56,8 @@ export default {
           align-items: center;
         ">
         <ul class="wsmenu-list nav-theme">
-          <li class="nl-simple custom-menu-items"  aria-haspopup="true">
-            <NuxtLink to="/about-us" class="h-link">About Us</NuxtLink>
+          <li class="nl-simple custom-menu-items" aria-haspopup="true">
+            <NuxtLink to="/corporate-training-and-workshops" class="h-link">Corporate Training & Workshops</NuxtLink>
           </li>
           <li class="nl-simple custom-menu-items" aria-haspopup="true">
             <NuxtLink to="/career-coaching" class="h-link">Career Coaching</NuxtLink>
@@ -65,11 +65,12 @@ export default {
           <li class="nl-simple custom-menu-items" aria-haspopup="true">
             <NuxtLink to="/virtual-assistance" class="h-link">Virtual Assistance</NuxtLink>
           </li>
-          <li class="nl-simple custom-menu-items" aria-haspopup="true">
+          <!-- <li class="nl-simple custom-menu-items" aria-haspopup="true">
             <NuxtLink to="/contact-us" class="h-link">Contact Us</NuxtLink>
-          </li>
+          </li> -->
           <li class="nl-simple pr-5" aria-haspopup="true">
-            <NuxtLink to="/schedule-consultation" class="btn r-04 btn--theme hover--tra-white last-link">Schedule a Consultation
+            <NuxtLink to="/schedule-consultation" class="btn r-04 btn--theme hover--tra-white last-link">Schedule a
+              Consultation
             </NuxtLink>
           </li>
         </ul>

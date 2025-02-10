@@ -145,7 +145,7 @@ const sections = ref([
                 </ul>
               </div>
 
-              <h4 class="s-30 w-700"><span>9.</span> How to Contact Us</h4>
+              <h4 class="s-30 w-700"><span>7.</span> How to Contact Us</h4>
               <p>
                 If you have any questions or suggestions about this Terms of
                 Service, do not hesitate to contact us at

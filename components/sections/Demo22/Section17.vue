@@ -15,7 +15,7 @@
             <!-- TESTIMONIALS CONTENT -->
             <div class="row">
                 <div class="col">
-                    <SlidersTetimonials />
+                    <SlidersTestimonials />
                 </div>
             </div>
             <!-- END TESTIMONIALS CONTENT -->

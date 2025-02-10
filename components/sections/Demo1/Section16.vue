@@ -13,7 +13,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <SlidersTetimonials />
+                    <SlidersTestimonials />
                 </div>
             </div>
         </div>

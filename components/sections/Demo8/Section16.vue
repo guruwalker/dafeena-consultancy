@@ -6,16 +6,16 @@
                 <div class="col-md-8">
                     <div class="section-title mb-70">
                         <!-- Title -->
-                        <h2 class="s-50 w-700">Read what our users have to say about us</h2>
+                        <h2 class="s-50 w-700">Here’s what our amazing clients are saying</h2>
                         <!-- Text -->
-                        <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
+                        <p class="s-21 color--grey">We love our clients, and they love us!</p>
                     </div>
                 </div>
             </div>
             <!-- TESTIMONIALS CONTENT -->
             <div class="row">
                 <div class="col">
-                    <SlidersTetimonials />
+                    <SlidersTestimonials />
                 </div>
             </div>
             <!-- END TESTIMONIALS CONTENT -->

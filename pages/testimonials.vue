@@ -19,10 +19,7 @@ const testimonials = ref(Testimonials);
 
 <template>
   <div>
-    <section
-      id="reviews-2"
-      class="gr--whitesmoke inner-page-hero reviews-section"
-    >
+    <section id="reviews-2" class="gr--whitesmoke inner-page-hero reviews-section">
       <div class="container">
         <!-- SECTION TITLE -->
         <div class="row justify-content-center">
@@ -39,17 +36,10 @@ const testimonials = ref(Testimonials);
         </div>
         <!-- TESTIMONIALS-2 WRAPPER -->
         <div class="reviews-2-wrapper rel">
-          <div class="row align-items-center row-cols-1 row-cols-md-2"  style="display: flex; ">
-            <div
-              v-for="testimonial in testimonials"
-              :key="testimonial.id"
-              class="col"
-              style="display: flex; flex-grow: 1;"
-            >
-              <div
-                id="rw-2-2"
-                class="review-2 bg--white-100 block-shadow r-08"
-              >
+          <div class="row align-items-center row-cols-1 row-cols-md-2" style="display: flex; ">
+            <div v-for="testimonial in testimonials" :key="testimonial.id" class="col"
+              style="display: flex; flex-grow: 1;">
+              <div id="rw-2-2" class="review-2 bg--white-100 block-shadow r-08">
                 <!-- Quote Icon -->
                 <div class="review-ico ico-65">
                   <span class="flaticon-quote"></span>

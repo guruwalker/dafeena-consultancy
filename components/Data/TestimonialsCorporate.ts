@@ -1,0 +1,42 @@
+export default [
+  {
+    id: 18,
+    text: "The leadership training was incredibly insightful. Our managers are now more confident and effective in their roles.",
+    author: "Michael Kariuki",
+    role: "ABC Corporation",
+    avatar: "/assets/images/color-scheme/blue.jpg",
+    tag: "Corporate Training",
+  },
+  {
+    id: 19,
+    text: "Dafeena Consultancy provided excellent sales training that significantly improved our team's performance.",
+    author: "Susan Wambui",
+    role: "XYZ Ltd",
+    avatar: "/assets/images/color-scheme/crocus.jpg",
+    tag: "Corporate Training",
+  },
+  {
+    id: 20,
+    text: "Our customer service team is now more engaged and productive, thanks to the training we received.",
+    author: "Daniel Mutua",
+    role: "Tech Solutions Co.",
+    avatar: "/assets/images/color-scheme/green.jpg",
+    tag: "Corporate Training",
+  },
+  {
+    id: 21,
+    text: "The team-building workshop was exactly what we needed to enhance collaboration and productivity.",
+    author: "Christine Mugo",
+    role: "Financial Services Ltd",
+    avatar: "/assets/images/color-scheme/magenta.jpg",
+    tag: "Corporate Training",
+  },
+  {
+    id: 22,
+    text: "After the digital marketing training, our marketing team has been able to increase engagement and leads.",
+    author: "Robert Kimani",
+    role: "E-Commerce Hub",
+    avatar: "/assets/images/color-scheme/pink.jpg",
+    tag: "Corporate Training",
+  },
+];

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Help Center",
-  ogTitle: "Help Center",
-  description:
-    "Find answers to common questions about career coaching and personal branding services.",
-  ogDescription:
-    "Find answers to common questions about career coaching and personal branding services.",
+    title: "Help Center",
+    ogTitle: "Help Center",
+    description:
+        "Find answers to common questions about career coaching and personal branding services.",
+    ogDescription:
+        "Find answers to common questions about career coaching and personal branding services.",
 });
 
 useHead({
@@ -68,6 +68,28 @@ const faqData = ref([
             },
         ],
     },
+    {
+        category: "Corporate Training & Workshops",
+        questions: [
+            {
+                title: "What types of corporate training do you offer?",
+                answer: `<p>We provide training in leadership, team collaboration, customer service, sales, digital marketing, productivity, and industry-specific skills. Sessions can be tailored to your organization's needs.</p>`,
+            },
+            {
+                title: "Are training sessions conducted online or in person?",
+                answer: `<p>We offer both online and in-person training options, allowing businesses to choose the format that best suits their teams.</p>`,
+            },
+            {
+                title: "How long do corporate training sessions last?",
+                answer: `<p>Training sessions range from half-day workshops to multi-day programs, depending on the topic and depth required.</p>`,
+            },
+            {
+                title: "How do I book a corporate training session?",
+                answer: `<p>You can book a session by contacting us via email at <a href="mailto:hello@dafeenaconsultancy.com">hello@dafeenaconsultancy.com</a>. We'll work with you to customize a program that fits your team’s needs.</p>`,
+            },
+        ],
+    }
+
 ]);
 </script>
 

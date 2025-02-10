@@ -18,7 +18,6 @@ const testimonials = ref(Testimonials);
         </div>
       </div>
       <!-- TESTIMONIALS-2 WRAPPER -->
-      <!-- TESTIMONIALS-2 WRAPPER -->
       <div class="reviews-2-wrapper rel">
         <div class="row align-items-center row-cols-1 row-cols-md-2" style="display: flex; ">
           <div v-for="testimonial in testimonials" :key="testimonial.id" class="col"

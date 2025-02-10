@@ -1,8 +1,3 @@
-<template>
-    <span :class="['go-to-top', { show: showGoToTop }]" @click="scrollToTop">
-        <img class="img-fluid" src="/assets/images/up_arrow.svg" alt="brand-logo" />
-    </span>
-</template>
 <script>
 export default {
   data() {
@@ -30,9 +25,18 @@ export default {
   }
 };
 </script>
+
+<template>
+  <span :class="['go-to-top', { show: showGoToTop }]" @click="scrollToTop">
+    <img class="img-fluid" src="/assets/images/up_arrow.svg" alt="brand-logo" />
+  </span>
+</template>
+
 <style lang="scss">
 .go-to-top {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: -10px;
   right: 30px;
@@ -47,6 +51,7 @@ export default {
   opacity: 0;
   transition-duration: 0.2s;
   cursor: pointer;
+
   &.show {
     opacity: 1;
     bottom: 30px;

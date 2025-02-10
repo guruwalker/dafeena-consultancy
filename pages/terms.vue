@@ -91,7 +91,45 @@ const sections = ref([
         ]
       }
     ]
-  }
+  },
+  {
+  id: 4,
+  title: "Corporate Training & Workshops",
+  text: ["Dafeena Consultancy offers corporate training and workshop services designed to enhance workplace skills and professional development. Our services include, but are not limited to:"],
+  listItems: [
+    "Leadership and management training",
+    "Workplace communication and team collaboration",
+    "Career development and personal branding",
+    "Industry-specific training programs"
+  ],
+  subSections: [
+    {
+      title: "Client Responsibilities",
+      listItems: [
+        "Provide details on training objectives, target audience, and expected outcomes.",
+        "Ensure employee participation and engagement during training sessions.",
+        "Facilitate necessary logistical arrangements, such as venue and training materials."
+      ]
+    },
+    {
+      title: "Payments & Cancellations",
+      listItems: [
+        "Payments must be made as per the agreed terms before the training date.",
+        "Cancellations made within a specified period (e.g., 7 days) may be eligible for partial refunds.",
+        "Rescheduling requests are subject to availability and may incur additional charges."
+      ]
+    },
+    {
+      title: "Limitations of Liability",
+      listItems: [
+        "We strive to provide high-quality training, but we do not guarantee specific business outcomes.",
+        "We are not liable for decisions made by attendees based on training content.",
+        "Client organizations remain responsible for implementing training insights within their business operations."
+      ]
+    }
+  ]
+}
+
 ]);
 
 </script>
@@ -132,7 +170,7 @@ const sections = ref([
                 </div>
               </div>
 
-              <h4 class="s-30 w-700"><span>9.</span> How to Contact Us</h4>
+              <h4 class="s-30 w-700"><span>5.</span> How to Contact Us</h4>
               <p>
                 If you have any questions or suggestions about this Terms of
                 Service, do not hesitate to contact us at
