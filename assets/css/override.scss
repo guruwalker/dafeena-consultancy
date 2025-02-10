@@ -1,4 +1,14 @@
+@import 'variables';
+
+.custom-menu-items {
+  text-decoration: underline;
+  text-decoration-color: $primary;
+  text-underline-offset: 5px;
+
+}
+
 .swiper-wrapper {
   display: flex !important;
   align-items: center !important;
 }
+

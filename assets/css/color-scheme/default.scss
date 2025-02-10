@@ -1,11 +1,12 @@
 /* ==========================================================================
 37. COLOR SCHEME - PINK
 ========================================================================== */
+@import '../variables';
 
 // $primary-color: #f74780;
 // $secondary-color: #e73971;
-$primary-color: #c73e9b;
-$secondary-color: #b3338a;
+$primary-color: $primary;
+$secondary-color: $secondary;
 
 .go-to-top {
   background-color: $primary-color;
