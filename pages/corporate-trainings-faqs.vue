@@ -148,7 +148,7 @@ const faqs = ref([
           <div class="col-lg-11 col-xl-10">
             <div class="inner-page-title">
               <h2 class="s-52 w-700">Questions & Answers</h2>
-              <p class="p-lg">Your career growth, simplified!</p>
+              <p class="p-lg">For Corporate Training & Workshops!</p>
             </div>
             <div class="accordion-wrapper">
               <ul>

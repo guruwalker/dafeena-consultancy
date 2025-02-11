@@ -5,14 +5,14 @@
         <div class="banner-overlay">
           <div class="row">
             <div class="col">
-              <div class="banner-3-txt color--white">
+              <div class="banner-3-txt">
                 <h2 class="s-38 w-700">Let’s Talk! Schedule a Free Consultation
                 </h2>
                 <p class="p-lg">
                   Have questions? We're here to help! Book a free conversation with our experts and get the guidance you
                   need to take the next step in your career or business.
                 </p>
-                <NuxtLink to="/schedule-consultation" class="btn r-04 btn--theme hover--tra-white">Schedule a
+                <NuxtLink to="/schedule-consultation" class="btn r-04 btn--theme">Schedule a
                   Consultation
                 </NuxtLink>
               </div>
