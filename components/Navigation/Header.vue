@@ -2,7 +2,7 @@
     <header id="header" class="tra-menu white-scroll">
         <div class="header-wrapper">
             <NavigationDarkLightToggle />
-            <NavigationLogo />
+            <!-- <NavigationLogo /> -->
             <NavigationMenu />
         </div>
     </header>
