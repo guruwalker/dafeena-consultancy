@@ -40,13 +40,11 @@ export default {
     <div class="wsmainwp clearfix">
       <!-- HEADER BLACK LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-black"><img style="min-height: 86px; width: 117px; padding: 5px;"
-            src="/assets/images/DCLogo.png" alt="logo" /></NuxtLink>
+        <NuxtLink to="/" class="logo-black"><img style="min-height: 61px; width: 85px" src="/assets/images/dafeena-dark.png" alt="logo" /></NuxtLink>
       </div>
       <!-- HEADER WHITE LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-white"><img style="min-height: 61px; width: 85px" src="/assets/images/DCLogo.png"
-            alt="logo" /></NuxtLink>
+        <NuxtLink to="/" class="logo-white"><img style="min-height: 61px; width: 85px" src="/assets/images/dafeena-light.png" alt="logo" /></NuxtLink>
       </div>
       <!-- MAIN MENU -->
       <nav class="wsmenu clearfix" style="

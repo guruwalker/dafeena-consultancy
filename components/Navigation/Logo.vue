@@ -1,29 +1,20 @@
 <template>
   <div class="wsmobileheader clearfix">
-    <!-- <NuxtLink to="/"><span class="smllogo"><img src="/assets/images/DCLogo.png" alt="mobile-logo" /></span></NuxtLink> -->
-    <NuxtLink to="/" class="logo-black"
-      ><span class="smllogo"
-        ><img
-          style="min-height: 60px; width: 87px;"
-          src="/assets/images/DafeenaLogo.png"
-          alt="mobile-logo" /></span
-    ></NuxtLink>
-    <NuxtLink to="/" class="logo-white"
-      ><span class="smllogo"
-        ><img src="/assets/images/DCLogo.png" alt="logo" /></span
-    ></NuxtLink>
-    <a id="wsnavtoggle" class="wsanimated-arrow" @click="toggleMobileMenu">
-      <span></span>
-    </a>
+      <!-- <NuxtLink to="/"><span class="smllogo"><img src="/assets/images/logo-pink.png" alt="mobile-logo" /></span></NuxtLink> -->
+      <NuxtLink to="/" class="logo-black"><span class="smllogo"><img src="/public/assets/images/dafeena-dark.png" alt="mobile-logo" /></span></NuxtLink>
+      <NuxtLink to="/" class="logo-white"><span class="smllogo"><img src="/public/assets/images/dafeena-white.png" alt="logo" /></span></NuxtLink>
+      <a id="wsnavtoggle" class="wsanimated-arrow" @click="toggleMobileMenu">
+          <span></span>
+      </a>
   </div>
 </template>
 <script>
 export default {
   methods: {
-    toggleMobileMenu() {
-      // toggle body class "dark-mode"
-      document.body.classList.toggle("wsactive");
-    },
-  },
+      toggleMobileMenu() {
+          // toggle body class "dark-mode"
+          document.body.classList.toggle("wsactive");
+      }
+  }
 };
 </script>
