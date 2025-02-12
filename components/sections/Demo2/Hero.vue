@@ -15,9 +15,11 @@
               We provide tailored solutions to help you thrive—whether you're advancing your career, streamlining
               business operations, or upskilling your team.
             </p>
-            <p class="p-lg">
-              <!-- Our expert services include career coaching, virtual assistance, and corporate training to ensure you have -->
-              <!-- the support, tools, and strategies needed for success in today’s fast-paced world. -->
+            <!-- <p class="p-lg">
+
+              Our expert services include career coaching, virtual assistance, and corporate training to ensure you have
+              the support, tools, and strategies needed for success in today’s fast-paced world.
+            </p> -->
 
             <!-- <div class="d-flex justify-center gap-3 align-center">
               <div class="ico-wrap color--theme">
@@ -48,7 +50,6 @@
             </div> -->
 
 
-            </p>
             <!-- Button -->
             <div class="d-flex flex-row gap-3 flex-wrap">
               <NuxtLink href="/career-coaching" class="btn btn-sm r-04 btn--theme  hover--theme">Get Career Coaching
@@ -58,7 +59,8 @@
                 Assistance
               </NuxtLink>
 
-              <NuxtLink href="/corporate-training-and-workshops" class="btn btn-sm r-04 btn--theme  hover--theme">Learn about
+              <NuxtLink href="/corporate-training-and-workshops" class="btn btn-sm r-04 btn--theme  hover--theme">Learn
+                about
                 Corporate Workshops
               </NuxtLink>
             </div>
