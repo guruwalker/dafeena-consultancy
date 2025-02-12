@@ -30,7 +30,7 @@ useHead({
     <SectionsVirtualAssistancePageClientCountries />
 
     <!-- Clients rating & Testimonials -->
-    <SectionsVirtualAssistancePageTestimonialsCards />
+    <SectionsVirtualAssistancePageTestimonials />
 
     <!-- Q/A -->
     <SectionsVirtualAssistancePageQA />

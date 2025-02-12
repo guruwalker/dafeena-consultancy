@@ -16,7 +16,7 @@ declare interface IRequestService {
   phone_number: string | null | number;
   name: string | null;
   email: string | null;
-  date: string | null | date;
+  date: string | null | Date;
   description: string | null;
   service: string | null;
 }
@@ -26,7 +26,15 @@ declare interface IScheduleConsultation {
   phone_number: string | null | number;
   name: string | null;
   email: string | null;
-  date: string | null | date;
+  date: string | null | Date;
   description: string | null;
   service: string | null;
+}
+
+declare interface ITestimonial {
+  test: string;
+  avatar: string;
+  author: string;
+  role: string;
+  tag: string;
 }

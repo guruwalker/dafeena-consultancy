@@ -39,36 +39,10 @@ const testimonials = ref(Testimonials);
           <div class="row align-items-center row-cols-1 row-cols-md-2" style="display: flex; ">
             <div v-for="testimonial in testimonials" :key="testimonial.id" class="col"
               style="display: flex; flex-grow: 1;">
-              <div id="rw-2-2" class="review-2 bg--white-100 block-shadow r-08">
-                <!-- Quote Icon -->
-                <div class="review-ico ico-65">
-                  <span class="flaticon-quote"></span>
-                </div>
-                <!-- Text -->
-                <div class="review-txt">
-                  <!-- Text -->
-                  <p>{{ testimonial.text }}</p>
-                  <!-- Author -->
-                  <div class="author-data clearfix">
-                    <!-- Avatar -->
-                    <div class="review-avatar">
-                      <img :src="testimonial.avatar" alt="review-avatar" />
-                    </div>
-                    <!-- Data -->
-                    <div class="review-author">
-                      <h6 class="s-18 w-700">{{ testimonial.author }}</h6>
-                      <p class="p-sm">{{ testimonial.role }}</p>
-                    </div>
-                  </div>
-                  <!-- End Author -->
-                </div>
-                <!-- End Text -->
-              </div>
+              <SharedTestimonialsCard :testimonial="testimonial" />
             </div>
           </div>
-          <!-- End row -->
         </div>
-        <!-- END TESTIMONIALS-2 WRAPPER -->
       </div>
       <!-- End container -->
     </section>

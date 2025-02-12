@@ -52,7 +52,7 @@ export default {
           justify-content: center;
           align-content: center;
           align-items: center;
-        ">s
+        ">
         <ul class="wsmenu-list nav-theme">
           <li class="nl-simple custom-menu-items" aria-haspopup="true">
             <NuxtLink to="/corporate-training-and-workshops" class="h-link">Corporate Training & Workshops</NuxtLink>

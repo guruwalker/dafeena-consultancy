@@ -10,29 +10,50 @@ useSeoMeta({
 
 useHead({
   bodyAttrs: {
-      class: "navbar-dark scheme-magenta"
+    class: "navbar-dark scheme-magenta"
   }
 });
 </script>
 
 <template>
   <div>
-      <SectionsDemo13Section1 />
-      <SectionsDemo13Section2 />
-      <SectionsDemo13Section3 />
-      <SectionsDemo13Section4 />
-      <SectionsDemo13Section5 />
-      <SectionsDemo13Section6 />
-      <SectionsDemo13Section7 />
-      <SectionsDemo13Section8 />
-      <SectionsDemo13Section9 />
-      <SectionsDemo13Section10 />
-      <SectionsDemo13Section11 />
-      <SectionsDemo13Section12 />
-      <SectionsDemo13Section13 />
-      <SectionsDemo13Section14 />
-      <SectionsDemo13Section15 />
-      <SectionsDemo13Section16 />
-      <SectionsDemo13Section17 />
+    <!-- Header -->
+    <SectionsCorporateTrainingHeader />
+
+    <!-- Stats -->
+    <SectionsCorporateTrainingStats />
+
+    <!-- One stop solution -->
+    <SectionsCorporateTrainingOneSolution />
+
+    <!--
+    <SectionsCorporateTrainingSection3 />
+    <SectionsCorporateTrainingSection4 />
+    <SectionsCorporateTrainingSection5 />
+    <SectionsCorporateTrainingSection6 />
+    <SectionsCorporateTrainingSection7 />
+    <SectionsCorporateTrainingSection8 />
+    <SectionsCorporateTrainingSection9 />
+    <SectionsCorporateTrainingSection10 />
+    <SectionsCorporateTrainingSection11 />
+    <SectionsCorporateTrainingSection12 />
+
+-->
+    <!-- Bundled pricing / Accepted payments -->
+    <SectionsCorporateTrainingBundledPricing />
+
+    <!-- Benefits -->
+    <SectionsCorporateTrainingBenefitsDash />
+
+
+
+    <!-- Recent Companies worked here... -->
+    <SectionsCorporateTrainingRecentCompanies />
+
+    <!-- Clients rating & Testimonials -->
+    <SectionsCorporateTrainingTestimonials />
+
+    <!-- Q/A -->
+    <SectionsCorporateTrainingQA />
   </div>
 </template>

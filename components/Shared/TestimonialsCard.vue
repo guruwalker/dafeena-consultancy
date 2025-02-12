@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const props = defineProps({
   testimonial: Object
-})
+  })
 
 </script>
 
 <template>
-  <div class="review-1 bg--white-100 block-shadow r-08">
+  <div  class="review-2 bg--white-100 block-shadow r-08">
     <div class="review-ico ico-65">
       <span class="flaticon-quote"></span>
     </div>
