@@ -6,7 +6,7 @@
         <!-- FOOTER LOGO -->
         <div class="col-xl-3">
           <div class="footer-info">
-            <img style="min-height: 125px; width: 150px" class="footer-logo" src="/assets/images/DCLogo.png"
+            <img style="min-height: 125px; width: 150px" class="footer-logo" src="/assets/logo/DCLogo.png"
               alt="footer-logo" />
           </div>
         </div>

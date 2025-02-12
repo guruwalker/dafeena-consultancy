@@ -40,11 +40,11 @@ export default {
     <div class="wsmainwp clearfix">
       <!-- HEADER BLACK LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-black"><img style="min-height: 73px; width: 102px" src="/assets/images/df-dark.png" alt="logo" /></NuxtLink>
+        <NuxtLink to="/" class="logo-black"><img style="min-height: 73px; width: 102px" src="/assets/logo/df-dark.png" alt="logo" /></NuxtLink>
       </div>
       <!-- HEADER WHITE LOGO -->
       <div class="desktoplogo">
-        <NuxtLink to="/" class="logo-white"><img style="min-height: 73px; width: 102px" src="/assets/images/df-light.png" alt="logo" /></NuxtLink>
+        <NuxtLink to="/" class="logo-white"><img style="min-height: 73px; width: 102px" src="/assets/logo/df-light.png" alt="logo" /></NuxtLink>
       </div>
       <!-- MAIN MENU -->
       <nav class="wsmenu clearfix" style="
@@ -52,7 +52,7 @@ export default {
           justify-content: center;
           align-content: center;
           align-items: center;
-        ">
+        ">s
         <ul class="wsmenu-list nav-theme">
           <li class="nl-simple custom-menu-items" aria-haspopup="true">
             <NuxtLink to="/corporate-training-and-workshops" class="h-link">Corporate Training & Workshops</NuxtLink>

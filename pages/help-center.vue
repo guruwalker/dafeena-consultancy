@@ -107,7 +107,7 @@ const faqData = ref([
                                 <SharedAccordionItem2 v-for="(item, idx) in tab.questions" :key="idx"
                                     :title="item.title">
                                     <div v-html="item.answer"></div>
-                                </ElementsAccordionItem2>
+                                </SharedAccordionItem2>
 
                                 <!-- Add a link to the respective FAQ page -->
                                 <div class="text-center mt-4">
@@ -116,8 +116,8 @@ const faqData = ref([
                                         See More FAQs for {{ tab.category }}
                                     </a>
                                 </div>
-                            </ElementsTab>
-                        </ElementsTabs>
+                            </SharedTab>
+                        </SharedTabs>
                     </div>
                 </div>
             </div>

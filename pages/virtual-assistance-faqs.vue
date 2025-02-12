@@ -171,7 +171,7 @@ const virtualAssistanceFaqs = ref([
                       <!-- Answer -->
                       <div class="faqs-2-answer color--grey" v-html="question.answer"></div>
                     </div>
-                  </ElementsAccordionItem>
+                  </SharedAccordionItem>
                 </li>
               </ul>
             </div>

@@ -257,7 +257,7 @@ useHead({
                         </div>
                       </div>
                     </template>
-                  </ElementsVideoModal>
+                  </SharedVideoModal>
                   <!-- Preview Image -->
                   <img
                     class="img-fluid r-10"
