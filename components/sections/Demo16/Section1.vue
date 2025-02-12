@@ -10,7 +10,7 @@
                         <!-- Text -->
                         <p class="p-xl">Mauris donec ociis diam magnis sapien sagittis sapien tempor volute gravida and aliquet tortor undo aliquet quaerat in magna egestas sapien quaerat</p>
                         <!-- Button -->
-                        <ElementsCustomModalVideo />
+                        <SharedCustomModalVideo />
                         <p class="p-sm btn-txt ico-15"><span class="flaticon-check"></span> No credit card needed, free 14-day trial</p>
                     </div>
                 </div>

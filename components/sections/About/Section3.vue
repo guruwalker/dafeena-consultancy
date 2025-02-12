@@ -12,7 +12,7 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp :start="0" :end="120" :duration="2000" />
+                      <SharedCounterUp :start="0" :end="120" :duration="2000" />
                       +
                     </span>
                   </h2>
@@ -36,7 +36,7 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp :start="0" :end="6" :duration="2000" />+
+                      <SharedCounterUp :start="0" :end="6" :duration="2000" />+
                     </span>
                   </h2>
                 </div>
@@ -59,7 +59,7 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <ElementsCounterUp :start="0" :end="200" :duration="2000" />+
+                      <SharedCounterUp :start="0" :end="200" :duration="2000" />+
                     </span>
                   </h2>
                 </div>

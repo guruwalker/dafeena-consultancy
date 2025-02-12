@@ -25,7 +25,7 @@
         <div class="col-md-6 order-first order-md-2">
           <div class="img-block j-img video-preview right-column wow fadeInLeft">
             <!-- Play Icon -->
-            <!-- <ElementsCustomModalVideo /> -->
+            <!-- <SharedCustomModalVideo /> -->
             <!-- Preview Image -->
             <img class="img-fluid r-20" src="/assets/images/team/virginia.png" alt="video-preview" />
           </div>

@@ -31,7 +31,7 @@
                         <div class="col">
                             <div class="hero-21-img video-preview wow fadeInUp">
                                 <!-- Play Icon -->
-                                <ElementsCustomModalVideo />
+                                <SharedCustomModalVideo />
                                 <!-- Preview Image -->
                                 <img class="img-fluid" src="/assets/images/tablet-01.png" alt="video-preview" />
                             </div>

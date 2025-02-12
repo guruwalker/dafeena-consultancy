@@ -19,7 +19,7 @@
                         <div class="col">
                             <div class="bc-5-img bc-5-tablet img-block-hidden video-preview wow fadeInUp">
                                 <!-- Play Icon -->
-                                <ElementsCustomModalVideo />
+                                <SharedCustomModalVideo />
                                 <!-- Preview Image -->
                                 <img class="img-fluid" src="/assets/images/tablet-04.png" alt="content-image" />
                             </div>

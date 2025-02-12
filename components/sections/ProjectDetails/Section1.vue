@@ -137,7 +137,7 @@
                             <!-- VIDEO PREVIEW -->
                             <div class="project-image project-inner-img video-preview mt-50">
                                 <!-- Play Icon -->
-                                <ElementsCustomModalVideo />
+                                <SharedCustomModalVideo />
                                 <!-- Preview Image -->
                                 <img class="img-fluid r-10" src="/assets/images/projects/project-09.jpg" alt="video-preview" />
                             </div>

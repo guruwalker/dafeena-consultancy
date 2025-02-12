@@ -247,7 +247,7 @@ useHead({
                   class="project-image project-inner-img video-preview mt-50"
                 >
                   <!-- Play Icon -->
-                  <ElementsVideoModal
+                  <SharedVideoModal
                     :link="'https://www.youtube.com/embed/GcMiYI1gWD4'"
                   >
                     <template v-slot:button>

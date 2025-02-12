@@ -153,7 +153,7 @@ const faqs = ref([
             <div class="accordion-wrapper">
               <ul>
                 <li v-for="(category, index) in faqs" :key="index">
-                  <ElementsAccordionItem :title="category.category">
+                  <SharedAccordionItem :title="category.category">
                     <div v-for="(question, qIndex) in category.questions" :key="qIndex"
                       class="accordion-panel-item mb-35">
                       <!-- Question -->

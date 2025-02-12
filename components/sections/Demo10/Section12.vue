@@ -17,7 +17,7 @@
                 <div class="col">
                     <div class="img-block video-preview wow fadeInUp">
                         <!-- Play Icon -->
-                        <ElementsCustomModalVideo />
+                        <SharedCustomModalVideo />
                         <!-- Preview Image -->
                         <img class="img-fluid" src="/assets/images/dashboard-05.png" alt="video-preview" />
                     </div>

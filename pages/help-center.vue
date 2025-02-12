@@ -102,9 +102,9 @@ const faqData = ref([
                         <div class="inner-page-title">
                             <h2 class="s-52 w-700">How Can We Help?</h2>
                         </div>
-                        <ElementsTabs class="Tab-exp1">
-                            <ElementsTab v-for="(tab, index) in faqData" :key="index" :title="tab.category">
-                                <ElementsAccordionItem2 v-for="(item, idx) in tab.questions" :key="idx"
+                        <SharedTabs class="Tab-exp1">
+                            <SharedTab v-for="(tab, index) in faqData" :key="index" :title="tab.category">
+                                <SharedAccordionItem2 v-for="(item, idx) in tab.questions" :key="idx"
                                     :title="item.title">
                                     <div v-html="item.answer"></div>
                                 </ElementsAccordionItem2>

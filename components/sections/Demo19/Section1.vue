@@ -12,7 +12,7 @@
                         <!-- Buttons -->
                         <div class="btns-group d-flex justify-content-center">
                             <a href="#banner-7" class="btn r-04 btn--theme hover--theme">Get started for free</a>
-                            <ElementsCustomModalVideo />
+                            <SharedCustomModalVideo />
                         </div>
                     </div>
                 </div>

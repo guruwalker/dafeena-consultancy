@@ -13,7 +13,7 @@
                             <!-- Buttons -->
                             <div class="btns-group d-flex justify-content-center">
                                 <a href="#banner-3" class="btn r-04 btn--theme hover--theme">Get started for free</a>
-                                <ElementsCustomModalVideo />
+                                <SharedCustomModalVideo />
                             </div>
                             <!-- Advantages List -->
                             <ul class="advantages ico-15 mt-25 clearfix">

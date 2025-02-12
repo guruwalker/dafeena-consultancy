@@ -11,7 +11,7 @@
                                 <!-- Digit -->
                                 <div class="statistic-block-digit text-center">
                                     <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="93" :duration="2000" /></span>k
+                                        <span class="count-element d-flex"><SharedCounterUp :start="0" :end="93" :duration="2000" /></span>k
                                     </h2>
                                 </div>
                                 <!-- Text -->
@@ -29,7 +29,7 @@
                                 <!-- Digit -->
                                 <div class="statistic-block-digit text-center">
                                     <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="76" :duration="2000" /></span>%
+                                        <span class="count-element d-flex"><SharedCounterUp :start="0" :end="76" :duration="2000" /></span>%
                                     </h2>
                                 </div>
                                 <!-- Text -->
@@ -47,7 +47,7 @@
                                 <!-- Digit -->
                                 <div class="statistic-block-digit text-center">
                                     <h2 class="s-46 statistic-number">
-                                        <span class="count-element d-flex"><ElementsCounterUp :start="0" :end="45" :duration="2000" /></span>k
+                                        <span class="count-element d-flex"><SharedCounterUp :start="0" :end="45" :duration="2000" /></span>k
                                     </h2>
                                 </div>
                                 <!-- Text -->

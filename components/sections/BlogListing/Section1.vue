@@ -285,7 +285,7 @@
                                 <div class="col-md-6 order-first order-md-2">
                                     <div class="blog-post-img video-preview">
                                         <!-- Play Icon -->
-                                        <ElementsCustomModalVideo />
+                                        <SharedCustomModalVideo />
                                         <!-- Preview Image -->
                                         <img class="img-fluid" src="/assets/images/blog/post-10-img.jpg" alt="video-preview" />
                                     </div>

@@ -73,7 +73,7 @@
                             <div class="post-inner-img">
                                 <div class="video-preview">
                                     <!-- Play Icon -->
-                                    <ElementsCustomModalVideo />
+                                    <SharedCustomModalVideo />
                                     <!-- Preview Image -->
                                     <img class="img-fluid r-16" src="/assets/images/blog/post-13-img.jpg" alt="video-preview" />
                                 </div>
