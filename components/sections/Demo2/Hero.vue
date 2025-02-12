@@ -58,7 +58,7 @@
                 Assistance
               </NuxtLink>
 
-              <NuxtLink href="/career-coaching" class="btn btn-sm r-04 btn--theme  hover--theme">Learn about
+              <NuxtLink href="/corporate-training-and-workshops" class="btn btn-sm r-04 btn--theme  hover--theme">Learn about
                 Corporate Workshops
               </NuxtLink>
             </div>

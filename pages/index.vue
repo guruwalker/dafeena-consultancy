@@ -1,12 +1,13 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Advance Your Career & Streamline Your Business",
-  ogTitle: "Advance Your Career & Streamline Your Business",
+  title: "Career Growth, Business Support & Corporate Training",
+  ogTitle: "Career Growth, Business Support & Corporate Training",
   description:
-    "Dafeena Consultancy offers expert career coaching and virtual assistance services to help professionals and entrepreneurs succeed in their careers and businesses.",
+    "Dafeena Consultancy empowers professionals, businesses, and teams with expert career coaching, virtual assistance, and corporate training solutions.",
   ogDescription:
-    "Unlock your career potential with tailored coaching and enhance your business efficiency with professional virtual assistance. Dafeena Consultancy supports your success at every step.",
+    "Advance your career, streamline business operations, and upskill your team with expert coaching, virtual assistance, and corporate training from Dafeena Consultancy.",
 });
+
 
 useHead({
   bodyAttrs: {

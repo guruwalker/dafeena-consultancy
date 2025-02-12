@@ -6,8 +6,18 @@
         <!-- FOOTER LOGO -->
         <div class="col-xl-3">
           <div class="footer-info">
-            <img style="min-height: 125px; width: 150px" class="footer-logo" src="/assets/logo/DCLogo.png"
-              alt="footer-logo" />
+            <!-- <img style="min-height: 125px; width: 150px" class="footer-logo" src="/assets/logo/DCLogo.png"
+              alt="footer-logo" /> -->
+            <!-- HEADER BLACK LOGO -->
+            <div class="desktoplogo">
+              <NuxtLink to="/" class="logo-black"><img style="min-height: 73px; width: 102px"
+                  src="/assets/logo/df-dark.png" alt="logo" /></NuxtLink>
+            </div>
+            <!-- HEADER WHITE LOGO -->
+            <div class="desktoplogo">
+              <NuxtLink to="/" class="logo-white"><img style="min-height: 73px; width: 102px"
+                  src="/assets/logo/df-light.png" alt="logo" /></NuxtLink>
+            </div>
           </div>
         </div>
         <!-- FOOTER LINKS -->
