@@ -36,15 +36,15 @@
                 <div class="statistic-digit">
                   <h2 class="s-44 w-700">
                     <span class="count-element d-flex">
-                      <SharedCounterUp :start="0" :end="6" :duration="2000" />+
+                      <SharedCounterUp :start="0" :end="17" :duration="2000" />+
                     </span>
                   </h2>
                 </div>
                 <!-- Text -->
                 <div class="statistic-txt">
-                  <h5 class="s-19 w-700">Countries Served</h5>
+                  <h5 class="s-19 w-700">Workshops Conducted</h5>
                   <p>
-                    We've worked with clients from all over the world!
+                    Empowering professionals with essential skills.
                   </p>
                 </div>
               </div>

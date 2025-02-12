@@ -8,18 +8,58 @@
             <!-- Section ID -->
             <span class="section-id">Your Success, Our Mission</span>
             <!-- Title -->
-            <h2 class="s-42 w-700">Virtual Assistance & Career Consulting That Works</h2>
+            <h2 class="s-42 w-700">Expert Support for Your Career, Business & Team Growth
+            </h2>
             <!-- Text -->
             <p class="p-lg">
-              We handle the essentials so you can focus on what matters most—whether it's growing your business or
-              advancing your career. <br /> Our expert services provide the support, tools, and strategies you need to
-              thrive
-              in today’s fast-paced world.
+              We provide tailored solutions to help you thrive—whether you're advancing your career, streamlining
+              business operations, or upskilling your team.
+            </p>
+            <p class="p-lg">
+              <!-- Our expert services include career coaching, virtual assistance, and corporate training to ensure you have -->
+              <!-- the support, tools, and strategies needed for success in today’s fast-paced world. -->
+
+            <!-- <div class="d-flex justify-center gap-3 align-center">
+              <div class="ico-wrap color--theme">
+                <div class="cbox-1-ico"><span class="flaticon-check"></span></div>
+              </div>
+              <div class="cbox-1-txt">
+                <p>Career coaching</p>
+              </div>
+            </div>
+
+
+            <div class="d-flex justify-center gap-3 align-center">
+              <div class="ico-wrap color--theme">
+                <div class="cbox-1-ico"><span class="flaticon-check"></span></div>
+              </div>
+              <div class="cbox-1-txt">
+                <p>Virtual Assistance</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-center gap-3 align-center">
+              <div class="ico-wrap color--theme">
+                <div class="cbox-1-ico"><span class="flaticon-check"></span></div>
+              </div>
+              <div class="cbox-1-txt">
+                <p>Corporate Training & Worskhops</p>
+              </div>
+            </div> -->
+
+
             </p>
             <!-- Button -->
-            <div class="d-flex gap-3 flex-wrap">
-              <NuxtLink href="/career-coaching" class="btn r-04 btn--theme hover--theme">Get Career Coaching</NuxtLink>
-              <NuxtLink href="/virtual-assistance" class="btn r-04 btn--theme hover--theme">Explore Virtual Assistance
+            <div class="d-flex flex-row gap-3 flex-wrap">
+              <NuxtLink href="/career-coaching" class="btn btn-sm r-04 btn--theme  hover--theme">Get Career Coaching
+              </NuxtLink>
+
+              <NuxtLink href="/virtual-assistance" class="btn btn-sm r-04 btn--theme  hover--theme">Explore Virtual
+                Assistance
+              </NuxtLink>
+
+              <NuxtLink href="/career-coaching" class="btn btn-sm r-04 btn--theme  hover--theme">Learn about
+                Corporate Workshops
               </NuxtLink>
             </div>
 
@@ -30,7 +70,7 @@
         <!-- HERO IMAGE -->
         <div class="col-md-5">
           <div class="hero-25-img wow fadeInLeft">
-            <img class="img-fluid" src="/assets/images/hero-25-img.png" alt="hero-image" />
+            <img class="img-fluid" src="/assets/images/hero-18-img.png" alt="hero-image" />
           </div>
         </div>
       </div>
