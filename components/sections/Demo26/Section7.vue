@@ -6,7 +6,7 @@
                     <!-- SECTION TITLE -->
                     <div class="row justify-content-center">
                         <div class="col-md-11 col-lg-9">
-                            <div class="section-title wow fadeInUp mb-60">
+                            <div class="section-title animate__animated animate__fadeInUp mb-60">
                                 <!-- Title -->
                                 <h2 class="s-52 w-700">Find inspiration for your next design project</h2>
                                 <!-- Text -->
@@ -17,7 +17,7 @@
                     <!-- IMAGE BLOCK -->
                     <div class="row justify-content-center">
                         <div class="col">
-                            <div class="bc-5-img bc-5-tablet img-block-hidden video-preview wow fadeInUp">
+                            <div class="bc-5-img bc-5-tablet img-block-hidden video-preview animate__animated animate__fadeInUp">
                                 <!-- Play Icon -->
                                 <SharedCustomModalVideo />
                                 <!-- Preview Image -->

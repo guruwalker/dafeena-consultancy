@@ -4,7 +4,7 @@
       <div class="row d-flex align-items-center">
         <!-- HERO IMAGE -->
         <div class="col-md-6 order-last order-md-2">
-          <div class="hero-2-img wow fadeInRight">
+          <div class="hero-2-img animate__animated animate__fadeInRight">
             <img
               class="img-fluid"
               src="/assets/images/hero-2-img.png"
@@ -14,7 +14,7 @@
         </div>
         <!-- HERO TEXT -->
         <div class="col-md-6 order-first order-md-2">
-          <div class="hero-2-txt wow fadeInLeft">
+          <div class="hero-2-txt animate__animated animate__fadeInLeft">
             <!-- Title -->
             <h2 class="s-56 w-700 color--black">Enrol, Prepare, Get Hired!</h2>
             <!-- Text -->
@@ -29,7 +29,7 @@
             <!-- HERO DIGITS -->
             <div class="hero-digits">
               <!-- DIGIT BLOCK #1 -->
-              <div id="hd-1-1" class="wow fadeInUp">
+              <div id="hd-1-1" class="animate__animated animate__fadeInUp">
                 <div class="hero-digits-block">
                   <!-- Digit -->
                   <div class="block-digit">
@@ -45,7 +45,7 @@
               </div>
               <!-- END DIGIT BLOCK #1 -->
               <!-- DIGIT BLOCK #2 -->
-              <div id="hd-1-2" class="wow fadeInUp">
+              <div id="hd-1-2" class="animate__animated animate__fadeInUp">
                 <div class="hero-digits-block">
                   <!-- Digit -->
                   <div class="block-digit">

@@ -6,7 +6,7 @@
                     <!-- SECTION TITLE -->
                     <div class="row justify-content-center">
                         <div class="col-md-11 col-lg-9">
-                            <div class="section-title wow fadeInUp mb-60">
+                            <div class="section-title animate__animated animate__fadeInUp mb-60">
                                 <!-- Title -->
                                 <h2 class="s-50 w-700">Build a customer-centric marketing strategy</h2>
                                 <!-- Text -->

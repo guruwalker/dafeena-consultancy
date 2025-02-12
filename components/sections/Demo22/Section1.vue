@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO REQUEST FORM -->
                 <div class="col-md-6 col-lg-5 offset-md-6 offset-lg-7">
-                    <div id="hero-22-form" class="r-10 wow fadeInLeft">
+                    <div id="hero-22-form" class="r-10 animate__animated animate__fadeInLeft">
                         <!-- Hero Logo  -->
                         <div class="hero-logo">
                             <img class="img-fluid" src="/assets/images/logo-blue.png" alt="hero-logo" />

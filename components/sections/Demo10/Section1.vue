@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-6">
-                    <div class="hero-10-txt wow fadeInRight">
+                    <div class="hero-10-txt animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h2 class="s-52 w-700">Keep your files safe with Martex</h2>
                         <!-- Text -->
@@ -24,7 +24,7 @@
                 <!-- END HERO TEXT -->
                 <!-- HERO IMAGE -->
                 <div class="col-md-6">
-                    <div class="hero-10-img wow fadeInLeft">
+                    <div class="hero-10-img animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/dashboard-04.png" alt="hero-image" />
                     </div>
                 </div>

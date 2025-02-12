@@ -4,13 +4,13 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO IMAGE -->
                 <div class="col-md-6 order-last order-md-2">
-                    <div class="hero-18-img wow fadeInRight">
+                    <div class="hero-18-img animate__animated animate__fadeInRight">
                         <img class="img-fluid" src="/assets/images/hero-18-img.png" alt="hero-image" />
                     </div>
                 </div>
                 <!-- HERO TEXT -->
                 <div class="col-md-6 order-first order-md-2">
-                    <div class="hero-18-txt wow fadeInLeft">
+                    <div class="hero-18-txt animate__animated animate__fadeInLeft">
                         <!-- Title -->
                         <h2 class="s-56 w-700">Monitor all progress of your workflow easily</h2>
                         <!-- Text -->

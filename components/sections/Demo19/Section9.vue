@@ -17,7 +17,7 @@
                 <div class="row row-cols-1 row-cols-md-3 rows-2">
                     <!-- FEATURE BOX #1 -->
                     <div class="col">
-                        <div class="fbox-2 fb-1 wow fadeInUp">
+                        <div class="fbox-2 fb-1 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_04_dark.png" alt="feature-image" />
@@ -32,7 +32,7 @@
                     <!-- END FEATURE BOX #1 -->
                     <!-- FEATURE BOX #2 -->
                     <div class="col">
-                        <div class="fbox-2 fb-2 wow fadeInUp">
+                        <div class="fbox-2 fb-2 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_09_dark.png" alt="feature-image" />
@@ -47,7 +47,7 @@
                     <!-- END FEATURE BOX #2 -->
                     <!-- FEATURE BOX #3 -->
                     <div class="col">
-                        <div class="fbox-2 fb-3 wow fadeInUp">
+                        <div class="fbox-2 fb-3 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_01_dark.png" alt="feature-image" />
@@ -62,7 +62,7 @@
                     <!-- END FEATURE BOX #3 -->
                     <!-- FEATURE BOX #4 -->
                     <div class="col">
-                        <div class="fbox-2 fb-4 wow fadeInUp">
+                        <div class="fbox-2 fb-4 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_05_dark.png" alt="feature-image" />
@@ -77,7 +77,7 @@
                     <!-- END FEATURE BOX #4 -->
                     <!-- FEATURE BOX #5 -->
                     <div class="col">
-                        <div class="fbox-2 fb-5 wow fadeInUp">
+                        <div class="fbox-2 fb-5 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_02_dark.png" alt="feature-image" />
@@ -92,7 +92,7 @@
                     <!-- END FEATURE BOX #5 -->
                     <!-- FEATURE BOX #6 -->
                     <div class="col">
-                        <div class="fbox-2 fb-6 wow fadeInUp">
+                        <div class="fbox-2 fb-6 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-img gr--whitesmoke h-170">
                                 <img class="img-fluid" src="/assets/images/f_11_dark.png" alt="feature-image" />

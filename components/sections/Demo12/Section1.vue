@@ -5,7 +5,7 @@
                 <!-- HERO TEXT -->
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9 col-xl-10">
-                        <div class="hero-12-txt color--white wow fadeInUp">
+                        <div class="hero-12-txt color--white animate__animated animate__fadeInUp">
                             <!-- Title -->
                             <h2 class="s-62 w-700">Find inspiration for your next design project</h2>
                             <!-- Text -->
@@ -20,7 +20,7 @@
                 <!-- HERO IMAGE -->
                 <div class="row">
                     <div class="col">
-                        <div class="hero-12-img video-preview wow fadeInUp">
+                        <div class="hero-12-img video-preview animate__animated animate__fadeInUp">
                             <!-- Play Icon -->
                             <SharedCustomModalVideo />
                             <!-- Preview Image -->

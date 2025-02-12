@@ -5,13 +5,13 @@
             <div class="row mb-60">
                 <!-- IMAGE BLOCK -->
                 <div class="col-md-6">
-                    <div class="img-block left-column wow fadeInRight">
+                    <div class="img-block left-column animate__animated animate__fadeInRight">
                         <img class="img-fluid" src="/assets/images/img-01.png" alt="content-image" />
                     </div>
                 </div>
                 <!-- TEXT BLOCK -->
                 <div class="col-md-6">
-                    <div class="txt-block right-column wow fadeInLeft">
+                    <div class="txt-block right-column animate__animated animate__fadeInLeft">
                         <!-- Title -->
                         <h5 class="s-24 w-700">Automate data collection</h5>
                         <!-- Text -->
@@ -34,7 +34,7 @@
             <div class="row">
                 <!-- TEXT BLOCK -->
                 <div class="col-md-6">
-                    <div class="txt-block left-column wow fadeInRight">
+                    <div class="txt-block left-column animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h5 class="s-24 w-700">Increase your productivity with workflow automation</h5>
                         <!-- Text -->
@@ -44,7 +44,7 @@
                 <!-- END TEXT BLOCK -->
                 <!-- TEXT BLOCK -->
                 <div class="col-md-6">
-                    <div class="txt-block ml-block right-column wow fadeInLeft">
+                    <div class="txt-block ml-block right-column animate__animated animate__fadeInLeft">
                         <!-- Title -->
                         <h5 class="s-24 w-700">Integrate with popular tools</h5>
                         <!-- Text -->

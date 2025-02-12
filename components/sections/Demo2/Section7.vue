@@ -5,7 +5,7 @@
         <h5 class="s-24 w-700">Why Our Virtual Assistance Stands Out
         </h5>
         <div class="col-md-6 order-last order-md-2">
-          <div class="txt-block left-column wow fadeInRight">
+          <div class="txt-block left-column animate__animated animate__fadeInRight">
             <div class="cbox-2 process-step">
               <div class="ico-wrap">
                 <div class="cbox-2-ico bg--theme color--white">1</div>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="col-md-6 order-first order-md-2">
-          <div class="img-block wow fadeInLeft">
+          <div class="img-block animate__animated animate__fadeInLeft">
             <img class="img-fluid" src="/assets/images/tablet-02.png" alt="content-image" />
           </div>
         </div>

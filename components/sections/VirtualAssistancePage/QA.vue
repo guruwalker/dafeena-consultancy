@@ -55,7 +55,7 @@ const faqs = ref([
           <!-- Loop through the FAQs -->
           <div v-for="(faq, index) in faqs" :key="index" class="col-lg-6">
             <div class="questions-holder">
-              <div class="question mb-35 wow fadeInUp">
+              <div class="question mb-35 animate__animated animate__fadeInUp">
                 <h5 class="s-22 w-700">
                   <span>{{ index + 1 }}.</span> {{ faq.question }}
                 </h5>

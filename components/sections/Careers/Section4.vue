@@ -54,7 +54,7 @@ const benefitsBoxes = ref([
             :key="feature.id"
             class="col"
           >
-            <div :class="['fbox-11', 'fb-' + feature.id, 'wow', 'fadeInUp']">
+            <div :class="['fbox-11', 'fb-' + feature.id, 'animate__animated', 'animate__fadeInUp']">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">

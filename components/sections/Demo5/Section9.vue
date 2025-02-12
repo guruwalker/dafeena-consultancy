@@ -15,7 +15,7 @@
             <!-- IMAGE BLOCK -->
             <div class="row">
                 <div class="col">
-                    <div class="img-block wow fadeInUp">
+                    <div class="img-block animate__animated animate__fadeInUp">
                         <img class="img-fluid" src="/assets/images/img-19.png" alt="video-preview" />
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <!-- ACTION BUTTON -->
             <div class="row">
                 <div class="col">
-                    <div class="img-block-btn text-center wow fadeInUp">
+                    <div class="img-block-btn text-center animate__animated animate__fadeInUp">
                         <!-- Button -->
                         <a href="#integrations-1" class="btn r-04 btn--tra-black hover--theme">Monitor your activity</a>
                         <!-- Advantages List -->

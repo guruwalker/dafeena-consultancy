@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
-                    <div class="hero-9-txt wow fadeInUp">
+                    <div class="hero-9-txt animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-56 w-700">
                             Show the world <img src="/assets/images/png_icons/loud-speaker.png" alt="icon" />
@@ -33,7 +33,7 @@
             <!-- HERO IMAGE -->
             <div class="row">
                 <div class="col">
-                    <div class="hero-9-img wow fadeInUp">
+                    <div class="hero-9-img animate__animated animate__fadeInUp">
                         <img class="img-fluid" src="/assets/images/dashboard-08.png" alt="hero-image" />
                     </div>
                 </div>

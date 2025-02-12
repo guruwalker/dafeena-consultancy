@@ -42,7 +42,7 @@ const features = ref([
                 <div class="hero-6-wrapper r-16">
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6">
-                            <div class="hero-6-txt wow fadeInRight">
+                            <div class="hero-6-txt animate__animated animate__fadeInRight">
                                 <h2 class="s-44 w-700">We handle the essentials so you can focus on what truly matters
                                 </h2>
                                 <p class="p-lg">From daily tasks to strategic support, we take care of the necessary
@@ -51,7 +51,7 @@ const features = ref([
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="hero-6-img wow fadeInLeft">
+                            <div class="hero-6-img animate__animated animate__fadeInLeft">
                                 <img class="img-fluid" src="/assets/images/img-08.png" alt="hero-image" />
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const features = ref([
                 <div class="fbox-wrapper text-center">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                         <div class="col" v-for="feature in features" :key="feature.id">
-                            <div class="fbox-6 wow fadeInUp">
+                            <div class="fbox-6 animate__animated animate__fadeInUp">
                                 <div class="fbox-ico ico-55">
                                     <div class="shape-ico color--theme">
                                         <span :class="feature.icon" class="color--coal"></span>

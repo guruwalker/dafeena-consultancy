@@ -101,7 +101,7 @@
             <!-- MORE PROJECTS BUTTON -->
             <div class="row">
                 <div class="col">
-                    <div class="more-projects wow fadeInUp">
+                    <div class="more-projects animate__animated animate__fadeInUp">
                         <NuxtLink to="/projects" class="btn btn--theme hover--tra-black">See more projects</NuxtLink>
                     </div>
                 </div>

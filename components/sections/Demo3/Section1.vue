@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-6">
-                    <div class="hero-3-txt color--white wow fadeInRight">
+                    <div class="hero-3-txt color--white animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h2 class="s-60 w-700">Increase your website traffic with Martex</h2>
                         <!-- Text -->
@@ -12,7 +12,7 @@
                         <!-- HERO DIGITS -->
                         <div class="hero-digits">
                             <!-- DIGIT BLOCK #1 -->
-                            <div id="hd-1-1" class="wow fadeInUp">
+                            <div id="hd-1-1" class="animate__animated animate__fadeInUp">
                                 <div class="hero-digits-block">
                                     <!-- Digit -->
                                     <div class="block-digit">
@@ -26,7 +26,7 @@
                             </div>
                             <!-- END DIGIT BLOCK #1 -->
                             <!-- DIGIT BLOCK #2 -->
-                            <div id="hd-1-2" class="wow fadeInUp">
+                            <div id="hd-1-2" class="animate__animated animate__fadeInUp">
                                 <div class="hero-digits-block">
                                     <!-- Digit -->
                                     <div class="block-digit">
@@ -46,7 +46,7 @@
                 <!-- END HERO TEXT -->
                 <!-- HERO IMAGE -->
                 <div class="col-md-6">
-                    <div class="hero-3-img wow fadeInLeft">
+                    <div class="hero-3-img animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/tablet-01.png" alt="hero-image" />
                     </div>
                 </div>

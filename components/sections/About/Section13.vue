@@ -17,7 +17,7 @@
       <div class="row">
         <!-- BLOG POST #1 -->
         <div class="col-md-6 col-lg-4">
-          <div id="bp-1-1" class="blog-post wow fadeInUp">
+          <div id="bp-1-1" class="blog-post animate__animated animate__fadeInUp">
             <!-- BLOG POST IMAGE -->
             <div class="blog-post-img mb-35">
               <img
@@ -59,7 +59,7 @@
         <!-- END BLOG POST #1 -->
         <!-- BLOG POST #2 -->
         <div class="col-md-6 col-lg-4">
-          <div id="bp-1-2" class="blog-post wow fadeInUp">
+          <div id="bp-1-2" class="blog-post animate__animated animate__fadeInUp">
             <!-- BLOG POST IMAGE -->
             <div class="blog-post-img mb-35">
               <img
@@ -101,7 +101,7 @@
         <!-- END BLOG POST #2 -->
         <!-- BLOG POST #3 -->
         <div class="col-md-12 col-lg-4">
-          <div id="bp-1-3" class="blog-post wow fadeInUp">
+          <div id="bp-1-3" class="blog-post animate__animated animate__fadeInUp">
             <!-- BLOG POST IMAGE -->
             <div class="blog-post-img mb-35">
               <img
@@ -148,7 +148,7 @@
     <!-- MORES BUTTON -->
     <div class="row">
       <div class="col">
-        <div class="more-btn text-center mt-20 wow fadeInUp">
+        <div class="more-btn text-center mt-20 animate__animated animate__fadeInUp">
           <NuxtLink href="https://blogs.dafeenaconsultancy.com/" class="btn btn--tra-black hover--theme"
             >Visit Blogs Page</NuxtLink
           >

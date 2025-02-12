@@ -11,6 +11,19 @@ body {
   line-height: 1.6666;
   font-weight: 400;
 }
+
+/* Animation */
+.animate__animated {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+[data-animate] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
 /*------------------------------------------*/
 /*  PAGE CONTENT
 /*------------------------------------------*/

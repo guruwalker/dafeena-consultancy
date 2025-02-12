@@ -66,9 +66,11 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 on mobile, the wow.js makes somethings not load properly
 change wow.js to something else
-add filter for tesitmonials
+add filter for testimonials
 on testimonial cards, show tag
-use global testimonials card
 adjust pricing for careers
 adjust pricing for VA
 adjust pricing for corporate
+
+
+npm run generate

@@ -31,7 +31,7 @@
             <!-- HERO IMAGE -->
             <div class="row">
                 <div class="col">
-                    <div class="hero-19-img wow fadeInUp">
+                    <div class="hero-19-img animate__animated animate__fadeInUp">
                         <img class="img-fluid" src="/assets/images/dashboard-09.png" alt="hero-image" />
                     </div>
                 </div>

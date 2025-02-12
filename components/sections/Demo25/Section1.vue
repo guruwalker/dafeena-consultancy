@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-6">
-                    <div class="hero-25-txt wow fadeInRight">
+                    <div class="hero-25-txt animate__animated animate__fadeInRight">
                         <!-- Section ID -->
                         <span class="section-id">Built-In Automation</span>
                         <!-- Title -->
@@ -18,7 +18,7 @@
                 <!-- END HERO TEXT -->
                 <!-- HERO IMAGE -->
                 <div class="col-md-6">
-                    <div class="hero-25-img wow fadeInLeft">
+                    <div class="hero-25-img animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/hero-25-img.png" alt="hero-image" />
                     </div>
                 </div>

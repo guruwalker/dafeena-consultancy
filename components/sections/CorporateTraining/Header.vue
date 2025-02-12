@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-6">
-                    <div class="hero-11-txt wow fadeInRight">
+                    <div class="hero-11-txt animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h2 class="s-42 w-700">Give Your Team the Training They Need to Succeed
                         </h2>
@@ -21,7 +21,7 @@
                 <!-- END HERO TEXT -->
                 <!-- HERO IMAGE -->
                 <div class="col-md-6">
-                    <div class="hero-11-img text-center wow fadeInLeft">
+                    <div class="hero-11-img text-center animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/hero-11-img.png" alt="hero-image" />
                     </div>
                 </div>

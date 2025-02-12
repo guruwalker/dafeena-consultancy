@@ -24,7 +24,7 @@ const teamMembers = ref(Team)
       <div class="team-members-wrapper">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
           <div class="col" v-for="(member, index) in teamMembers" :key="index">
-            <div class="team-member mb-50 wow fadeInUp">
+            <div class="team-member mb-50 animate__animated animate__fadeInUp">
               <!-- Team Member Photo -->
               <div class="team-member-photo r-14" style="height: 250px">
                 <div class="hover-overlay">
@@ -46,7 +46,7 @@ const teamMembers = ref(Team)
       <!-- MORES BUTTON -->
       <div class="row">
         <div class="col">
-          <div class="more-btn text-center mt-20 wow fadeInUp">
+          <div class="more-btn text-center mt-20 animate__animated animate__fadeInUp">
             <NuxtLink to="/careers" class="btn btn--tra-black hover--theme">Join our team</NuxtLink>
           </div>
         </div>

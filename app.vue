@@ -8,4 +8,10 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import 'animate.css'
+</script>
+
+<style>
+@import url("animate.css");
+</style>

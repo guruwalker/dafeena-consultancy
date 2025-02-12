@@ -79,7 +79,7 @@ export default defineNuxtConfig({
     "~/assets/css/vendors/menu.css",
     "~/assets/css/vendors/fade-down.css",
     "~/assets/css/vendors/magnific-popup.css",
-    "~/assets/css/vendors/animate.css",
+    // "~/assets/css/vendors/animate.css",
     "~/assets/css/main.scss",
     "~/assets/css/override.scss",
     "~/assets/css/responsive.scss",
@@ -90,6 +90,8 @@ export default defineNuxtConfig({
     "~/assets/css/color-scheme/pink.scss",
     "~/assets/css/color-scheme/skyblue.scss",
     "~/assets/css/color-scheme/violet.scss",
+    "animate.css",
+    "animate.css/animate.min.css",
   ],
 
   modules: [

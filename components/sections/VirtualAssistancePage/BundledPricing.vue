@@ -67,7 +67,7 @@ const bundledServices = ref([
         </div>
       </div>
       <!-- PRICING COMPARE -->
-      <div class="comp-table wow fadeInUp">
+      <div class="comp-table animate__animated animate__fadeInUp">
         <div class="row">
           <div class="col">
             <!-- Table -->
@@ -162,7 +162,7 @@ const bundledServices = ref([
         <div class="row row-cols-1 row-cols-md-3">
           <!-- Payment Methods -->
           <div class="col col-lg-5">
-            <div id="pbox-1" class="pbox mb-40 wow fadeInUp">
+            <div id="pbox-1" class="pbox mb-40 animate__animated animate__fadeInUp">
               <!-- Title -->
               <h6 class="s-18 w-700">Accepted Payment Methods</h6>
               <!-- Payment Icons -->

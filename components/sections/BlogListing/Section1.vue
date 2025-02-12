@@ -2,7 +2,7 @@
     <section id="blog-page" class="pb-60 inner-page-hero blog-page-section">
         <div class="container">
             <!-- WIDE BLOG POST -->
-            <div class="blog-post wide-post wow fadeInUp">
+            <div class="blog-post wide-post animate__animated animate__fadeInUp">
                 <div class="row d-flex align-items-center">
                     <!-- BLOG POST IMAGE -->
                     <div class="col-md-6">
@@ -43,7 +43,7 @@
                 <div class="row">
                     <!-- BLOG POST #1 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-1-img.jpg" alt="blog-post-image" />
@@ -75,7 +75,7 @@
                     <!-- END BLOG POST #1 -->
                     <!-- BLOG POST #2 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-2-img.jpg" alt="blog-post-image" />
@@ -107,7 +107,7 @@
                     <!-- END BLOG POST #2 -->
                     <!-- BLOG POST #3 -->
                     <div class="col-md-12 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-3-img.jpg" alt="blog-post-image" />
@@ -143,7 +143,7 @@
             <!-- BLOG POSTS CATEGORY -->
             <div class="row">
                 <div class="col">
-                    <div class="posts-category ico-20 wow fadeInUp">
+                    <div class="posts-category ico-20 animate__animated animate__fadeInUp">
                         <h4 class="s-34 w-700">Latest News <span class="flaticon-next"></span></h4>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                 <div class="row">
                     <!-- BLOG POST #4 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-4-img.jpg" alt="blog-post-image" />
@@ -185,7 +185,7 @@
                     <!-- END BLOG POST #4 -->
                     <!-- BLOG POST #5 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-5-img.jpg" alt="blog-post-image" />
@@ -217,7 +217,7 @@
                     <!-- END BLOG POST #5 -->
                     <!-- BLOG POST #6 -->
                     <div class="col-md-12 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-6-img.jpg" alt="blog-post-image" />
@@ -256,7 +256,7 @@
                 <div class="row">
                     <div class="col">
                         <!-- SQUARE BLOG POST WRAPPER -->
-                        <div class="square-post-wrapper bg--black-400 block-shadow r-16 wow fadeInUp">
+                        <div class="square-post-wrapper bg--black-400 block-shadow r-16 animate__animated animate__fadeInUp">
                             <div class="row d-flex align-items-center">
                                 <!-- BLOG POST TEXT -->
                                 <div class="col-md-6 order-last order-md-2">
@@ -302,7 +302,7 @@
             <!-- BLOG POSTS CATEGORY -->
             <div class="row">
                 <div class="col">
-                    <div class="posts-category ico-20 wow fadeInUp">
+                    <div class="posts-category ico-20 animate__animated animate__fadeInUp">
                         <h4 class="s-34 w-700">All Stories <span class="flaticon-next"></span></h4>
                     </div>
                 </div>
@@ -312,7 +312,7 @@
                 <div class="row">
                     <!-- BLOG POST #7 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-7-img.jpg" alt="blog-post-image" />
@@ -344,7 +344,7 @@
                     <!-- END BLOG POST #7 -->
                     <!-- BLOG POST #8 -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-8-img.jpg" alt="blog-post-image" />
@@ -376,7 +376,7 @@
                     <!-- END BLOG POST #8 -->
                     <!-- BLOG POST #9 -->
                     <div class="col-md-12 col-lg-4">
-                        <div class="blog-post mb-40 wow fadeInUp clearfix">
+                        <div class="blog-post mb-40 animate__animated animate__fadeInUp clearfix">
                             <!-- BLOG POST IMAGE -->
                             <div class="blog-post-img mb-35">
                                 <img class="img-fluid r-16" src="/assets/images/blog/post-9-img.jpg" alt="blog-post-image" />

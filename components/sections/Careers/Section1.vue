@@ -5,7 +5,7 @@
         <div class="row d-flex align-items-center">
           <!-- TEXT BLOCK -->
           <div class="col-md-6">
-            <div class="txt-block left-column color--white wow fadeInRight">
+            <div class="txt-block left-column color--white animate__animated animate__fadeInRight">
               <!-- Section ID -->
               <span class="section-id rounded-id bg--tra-white color--white">
                 Careers
@@ -25,7 +25,7 @@
           <!-- END TEXT BLOCK -->
           <!-- IMAGE BLOCK -->
           <div class="col-md-6">
-            <div class="img-block right-column wow fadeInLeft">
+            <div class="img-block right-column animate__animated animate__fadeInLeft">
               <img
                 class="img-fluid"
                 src="/assets/images/img-18.png"
