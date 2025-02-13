@@ -34,9 +34,10 @@ watch(
     </NuxtLink>
 
     <!-- Mobile Menu Toggle Button -->
+    <NavigationDarkLightToggle />
+
     <button id="wsnavtoggle" class="wsanimated-arrow" @click="toggleMobileMenu">
       <span></span>
     </button>
   </div>
 </template>
-
