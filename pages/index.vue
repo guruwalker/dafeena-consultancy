@@ -39,7 +39,7 @@ useHead({
           <div class="more-questions-txt bg--white-400 r-100">
             <p class="p-lg">
               Have any questions?
-              <NuxtLink to="/help-center" class="color--theme">View our Help Center</NuxtLink>
+              <NuxtLink to="/contact-us" class="color--theme">Contact Us</NuxtLink>
             </p>
           </div>
         </div>

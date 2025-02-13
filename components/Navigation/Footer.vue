@@ -70,11 +70,6 @@
               </li>
               <li>
                 <p>
-                  <NuxtLink to="/help-center">Help Center</NuxtLink>
-                </p>
-              </li>
-              <li>
-                <p>
                   <NuxtLink to="/virtual-assistance-faqs">Virtual Assistance FAQs</NuxtLink>
                 </p>
               </li>
