@@ -18,7 +18,7 @@
                 <!-- IMAGE BLOCK -->
                 <div class="row">
                     <div class="col">
-                        <div class="img-block video-preview wow fadeInUp">
+                        <div class="img-block video-preview animate__animated animate__fadeInUp">
                             <!-- Play Icon -->
                             <SharedCustomModalVideo />
                             <!-- Preview Image -->

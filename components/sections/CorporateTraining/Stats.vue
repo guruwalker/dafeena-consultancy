@@ -6,7 +6,7 @@
                 <div class="row row-cols-1 row-cols-md-3">
                     <!-- STATISTIC BLOCK #1 -->
                     <div class="col">
-                        <div id="sb-5-1" class="wow fadeInUp">
+                        <div id="sb-5-1" class="animate__animated animate__fadeInUp">
                             <div class="statistic-block">
                                 <!-- Digit -->
                                 <div class="statistic-digit">
@@ -28,7 +28,7 @@
                     <!-- END STATISTIC BLOCK #1 -->
                     <!-- STATISTIC BLOCK #2 -->
                     <div class="col">
-                        <div id="sb-5-2" class="wow fadeInUp">
+                        <div id="sb-5-2" class="animate__animated animate__fadeInUp">
                             <div class="statistic-block">
                                 <!-- Digit -->
                                 <div class="statistic-digit">
@@ -50,7 +50,7 @@
                     <!-- END STATISTIC BLOCK #2 -->
                     <!-- STATISTIC BLOCK #3 -->
                     <div class="col">
-                        <div id="sb-5-3" class="wow fadeInUp">
+                        <div id="sb-5-3" class="animate__animated animate__fadeInUp">
                             <div class="statistic-block">
                                 <!-- Digit -->
                                 <div class="statistic-digit">

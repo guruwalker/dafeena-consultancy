@@ -4,7 +4,7 @@
       <div class="row d-flex align-items-center">
         <!-- HERO TEXT -->
         <div class="col-md-7">
-          <div class="hero-25-txt wow fadeInRight">
+          <div class="hero-25-txt animate__animated animate__fadeInRight">
             <!-- Section ID -->
             <span class="section-id">Your Success, Our Mission</span>
             <!-- Title -->
@@ -71,7 +71,7 @@
         <!-- END HERO TEXT -->
         <!-- HERO IMAGE -->
         <div class="col-md-5">
-          <div class="hero-25-img wow fadeInLeft">
+          <div class="hero-25-img animate__animated animate__fadeInLeft">
             <img class="img-fluid" src="/assets/images/hero-18-img.png" alt="hero-image" />
           </div>
         </div>

@@ -30,7 +30,7 @@
                 <div class="row row-cols-1 row-cols-md-3">
                     <!-- STARTER PLAN -->
                     <div class="col">
-                        <div id="pt-1-1" class="p-table pricing-1-table bg--white-100 block-shadow r-12 wow fadeInUp">
+                        <div id="pt-1-1" class="p-table pricing-1-table bg--white-100 block-shadow r-12 animate__animated animate__fadeInUp">
                             <!-- TABLE HEADER -->
                             <div class="pricing-table-header">
                                 <!-- Title -->
@@ -73,7 +73,7 @@
                     <!-- END STARTER PLAN -->
                     <!-- BASIC PLAN -->
                     <div class="col">
-                        <div id="pt-1-2" class="p-table pricing-1-table bg--white-100 block-shadow r-12 wow fadeInUp">
+                        <div id="pt-1-2" class="p-table pricing-1-table bg--white-100 block-shadow r-12 animate__animated animate__fadeInUp">
                             <!-- TABLE HEADER -->
                             <div class="pricing-table-header">
                                 <!-- Title -->
@@ -131,7 +131,7 @@
                     <!-- END BASIC PLAN -->
                     <!-- ADVANCED PLAN -->
                     <div class="col">
-                        <div id="pt-1-3" class="p-table pricing-1-table bg--white-100 block-shadow r-12 wow fadeInUp">
+                        <div id="pt-1-3" class="p-table pricing-1-table bg--white-100 block-shadow r-12 animate__animated animate__fadeInUp">
                             <!-- TABLE HEADER -->
                             <div class="pricing-table-header">
                                 <!-- Title -->
@@ -193,7 +193,7 @@
             <!-- PRICING NOTICE TEXT -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div class="pricing-notice wow fadeInUp">
+                    <div class="pricing-notice animate__animated animate__fadeInUp">
                         <!-- Text -->
                         <p>The above prices do not include applicable taxes based on your billing address. The final price will be displayed on the checkout page, before the payment is completed</p>
                     </div>

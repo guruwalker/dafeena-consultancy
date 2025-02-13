@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
-                    <div class="hero-24-txt color--white wow fadeInUp">
+                    <div class="hero-24-txt color--white animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-60 w-700">Achieve more with less through automation</h2>
                         <!-- Text -->

@@ -5,7 +5,7 @@
                 <div class="row d-flex align-items-center">
                     <!-- HERO TEXT -->
                     <div class="col-md-6">
-                        <div class="hero-7-txt wow fadeInRight">
+                        <div class="hero-7-txt animate__animated animate__fadeInRight">
                             <!-- Title -->
                             <h2 class="s-54 w-700">Digital marketing that drives results for your business</h2>
                             <!-- Text -->
@@ -30,7 +30,7 @@
                     <!-- END HERO TEXT -->
                     <!-- HERO IMAGE -->
                     <div class="col-md-6">
-                        <div class="hero-7-img text-center wow fadeInLeft">
+                        <div class="hero-7-img text-center animate__animated animate__fadeInLeft">
                             <img class="img-fluid" src="/assets/images/img-06.png" alt="hero-image" />
                         </div>
                     </div>

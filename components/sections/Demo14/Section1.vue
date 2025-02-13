@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
-                    <div class="hero-14-txt color--white wow fadeInUp">
+                    <div class="hero-14-txt color--white animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-60 w-700">Automate your way to success with Martex</h2>
                         <!-- Text -->
@@ -30,7 +30,7 @@
             <!-- HERO IMAGE -->
             <div class="row">
                 <div class="col">
-                    <div class="hero-14-img wow fadeInUp">
+                    <div class="hero-14-img animate__animated animate__fadeInUp">
                         <img class="img-fluid" src="/assets/images/dashboard-02.png" alt="hero-image" />
                     </div>
                 </div>

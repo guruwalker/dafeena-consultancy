@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
-                    <div class="hero-21-txt wow fadeInUp">
+                    <div class="hero-21-txt animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-56 w-700">The perfect analytics tool for your online business</h2>
                         <!-- Buttons -->
@@ -29,7 +29,7 @@
                 <div class="hero-overlay bg--fixed">
                     <div class="row">
                         <div class="col">
-                            <div class="hero-21-img video-preview wow fadeInUp">
+                            <div class="hero-21-img video-preview animate__animated animate__fadeInUp">
                                 <!-- Play Icon -->
                                 <SharedCustomModalVideo />
                                 <!-- Preview Image -->

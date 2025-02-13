@@ -21,7 +21,7 @@
         <div class="row row-cols-1 row-cols-md-2 rows-3">
           <!-- FEATURE BOX #1 -->
           <div class="col">
-            <div class="fbox-11 fb-1 wow fadeInUp">
+            <div class="fbox-11 fb-1 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">
@@ -57,7 +57,7 @@
           <!-- END FEATURE BOX #1 -->
           <!-- FEATURE BOX #2 -->
           <div class="col">
-            <div class="fbox-11 fb-2 wow fadeInUp">
+            <div class="fbox-11 fb-2 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">
@@ -93,7 +93,7 @@
           <!-- END FEATURE BOX #2 -->
           <!-- FEATURE BOX #3 -->
           <div class="col">
-            <div class="fbox-11 fb-3 wow fadeInUp">
+            <div class="fbox-11 fb-3 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">
@@ -129,7 +129,7 @@
           <!-- END FEATURE BOX #3 -->
           <!-- FEATURE BOX #4 -->
           <div class="col">
-            <div class="fbox-11 fb-4 wow fadeInUp">
+            <div class="fbox-11 fb-4 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">
@@ -165,7 +165,7 @@
           <!-- END FEATURE BOX #4 -->
           <!-- FEATURE BOX #5 -->
           <div class="col">
-            <div class="fbox-11 fb-5 wow fadeInUp">
+            <div class="fbox-11 fb-5 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">
@@ -201,7 +201,7 @@
           <!-- END FEATURE BOX #5 -->
           <!-- FEATURE BOX #6 -->
           <div class="col">
-            <div class="fbox-11 fb-6 wow fadeInUp">
+            <div class="fbox-11 fb-6 animate__animated animate__fadeInUp">
               <!-- Icon -->
               <div class="fbox-ico-wrap">
                 <div class="fbox-ico ico-50">

@@ -7,5 +7,3 @@
     <UNotifications />
   </div>
 </template>
-
-<script></script>

@@ -18,7 +18,7 @@
                 <div class="row row-cols-1 row-cols-sm-3 row-cols-md-5">
                     <!-- TOOL #1 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-1 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-1 r-12 animate__animated animate__fadeInUp">
                             <!-- Logo -->
                             <div class="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
                                 <img class="img-fluid" src="/assets/images/png_icons/tool-1.png" alt="brand-logo" />
@@ -30,7 +30,7 @@
                     <!-- END TOOL #1 -->
                     <!-- TOOL #2 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-2 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-2 r-12 animate__animated animate__fadeInUp">
                             <!-- Logo -->
                             <div class="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
                                 <img class="img-fluid" src="/assets/images/png_icons/tool-2.png" alt="brand-logo" />
@@ -42,7 +42,7 @@
                     <!-- END TOOL #2 -->
                     <!-- TOOL #3 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-3 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-3 r-12 animate__animated animate__fadeInUp">
                             <!-- Logo -->
                             <div class="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
                                 <img class="img-fluid" src="/assets/images/png_icons/tool-3.png" alt="brand-logo" />
@@ -54,7 +54,7 @@
                     <!-- END TOOL #3 -->
                     <!-- TOOL #4 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-4 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-4 r-12 animate__animated animate__fadeInUp">
                             <!-- Logo -->
                             <div class="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
                                 <img class="img-fluid" src="/assets/images/png_icons/tool-4.png" alt="brand-logo" />
@@ -66,7 +66,7 @@
                     <!-- END TOOL #4 -->
                     <!-- TOOL #5 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-5 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-5 r-12 animate__animated animate__fadeInUp">
                             <!-- Logo -->
                             <div class="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
                                 <img class="img-fluid" src="/assets/images/png_icons/tool-5.png" alt="brand-logo" />
@@ -81,7 +81,7 @@
                 <!-- MORE BUTTON -->
                 <div class="row">
                     <div class="col">
-                        <div class="more-btn text-center mt-60 wow fadeInUp">
+                        <div class="more-btn text-center mt-60 animate__animated animate__fadeInUp">
                             <NuxtLink to="/integrations" class="btn btn--tra-grey hover--theme">View all integrations</NuxtLink>
                         </div>
                     </div>

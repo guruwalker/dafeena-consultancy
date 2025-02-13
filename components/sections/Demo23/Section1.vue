@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9 col-xl-10">
-                    <div class="hero-23-txt wow fadeInUp">
+                    <div class="hero-23-txt animate__animated animate__fadeInUp">
                         <!-- Hero Logo  -->
                         <div class="hero-square-logo">
                             <img class="img-fluid" src="/assets/images/square-logo.png" alt="hero-logo" />
@@ -23,7 +23,7 @@
             <!-- HERO IMAGE -->
             <div class="row">
                 <div class="col">
-                    <div class="hero-23-img video-preview wow fadeInUp">
+                    <div class="hero-23-img video-preview animate__animated animate__fadeInUp">
                         <!-- Play Icon -->
                         <SharedCustomModalVideo />
                         <!-- Preview Image -->

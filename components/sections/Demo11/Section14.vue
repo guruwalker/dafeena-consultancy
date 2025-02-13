@@ -5,7 +5,7 @@
             <div class="row d-flex align-items-center">
                 <!-- TEXT BLOCK -->
                 <div class="col-md-6 order-last order-md-2">
-                    <div class="txt-block left-column wow fadeInRight">
+                    <div class="txt-block left-column animate__animated animate__fadeInRight">
                         <!-- Section ID -->
                         <span class="section-id">Built for Speed</span>
                         <!-- Title -->
@@ -26,7 +26,7 @@
                 <!-- END TEXT BLOCK -->
                 <!-- IMAGE BLOCK -->
                 <div class="col-md-6 order-first order-md-2">
-                    <div class="img-block right-column wow fadeInLeft">
+                    <div class="img-block right-column animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/img-03.png" alt="content-image" />
                     </div>
                 </div>

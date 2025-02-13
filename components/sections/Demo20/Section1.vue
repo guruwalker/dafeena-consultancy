@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-7 col-lg-6">
-                    <div class="hero-20-txt wow fadeInRight">
+                    <div class="hero-20-txt animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h2 class="s-48 w-700">Increase your traffic and boost your brand</h2>
                         <!-- Text -->

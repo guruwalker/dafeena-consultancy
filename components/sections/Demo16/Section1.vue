@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
-                    <div class="hero-16-txt wow fadeInUp">
+                    <div class="hero-16-txt animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-58 w-700">Easy and secure access to all your files anytime</h2>
                         <!-- Text -->
@@ -19,7 +19,7 @@
             <!-- HERO IMAGE -->
             <div class="row">
                 <div class="col">
-                    <div class="hero-16-img wow fadeInUp">
+                    <div class="hero-16-img animate__animated animate__fadeInUp">
                         <img class="img-fluid" src="/assets/images/img-15.png" alt="hero-image" />
                     </div>
                 </div>

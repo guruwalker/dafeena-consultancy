@@ -19,7 +19,7 @@
                 <div class="row d-flex align-items-center">
                     <!-- FEATURE BOX #1 -->
                     <div class="col-md-6">
-                        <div class="fbox-5 fb-1 bg--02 r-16 wow fadeInUp">
+                        <div class="fbox-5 fb-1 bg--02 r-16 animate__animated animate__fadeInUp">
                             <!-- Text -->
                             <div class="fbox-txt order-last order-md-2">
                                 <h5 class="s-26 w-700">Easy Automations</h5>
@@ -34,7 +34,7 @@
                     <!-- END FEATURE BOX #1 -->
                     <!-- FEATURE BOX #2 -->
                     <div class="col-md-6">
-                        <div class="fbox-5 fb-2 gr--smoke r-16 wow fadeInUp">
+                        <div class="fbox-5 fb-2 gr--smoke r-16 animate__animated animate__fadeInUp">
                             <!-- Image -->
                             <div class="fbox-5-img">
                                 <img class="img-fluid" src="/assets/images/f_07_dark.png" alt="feature-image" />

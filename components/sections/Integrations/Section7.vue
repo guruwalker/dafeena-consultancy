@@ -17,7 +17,7 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
                     <!-- TOOL #1 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-1 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -34,7 +34,7 @@
                     <!-- END FEATURE BOX #1 -->
                     <!-- TOOL #2 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-2 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-2 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -51,7 +51,7 @@
                     <!-- END FEATURE BOX #2 -->
                     <!-- TOOL #3 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-3 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-3 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -68,7 +68,7 @@
                     <!-- END FEATURE BOX #3 -->
                     <!-- TOOL #4 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-4 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-4 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -85,7 +85,7 @@
                     <!-- END FEATURE BOX #4 -->
                     <!-- TOOL #5 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-5 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-5 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -102,7 +102,7 @@
                     <!-- END FEATURE BOX #5 -->
                     <!-- TOOL #6 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-6 r-12 mb-30 wow fadeInUp">
+                        <a href="#" class="in_tool it-6 r-12 mb-30 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -119,7 +119,7 @@
                     <!-- END FEATURE BOX #6 -->
                     <!-- TOOL #7 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-7 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-7 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -136,7 +136,7 @@
                     <!-- END FEATURE BOX #7 -->
                     <!-- TOOL #8 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-8 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-8 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">
@@ -153,7 +153,7 @@
                     <!-- END FEATURE BOX #8 -->
                     <!-- TOOL #9 -->
                     <div class="col">
-                        <a href="#" class="in_tool it-9 r-12 wow fadeInUp">
+                        <a href="#" class="in_tool it-9 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="in_tool-logo-wrap">
                                 <div class="in_tool-logo ico-60">

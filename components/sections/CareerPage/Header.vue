@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
-                    <div class="hero-15-txt wow fadeInRight">
+                    <div class="hero-15-txt animate__animated animate__fadeInRight">
                         <h2 class="s-44 w-700">Take Your Career to the Next Level with Expert Coaching
 
                         </h2>
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="hero-15-img text-center wow fadeInLeft">
+                    <div class="hero-15-img text-center animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/hero-15-img.png" alt="hero-image" />
                     </div>
                 </div>

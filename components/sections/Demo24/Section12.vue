@@ -4,13 +4,13 @@
             <div class="row d-flex align-items-center">
                 <!-- IMAGE BLOCK -->
                 <div class="col-md-6 col-lg-7">
-                    <div class="img-block left-column wow fadeInRight">
+                    <div class="img-block left-column animate__animated animate__fadeInRight">
                         <img class="img-fluid" src="/assets/images/img-14.png" alt="content-image" />
                     </div>
                 </div>
                 <!-- TEXT BLOCK -->
                 <div class="col-md-6 col-lg-5">
-                    <div class="txt-block right-column wow fadeInLeft">
+                    <div class="txt-block right-column animate__animated animate__fadeInLeft">
                         <!-- Section ID -->
                         <span class="section-id">One-Stop Solution</span>
                         <!-- Title -->

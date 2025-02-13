@@ -15,7 +15,7 @@
             <div class="row">
                 <!-- BLOG POST #1 -->
                 <div class="col-md-6 col-lg-4">
-                    <div id="bp-1-1" class="blog-post wow fadeInUp">
+                    <div id="bp-1-1" class="blog-post animate__animated animate__fadeInUp">
                         <!-- BLOG POST IMAGE -->
                         <div class="blog-post-img mb-35">
                             <img class="img-fluid r-16" src="/assets/images/blog/post-8-img.jpg" alt="blog-post-image" />
@@ -47,7 +47,7 @@
                 <!-- END BLOG POST #1 -->
                 <!-- BLOG POST #2 -->
                 <div class="col-md-6 col-lg-4">
-                    <div id="bp-1-2" class="blog-post wow fadeInUp">
+                    <div id="bp-1-2" class="blog-post animate__animated animate__fadeInUp">
                         <!-- BLOG POST IMAGE -->
                         <div class="blog-post-img mb-35">
                             <img class="img-fluid r-16" src="/assets/images/blog/post-2-img.jpg" alt="blog-post-image" />
@@ -79,7 +79,7 @@
                 <!-- END BLOG POST #2 -->
                 <!-- BLOG POST #3 -->
                 <div class="col-md-12 col-lg-4">
-                    <div id="bp-1-3" class="blog-post wow fadeInUp">
+                    <div id="bp-1-3" class="blog-post animate__animated animate__fadeInUp">
                         <!-- BLOG POST IMAGE -->
                         <div class="blog-post-img mb-35">
                             <img class="img-fluid r-16" src="/assets/images/blog/post-5-img.jpg" alt="blog-post-image" />

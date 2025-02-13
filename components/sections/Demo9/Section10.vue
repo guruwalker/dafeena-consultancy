@@ -6,7 +6,7 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <!-- FEATURE BOX #1 -->
                     <div class="col">
-                        <div class="fbox-7 fb-1 r-12 wow fadeInUp">
+                        <div class="fbox-7 fb-1 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="fbox-ico ico-50">
                                 <div class="shape-ico color--theme">
@@ -29,7 +29,7 @@
                     <!-- END FEATURE BOX #1 -->
                     <!-- FEATURE BOX #2 -->
                     <div class="col">
-                        <div class="fbox-7 fb-2 r-12 wow fadeInUp">
+                        <div class="fbox-7 fb-2 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="fbox-ico ico-50">
                                 <div class="shape-ico color--theme">
@@ -52,7 +52,7 @@
                     <!-- END FEATURE BOX #2 -->
                     <!-- FEATURE BOX #3 -->
                     <div class="col">
-                        <div class="fbox-7 fb-3 r-12 wow fadeInUp">
+                        <div class="fbox-7 fb-3 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="fbox-ico ico-50">
                                 <div class="shape-ico color--theme">
@@ -75,7 +75,7 @@
                     <!-- END FEATURE BOX #3 -->
                     <!-- FEATURE BOX #4 -->
                     <div class="col">
-                        <div class="fbox-7 fb-4 r-12 wow fadeInUp">
+                        <div class="fbox-7 fb-4 r-12 animate__animated animate__fadeInUp">
                             <!-- Icon -->
                             <div class="fbox-ico ico-50">
                                 <div class="shape-ico color--theme">

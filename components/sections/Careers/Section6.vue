@@ -1,4 +1,8 @@
+<script setup lang="ts">
+import Roles from '~~/components/Data/Careers'
 
+const openRoles = ref(Roles)
+</script>
 
 
 <template>

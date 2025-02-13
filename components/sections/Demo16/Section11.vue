@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- TEXT BLOCK -->
                 <div class="col-md-5">
-                    <div class="txt-block left-column wow fadeInRight">
+                    <div class="txt-block left-column animate__animated animate__fadeInRight">
                         <!-- Section ID -->
                         <span class="section-id">One-Stop Solution</span>
                         <!-- Title -->
@@ -29,7 +29,7 @@
                 <!-- END TEXT BLOCK -->
                 <!-- FEATURES-12 WRAPPER -->
                 <div class="col-md-7">
-                    <div class="fbox-12-wrapper wow fadeInLeft">
+                    <div class="fbox-12-wrapper animate__animated animate__fadeInLeft">
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- FEATURE BOX #1 -->

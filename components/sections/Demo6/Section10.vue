@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- FEATURES-13 WRAPPER -->
                 <div class="col-md-7 order-last order-md-2">
-                    <div class="fbox-13-wrapper wow fadeInRight">
+                    <div class="fbox-13-wrapper animate__animated animate__fadeInRight">
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- FEATURE BOX #1 -->
@@ -97,7 +97,7 @@
                 <!-- END FEATURES-13 WRAPPER -->
                 <!-- TEXT BLOCK -->
                 <div class="col-md-5 order-first order-md-2">
-                    <div class="txt-block left-column wow fadeInLeft">
+                    <div class="txt-block left-column animate__animated animate__fadeInLeft">
                         <!-- Section ID -->
                         <span class="section-id">One-Stop Solution</span>
                         <!-- Title -->

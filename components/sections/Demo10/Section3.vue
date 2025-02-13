@@ -6,7 +6,7 @@
                     <div class="row d-flex align-items-center">
                         <!-- TEXT BLOCK -->
                         <div class="col-md-6 col-lg-5 order-last order-md-2">
-                            <div class="bc-3-txt wow fadeInRight">
+                            <div class="bc-3-txt animate__animated animate__fadeInRight">
                                 <!-- Section ID -->
                                 <span class="section-id">Advanced Security</span>
                                 <!-- Title -->
@@ -22,7 +22,7 @@
                         <!-- END TEXT BLOCK -->
                         <!-- IMAGE BLOCK -->
                         <div class="col-md-6 col-lg-7 order-first order-md-2">
-                            <div class="bc-3-img wow fadeInLeft">
+                            <div class="bc-3-img animate__animated animate__fadeInLeft">
                                 <img class="img-fluid" src="/assets/images/dashboard-05.png" alt="content-image" />
                             </div>
                         </div>

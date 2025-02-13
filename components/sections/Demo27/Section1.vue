@@ -5,7 +5,7 @@
                 <!-- HERO TEXT -->
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
-                        <div class="hero-27-txt wow fadeInUp">
+                        <div class="hero-27-txt animate__animated animate__fadeInUp">
                             <!-- Title -->
                             <h2 class="s-60 w-700">The complete toolkit to engage your business</h2>
                             <!-- Text -->

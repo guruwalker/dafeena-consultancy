@@ -4,7 +4,7 @@
             <div class="row d-flex align-items-center">
                 <!-- HERO TEXT -->
                 <div class="col-md-6">
-                    <div class="hero-26-txt color--white wow fadeInRight">
+                    <div class="hero-26-txt color--white animate__animated animate__fadeInRight">
                         <!-- Title -->
                         <h2 class="s-60 w-700">Add creativity to your project</h2>
                         <!-- Text -->
@@ -34,7 +34,7 @@
                 <!-- END HERO TEXT -->
                 <!-- HERO IMAGE -->
                 <div class="col-md-6">
-                    <div class="hero-26-img wow fadeInLeft">
+                    <div class="hero-26-img animate__animated animate__fadeInLeft">
                         <img class="img-fluid" src="/assets/images/hero-26-img.png" alt="hero-image" />
                     </div>
                 </div>

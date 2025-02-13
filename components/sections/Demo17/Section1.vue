@@ -4,7 +4,7 @@
             <!-- HERO TEXT -->
             <div class="row justify-content-center">
                 <div class="col-md-11 col-lg-10 col-xl-9">
-                    <div class="hero-17-txt wow fadeInUp">
+                    <div class="hero-17-txt animate__animated animate__fadeInUp">
                         <!-- Title -->
                         <h2 class="s-60 w-700">Enhance your website design with Martex</h2>
                         <!-- Text -->
