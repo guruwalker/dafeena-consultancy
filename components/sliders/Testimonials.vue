@@ -12,7 +12,7 @@ const testimonials = ref(Testimonials);
       600: { slidesPerView: 2 },
       920: { slidesPerView: 3 },
     }">
-      <SwiperSlide v-for="testimonial in testimonials" :key="testimonial.id">
+      <SwiperSlide v-for="testimonial in testimonials" :key="testimonial.id" class="mx-3">
         <SharedTestimonialsCard :testimonial="testimonial" />
       </SwiperSlide>
     </Swiper>

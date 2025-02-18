@@ -37,9 +37,9 @@ const bundledServices = ref([
   },
   {
     feature: "Price",
-    silver: "KSH 8,000",
-    gold: "KSH 12,000",
-    platinum: "KSH 18,000",
+    silver: "KSH 4,000",
+    gold: "KSH 9,000",
+    platinum: "KSH 12,000",
   },
   {
     feature: "",
@@ -95,29 +95,28 @@ const bundledServices = ref([
                     >
                       <template v-if="value === '/silver'">
                         <a
-                          href="/request-service?service=silver_package"
+                          href="/request-service?service=career_silver_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Silver Package</a
+                          Get Package</a
                         >
                       </template>
 
                       <template v-else-if="value === '/gold'">
                         <a
-                          href="/request-service?service=gold_package"
+                          href="/request-service?service=career_gold_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Gold <br />
-                          Package</a
+                          Get Package</a
                         >
                       </template>
 
                       <template v-else-if="value === '/platinum'">
                         <a
-                          href="/request-service?service=platinum_package"
+                          href="/request-service?service=career_platinum_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Platinum Package</a
+                          Get Package</a
                         >
                       </template>
 
@@ -162,7 +161,10 @@ const bundledServices = ref([
         <div class="row row-cols-1 row-cols-md-3">
           <!-- Payment Methods -->
           <div class="col col-lg-5">
-            <div id="pbox-1" class="pbox mb-40 animate__animated animate__fadeInUp">
+            <div
+              id="pbox-1"
+              class="pbox mb-40 animate__animated animate__fadeInUp"
+            >
               <!-- Title -->
               <h6 class="s-18 w-700">Accepted Payment Methods</h6>
               <!-- Payment Icons -->

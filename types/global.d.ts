@@ -19,6 +19,7 @@ declare interface IRequestService {
   date: string | null | Date;
   description: string | null;
   service: string | null;
+  service_description: string | null;
 }
 
 

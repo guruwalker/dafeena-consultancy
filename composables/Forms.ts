@@ -49,6 +49,7 @@ export function useForms() {
       date: null,
       description: null,
       service: null,
+      service_description: null
     })
   );
 
@@ -66,43 +67,44 @@ export function useForms() {
       date: null,
       description: null,
       service: null,
+      service_description: null
     };
   };
 
-    /**
+  /**
    * ---------------------------------------------------
    * Schedule Consultation FormState
    * ---------------------------------------------------
    *
    */
-    const scheduleConsultationFormState = useState<IScheduleConsultation>(
-      "schedule-consultation",
-      () => ({
-        phone_number: null,
-        name: null,
-        email: null,
-        date: null,
-        description: null,
-        service: null,
-      })
-    );
+  const scheduleConsultationFormState = useState<IScheduleConsultation>(
+    "schedule-consultation",
+    () => ({
+      phone_number: null,
+      name: null,
+      email: null,
+      date: null,
+      description: null,
+      service: null,
+    })
+  );
 
-    /**
-     * ---------------------------------------------------
-     * Reset Schedule Consultation FormState
-     * ---------------------------------------------------
-     *
-     */
-    const resetScheduleConsultationFormState = () => {
-      scheduleConsultationFormState.value = {
-        phone_number: null,
-        name: null,
-        email: null,
-        date: null,
-        description: null,
-        service: null,
-      };
+  /**
+   * ---------------------------------------------------
+   * Reset Schedule Consultation FormState
+   * ---------------------------------------------------
+   *
+   */
+  const resetScheduleConsultationFormState = () => {
+    scheduleConsultationFormState.value = {
+      phone_number: null,
+      name: null,
+      email: null,
+      date: null,
+      description: null,
+      service: null,
     };
+  };
 
   /**
    * ---------------------------------------------------
@@ -113,10 +115,10 @@ export function useForms() {
   const submitContactUsForm = async () => {
     try {
       const response = await emailjs.send(
-        "service_lbhggjg",       // Your EmailJS service ID
-        "template_ti5a0d4",      // Your EmailJS template ID
+        "service_lbhggjg", // Your EmailJS service ID
+        "template_ti5a0d4", // Your EmailJS template ID
         contactUsFormState.value, // The form data (must match the input names in your template)
-        "fdseijwGc7NUjDdCB"        // Your EmailJS public key
+        "fdseijwGc7NUjDdCB" // Your EmailJS public key
       );
 
       if (response.status === 200) {
@@ -126,7 +128,7 @@ export function useForms() {
           description: "We will get back to you soon!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'primary',
+          color: "primary",
         });
       } else {
         toast.add({
@@ -135,7 +137,7 @@ export function useForms() {
           description: "Please try again!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'red',
+          color: "red",
         });
       }
 
@@ -147,7 +149,7 @@ export function useForms() {
         description: "Please try again!",
         icon: "i-heroicons-check-badge",
         timeout: 6000,
-        color: 'primary',
+        color: "primary",
       });
 
       console.error("Error on submitContactUsForm ", error);
@@ -158,15 +160,19 @@ export function useForms() {
    * ---------------------------------------------------
    * Submit Request Services Form
    * ---------------------------------------------------
-   *
+   * TODO:
+   * FOR FUTURE DEVELOPERS, I USED EMAILJS TO SEND EMAILS, WAS A GOOD ALTERNATIVE TO DOING A BACKEND SERVICE
+   * THE MAIN EMAIL "dafeenaconsultancyy@gmail.com" HANDLES THE SCHEDULE CONSULTATION AND CONTACT REQUEST
+   * BUT THE FREE ACCOUNT CAN ONLY SUPPORT 2 TEMPLATES. SO I CREATED A NEW ACCOUNT WITH "dafeenaconsultancyy+111@gmail.com"
+   * TO CREATE THE TEMPLATE FOR THE SERVICES FORM
    */
   const submitRequestServicesForm = async () => {
     try {
       const response = await emailjs.send(
-        "service_lbhggjg",       // Your EmailJS service ID
-        "template_ti5a0d4",      // Your EmailJS template ID
+        "service_0bd04w5", // Your EmailJS service ID
+        "template_qxslfak", // Your EmailJS template ID
         requestServiceFormState.value, // The form data (must match the input names in your template)
-        "fdseijwGc7NUjDdCB"        // Your EmailJS public key
+        "r42jBL1dlThQaWmqy" // Your EmailJS public key
       );
 
       if (response.status === 200) {
@@ -176,7 +182,7 @@ export function useForms() {
           description: "We will get back to you soon!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'primary'
+          color: "primary",
         });
       } else {
         toast.add({
@@ -185,7 +191,7 @@ export function useForms() {
           description: "Please try again!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'red'
+          color: "red",
         });
       }
 
@@ -197,62 +203,62 @@ export function useForms() {
         description: "Please try again!",
         icon: "i-heroicons-check-badge",
         timeout: 6000,
-        color: 'red'
+        color: "red",
       });
 
       console.error("Error on submitContactUsForm ", error);
     }
   };
 
-    /**
+  /**
    * ---------------------------------------------------
    * Submit Schedule Consultation Form
    * ---------------------------------------------------
    *
    */
-    const submitScheduleConsultationForm = async () => {
-      try {
-        const response = await emailjs.send(
-          "service_lbhggjg",       // Your EmailJS service ID
-          "template_ti5a0d4",      // Your EmailJS template ID
-          requestServiceFormState.value, // The form data (must match the input names in your template)
-          "fdseijwGc7NUjDdCB"        // Your EmailJS public key
-        );
+  const submitScheduleConsultationForm = async () => {
+    try {
+      const response = await emailjs.send(
+        "service_lbhggjg", // Your EmailJS service ID
+        "template_ru7upkt", // Your EmailJS template ID
+        scheduleConsultationFormState.value, // The form data (must match the input names in your template)
+        "fdseijwGc7NUjDdCB" // Your EmailJS public key
+      );
 
-        if (response.status === 200) {
-          toast.add({
-            id: "submit_schedule_consultation",
-            title: "Success",
-            description: "We will get back to you soon!",
-            icon: "i-heroicons-check-badge",
-            timeout: 6000,
-            color: 'primary'
-          });
-        } else {
-          toast.add({
-            id: "failed_schedule_consultation",
-            title: "Failed",
-            description: "Please try again!",
-            icon: "i-heroicons-check-badge",
-            timeout: 6000,
-            color: 'red'
-          });
-        }
-
-        await resetScheduleConsultationFormState();
-      } catch (error) {
+      if (response.status === 200) {
+        toast.add({
+          id: "submit_schedule_consultation",
+          title: "Success",
+          description: "We will get back to you soon!",
+          icon: "i-heroicons-check-badge",
+          timeout: 6000,
+          color: "primary",
+        });
+      } else {
         toast.add({
           id: "failed_schedule_consultation",
           title: "Failed",
           description: "Please try again!",
           icon: "i-heroicons-check-badge",
           timeout: 6000,
-          color: 'red'
+          color: "red",
         });
-
-        console.error("Error on submitScheduleConsultation ", error);
       }
-    };
+
+      await resetScheduleConsultationFormState();
+    } catch (error) {
+      toast.add({
+        id: "failed_schedule_consultation",
+        title: "Failed",
+        description: "Please try again!",
+        icon: "i-heroicons-check-badge",
+        timeout: 6000,
+        color: "red",
+      });
+
+      console.error("Error on submitScheduleConsultation ", error);
+    }
+  };
 
   return {
     contactUsFormState,

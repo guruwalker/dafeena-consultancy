@@ -5,13 +5,23 @@ export default [
     photo: "/assets/images/team/virginia.png",
   },
   {
-    name: "James Ndung'u",
+    name: "James Kamau",
     role: "Branding Expert",
     photo: "/assets/images/team-13.jpg",
   },
   {
-    name: "Wahome Maina",
-    role: "Software Engineer",
+    name: "Claire Ndung'u",
+    role: "Virtual Assistance Intern",
+    photo: "/assets/images/team-13.jpg",
+  },
+  {
+    name: "Omondi Otieno",
+    role: "Business Development Associate",
+    photo: "/assets/images/team-13.jpg",
+  },
+  {
+    name: "Griffin Maina",
+    role: "Operations Manager",
     photo: "/assets/images/team-13.jpg",
   },
   {

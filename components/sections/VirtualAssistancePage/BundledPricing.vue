@@ -1,45 +1,51 @@
 <script setup lang="ts">
 const bundledServices = ref([
   {
-    feature: "Modern CV",
+    feature: "Administrative Support",
     silver: true,
     gold: true,
     platinum: true,
-    buttonLink: "/request-service?service=modern_cv",
+    buttonLink: "/request-service?service=administrative_support",
   },
   {
-    feature: "ATS CV",
-    silver: true,
-    gold: true,
-    platinum: true,
-    buttonLink: "/request-service?service=ats_cv",
-  },
-  {
-    feature: "Cover Letter",
+    feature: "Social Media Management",
     silver: false,
     gold: true,
     platinum: true,
-    buttonLink: "/request-service?service=cover_letter_revamp",
+    buttonLink: "/request-service?service=social_media_management",
   },
   {
-    feature: "Consultation with associate",
+    feature: "Content Creation & Writing",
     silver: false,
     gold: true,
     platinum: true,
-    buttonLink: "/request-service?service=consultation_with_associate",
+    buttonLink: "/request-service?service=content_writing",
   },
   {
-    feature: "LinkedIn",
+    feature: "Customer Service",
+    silver: false,
+    gold: true,
+    platinum: true,
+    buttonLink: "/request-service?service=customer_service",
+  },
+  {
+    feature: "Data Management & Research",
     silver: false,
     gold: false,
     platinum: true,
-    buttonLink: "/request-service?service=linkedin_profile_revamp",
+    buttonLink: "/request-service?service=data_management",
   },
   {
-    feature: "Price",
-    silver: "KSH 8,000",
-    gold: "KSH 12,000",
-    platinum: "KSH 18,000",
+    feature: "Price (per month)",
+    silver: "KSH 10,000",
+    gold: "KSH 18,000",
+    platinum: "KSH 25,000",
+  },
+  {
+    feature: "Hourly Rate",
+    silver: "KSH 1,500",
+    gold: "KSH 2,500",
+    platinum: "KSH 3,500",
   },
   {
     feature: "",
@@ -95,29 +101,28 @@ const bundledServices = ref([
                     >
                       <template v-if="value === '/silver'">
                         <a
-                          href="/request-service?service=silver_package"
+                          href="/request-service?service=va_silver_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Silver Package</a
+                          Request Package</a
                         >
                       </template>
 
                       <template v-else-if="value === '/gold'">
                         <a
-                          href="/request-service?service=gold_package"
+                          href="/request-service?service=va_gold_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Gold <br />
-                          Package</a
+                          Request Package</a
                         >
                       </template>
 
                       <template v-else-if="value === '/platinum'">
                         <a
-                          href="/request-service?service=platinum_package"
+                          href="/request-service?service=va_platinum_package"
                           class="btn btn--theme hover--theme"
                         >
-                          Get Platinum Package</a
+                          Request Package</a
                         >
                       </template>
 
@@ -162,7 +167,10 @@ const bundledServices = ref([
         <div class="row row-cols-1 row-cols-md-3">
           <!-- Payment Methods -->
           <div class="col col-lg-5">
-            <div id="pbox-1" class="pbox mb-40 animate__animated animate__fadeInUp">
+            <div
+              id="pbox-1"
+              class="pbox mb-40 animate__animated animate__fadeInUp"
+            >
               <!-- Title -->
               <h6 class="s-18 w-700">Accepted Payment Methods</h6>
               <!-- Payment Icons -->
@@ -176,6 +184,12 @@ const bundledServices = ref([
                 <li>
                   <img
                     src="/assets/images/m-pesa-logo.jpeg"
+                    alt="payment-icon"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/assets/images/png_icons/paypal.png"
                     alt="payment-icon"
                   />
                 </li>
