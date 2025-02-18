@@ -2,10 +2,8 @@
 useSeoMeta({
   title: "Contact Us",
   ogTitle: "Contact Us",
-  description:
-    "Get in touch with us",
-  ogDescription:
-    "Get in touch with us",
+  description: "Get in touch with us",
+  ogDescription: "Get in touch with us",
 });
 
 useHead({
@@ -64,7 +62,9 @@ const { contactUsFormState, submitContactUsForm } = useForms();
                     <option value="Career Packaging (Resumes, Cover Letters)">
                       Career Packaging (Resumes, Cover Letters)
                     </option>
-                    <option value="Career Coaching">Career Coaching</option>
+                    <option value="Career Coaching">
+                      Corporate Training & Workshops
+                    </option>
                     <option value="Branding Consultation">
                       Branding Consultation
                     </option>
