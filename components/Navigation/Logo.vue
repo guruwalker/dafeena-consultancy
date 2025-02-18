@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
-import { useRouter } from "vue-router";
-
 const isMenuOpen = ref<boolean>(false);
 const router = useRouter();
 

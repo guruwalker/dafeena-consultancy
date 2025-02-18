@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Testimonials from '~~/components/Data/Testimonials'
-import TestimonialsCard from '../Shared/TestimonialsCard.vue';
 const testimonials = ref(Testimonials);
 </script>
 
@@ -14,7 +13,7 @@ const testimonials = ref(Testimonials);
       920: { slidesPerView: 3 },
     }">
       <SwiperSlide v-for="testimonial in testimonials" :key="testimonial.id">
-        <TestimonialsCard :testimonial="testimonial" />
+        <SharedTestimonialsCard :testimonial="testimonial" />
       </SwiperSlide>
     </Swiper>
   </div>
